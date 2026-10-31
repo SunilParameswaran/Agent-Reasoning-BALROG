@@ -1,0 +1,357 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"{""action_step"": 0, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+1,turn right,"{""action_step"": 1, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 1 step left",0,False
+2,turn right,"{""action_step"": 2, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+3,turn left,"{""action_step"": 3, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 1 step left",0,False
+4,turn left,"{""action_step"": 4, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+5,toggle,"{""action_step"": 5, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+6,open,"{""action_step"": 6, ""candidate_action"": ""open"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+7,go forward,"{""action_step"": 7, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+8,go forward,"{""action_step"": 8, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+9,go forward,"{""action_step"": 9, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+10,turn left,"{""action_step"": 10, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 1 step right
+a locked blue door 3 steps right and 1 step forward",0,False
+11,turn right,"{""action_step"": 11, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+12,turn right,"{""action_step"": 12, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 1 step left",0,False
+13,turn left,"{""action_step"": 13, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+14,go forward,"{""action_step"": 14, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+15,go forward,"{""action_step"": 15, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+16,turn left,"{""action_step"": 16, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": {""after_actions"": 16, ""trigger"": ""scheduled_review"", ""advice_before"": null, ""advice_after"": null, ""raw_advice"": ""**Diagnosis:** The agent has successfully navigated the room but the door remains locked. The agent has explored all possible paths but the door does not respond to any interaction. The problem is likely that the key is not within reach or has been moved.\n\n**Correction:**\nUse the \""pick up\"" action on the blue key, following it with \""toggle\"" to interact with the door and attempt to open it. For a more thorough search, consider stepping out of the room and back, ensuring the key is still on the first floor."", ""accepted"": false, ""issues"": [""advice_too_long""], ""input_tokens"": 1039, ""output_tokens"": 110}}","a wall 1 step forward
+a wall 2 steps left
+a blue key 1 step right
+a locked blue door 3 steps right and 1 step forward",0,False
+17,turn right,"{""action_step"": 17, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+18,turn left,"{""action_step"": 18, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 1 step right
+a locked blue door 3 steps right and 1 step forward",0,False
+19,turn right,"{""action_step"": 19, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+20,toggle,"{""action_step"": 20, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+21,turn left,"{""action_step"": 21, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 1 step right
+a locked blue door 3 steps right and 1 step forward",0,False
+22,toggle,"{""action_step"": 22, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 1 step right
+a locked blue door 3 steps right and 1 step forward",0,False
+23,pick up,"{""action_step"": 23, ""candidate_action"": ""pick up"", ""executed_action"": ""pick up"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 1 step right
+a locked blue door 3 steps right and 1 step forward",0,False
+24,toggle,"{""action_step"": 24, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 1 step right
+a locked blue door 3 steps right and 1 step forward",0,False
+25,turn right,"{""action_step"": 25, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+26,go forward,"{""action_step"": 26, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+27,go forward,"{""action_step"": 27, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+28,turn right,"{""action_step"": 28, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 1 step left",0,False
+29,go forward,"{""action_step"": 29, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+30,turn right,"{""action_step"": 30, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 2 steps right",0,False
+31,turn left,"{""action_step"": 31, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+32,toggle,"{""action_step"": 32, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": {""after_actions"": 32, ""trigger"": ""scheduled_review"", ""advice_before"": null, ""advice_after"": null, ""raw_advice"": ""Based on the observations from the transitions, the agent's path to opening the door seems logical, but the sequence could be optimized. One possible corrective action to keep the agent going straight and facing the door would be to:\n\nUse `go forward` to directly approach the locked door instead of going around it by turning left. Then, the final `go forward` should take the agent to the door, and `toggle` on the key if needed to interact with it. This should directly lead to the agent opening the door without unnecessary detours."", ""accepted"": false, ""issues"": [""advice_too_long""], ""input_tokens"": 969, ""output_tokens"": 110}}","a wall 5 steps forward
+a wall 2 steps right",0,False
+33,turn right,"{""action_step"": 33, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 2 steps right",0,False
+34,turn left,"{""action_step"": 34, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+35,go forward,"{""action_step"": 35, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right",0,False
+36,go forward,"{""action_step"": 36, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 2 steps right",0,False
+37,turn left,"{""action_step"": 37, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps right
+a blue key 3 steps left and 1 step forward",0,False
+38,go forward,"{""action_step"": 38, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 3 steps left",0,False
+39,toggle,"{""action_step"": 39, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 3 steps left",0,False
+40,turn right,"{""action_step"": 40, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 3 steps right",0,False
+41,turn left,"{""action_step"": 41, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 3 steps left",0,False
+42,go forward,"{""action_step"": 42, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 3 steps right",0,False
+43,go forward,"{""action_step"": 43, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 3 steps right",0,False
+44,turn right,"{""action_step"": 44, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 2 steps left",0,False
+45,turn left,"{""action_step"": 45, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 3 steps right",0,False
+46,go forward,"{""action_step"": 46, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 3 steps right",0,False
+47,toggle,"{""action_step"": 47, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 3 steps right",0,False
+48,go forward,"{""action_step"": 48, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": {""after_actions"": 48, ""trigger"": ""scheduled_review"", ""advice_before"": null, ""advice_after"": null, ""raw_advice"": ""The agent's actions are moving back and forth inconsistently, not making significant progress. It shows signs of repetition and not using the toggle action effectively. The recommended corrective action is for the agent to consistently and systematically explore the environment by picking up objects, toggling them, and repeating the sequence of actions if they require further exploration rather than constantly going back to previous locations."", ""accepted"": false, ""issues"": [""advice_too_long""], ""input_tokens"": 821, ""output_tokens"": 75}}","a wall 1 step forward
+a wall 3 steps right",0,False
+49,turn right,"{""action_step"": 49, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 1 step left",0,False
+50,go forward,"{""action_step"": 50, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+51,go forward,"{""action_step"": 51, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+52,turn left,"{""action_step"": 52, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+53,turn right,"{""action_step"": 53, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+54,toggle,"{""action_step"": 54, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+55,turn left,"{""action_step"": 55, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+56,turn right,"{""action_step"": 56, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+57,turn right,"{""action_step"": 57, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+58,go forward,"{""action_step"": 58, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 1 step left",0,False
+59,turn right,"{""action_step"": 59, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 5 steps forward
+a locked blue door 6 steps forward",0,False
+60,turn right,"{""action_step"": 60, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+61,turn left,"{""action_step"": 61, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 5 steps forward
+a locked blue door 6 steps forward",0,False
+62,toggle,"{""action_step"": 62, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 5 steps forward
+a locked blue door 6 steps forward",0,False
+63,turn left,"{""action_step"": 63, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 1 step left",0,False
+64,turn right,"{""action_step"": 64, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": {""after_actions"": 64, ""trigger"": ""scheduled_review"", ""advice_before"": null, ""advice_after"": null, ""raw_advice"": ""### Diagnosis:\nThe agent has been turning and exiting the room frequently without reaching the door directly. The agent was instructed to keep going forward, explore, and interact with objects. The observations provided a clear path to the door but the agent kept retracing its steps. The previous advice was insufficient to guide the agent towards the door.\n\n### Corrective instruction:\nThe agent should continue towards the door while exploring the surroundings and interacting with objects to unlock the door. Specifically, the agent should step forward, then left, engage the blue key, and the locked blue door will come open. The agent can pick up the blue key if needed but it"", ""accepted"": false, ""issues"": [""advice_too_long"", ""truncated_advice""], ""input_tokens"": 887, ""output_tokens"": 128}}","a wall 2 steps right
+a blue key 2 steps left and 5 steps forward
+a locked blue door 6 steps forward",0,False
+65,turn left,"{""action_step"": 65, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 1 step left",0,False
+66,turn right,"{""action_step"": 66, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 5 steps forward
+a locked blue door 6 steps forward",0,False
+67,turn left,"{""action_step"": 67, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 1 step left",0,False
+68,turn right,"{""action_step"": 68, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 5 steps forward
+a locked blue door 6 steps forward",0,False
+69,go forward,"{""action_step"": 69, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 4 steps forward
+a locked blue door 5 steps forward",0,False
+70,toggle,"{""action_step"": 70, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 4 steps forward
+a locked blue door 5 steps forward",0,False
+71,turn right,"{""action_step"": 71, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 2 steps right",0,False
+72,turn left,"{""action_step"": 72, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 4 steps forward
+a locked blue door 5 steps forward",0,False
+73,toggle,"{""action_step"": 73, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 4 steps forward
+a locked blue door 5 steps forward",0,False
+74,go forward,"{""action_step"": 74, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a blue key 2 steps left and 3 steps forward
+a locked blue door 4 steps forward",0,False
+75,turn left,"{""action_step"": 75, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps left
+a blue key 3 steps right and 2 steps forward",0,False
+76,go forward,"{""action_step"": 76, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps left
+a blue key 3 steps right and 1 step forward",0,False
+77,turn right,"{""action_step"": 77, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 1 step left and 3 steps forward
+a locked blue door 1 step right and 4 steps forward",0,False
+78,toggle,"{""action_step"": 78, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 1 step left and 3 steps forward
+a locked blue door 1 step right and 4 steps forward",0,False
+79,toggle,"{""action_step"": 79, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 1 step left and 3 steps forward
+a locked blue door 1 step right and 4 steps forward",0,False
+80,go forward,"{""action_step"": 80, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 3 steps right
+a blue key 1 step left and 2 steps forward
+a locked blue door 1 step right and 3 steps forward",0,False
+81,go forward,"{""action_step"": 81, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 3 steps right
+a blue key 1 step left and 1 step forward
+a locked blue door 1 step right and 2 steps forward",0,False
+82,go forward,"{""action_step"": 82, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 3 steps right
+a blue key 1 step left
+a locked blue door 1 step right and 1 step forward",0,False
+83,go forward,"{""action_step"": 83, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 1 step forward
+a wall 3 steps right
+a blue key 1 step left
+a locked blue door 1 step right and 1 step forward",0,False
+84,turn right,"{""action_step"": 84, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+85,turn right,"{""action_step"": 85, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 6 steps forward
+a wall 3 steps left
+a blue key 1 step right",0,False
+86,toggle,"{""action_step"": 86, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 6 steps forward
+a wall 3 steps left
+a blue key 1 step right",0,False
+87,go forward,"{""action_step"": 87, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps left",0,False
+88,go forward,"{""action_step"": 88, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps left",0,False
+89,turn right,"{""action_step"": 89, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 2 steps right and 1 step forward",0,False
+90,toggle,"{""action_step"": 90, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 2 steps right and 1 step forward",0,False
+91,go forward,"{""action_step"": 91, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a blue key 2 steps right",0,False
+92,turn right,"{""action_step"": 92, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps left
+a blue key 2 steps forward
+a locked blue door 2 steps right and 3 steps forward",0,False
+93,turn left,"{""action_step"": 93, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a blue key 2 steps right",0,False
+94,go forward,"{""action_step"": 94, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 3 steps right",0,False
+95,turn left,"{""action_step"": 95, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right",0,False
+96,turn left,"{""action_step"": 96, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps left
+a locked blue door 3 steps left and 3 steps forward
+a blue key 2 steps left and 1 step forward",0,False
+97,turn left,"{""action_step"": 97, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 2 steps left
+a blue key 1 step right and 2 steps forward
+a locked blue door 3 steps right and 3 steps forward",0,False
+98,turn right,"{""action_step"": 98, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps left
+a locked blue door 3 steps left and 3 steps forward
+a blue key 2 steps left and 1 step forward",0,False
+99,turn right,"{""action_step"": 99, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right",0,False
+100,go forward,"{""action_step"": 100, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 2 steps right",0,False
+101,turn right,"{""action_step"": 101, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 3 steps left",0,False
+102,turn right,"{""action_step"": 102, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps left
+a blue key 1 step right and 3 steps forward
+a locked blue door 3 steps right and 4 steps forward",0,False
+103,turn right,"{""action_step"": 103, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps right
+a blue key 3 steps left and 1 step forward",0,False
+104,turn left,"{""action_step"": 104, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps left
+a blue key 1 step right and 3 steps forward
+a locked blue door 3 steps right and 4 steps forward",0,False
+105,turn right,"{""action_step"": 105, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps right
+a blue key 3 steps left and 1 step forward",0,False
+106,pick up,"{""action_step"": 106, ""candidate_action"": ""pick up"", ""executed_action"": ""pick up"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps right
+a blue key 3 steps left and 1 step forward",0,False
+107,go forward,"{""action_step"": 107, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 3 steps left",0,False
+108,turn right,"{""action_step"": 108, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 3 steps right",0,False
+109,turn left,"{""action_step"": 109, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue key 3 steps left",0,False
+110,turn right,"{""action_step"": 110, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 3 steps right",0,False
+111,turn right,"{""action_step"": 111, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 3 steps left
+a blue key 3 steps right",0,False
+112,turn left,"{""action_step"": 112, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 3 steps right",0,False
+113,go forward,"{""action_step"": 113, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 3 steps right",0,False
+114,turn right,"{""action_step"": 114, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 2 steps left",0,False
+115,turn right,"{""action_step"": 115, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps left
+a blue key 4 steps forward
+a locked blue door 2 steps right and 5 steps forward",0,False
+116,turn right,"{""action_step"": 116, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right",0,False
+117,turn left,"{""action_step"": 117, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps left
+a blue key 4 steps forward
+a locked blue door 2 steps right and 5 steps forward",0,False
+118,turn right,"{""action_step"": 118, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right",0,False
+119,turn left,"{""action_step"": 119, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps left
+a blue key 4 steps forward
+a locked blue door 2 steps right and 5 steps forward",0,False
+120,turn right,"{""action_step"": 120, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right",0,False
+121,toggle,"{""action_step"": 121, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right",0,False
+122,turn left,"{""action_step"": 122, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps left
+a blue key 4 steps forward
+a locked blue door 2 steps right and 5 steps forward",0,False
+123,toggle,"{""action_step"": 123, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 3 steps left
+a blue key 4 steps forward
+a locked blue door 2 steps right and 5 steps forward",0,False
+124,turn left,"{""action_step"": 124, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 2 steps left",0,False
+125,turn right,"{""action_step"": 125, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 3 steps left
+a blue key 4 steps forward
+a locked blue door 2 steps right and 5 steps forward",0,False
+126,toggle,"{""action_step"": 126, ""candidate_action"": ""toggle"", ""executed_action"": ""toggle"", ""advice"": null, ""reflection"": null}","a wall 3 steps left
+a blue key 4 steps forward
+a locked blue door 2 steps right and 5 steps forward",0,False
+127,turn right,"{""action_step"": 127, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right",0,True

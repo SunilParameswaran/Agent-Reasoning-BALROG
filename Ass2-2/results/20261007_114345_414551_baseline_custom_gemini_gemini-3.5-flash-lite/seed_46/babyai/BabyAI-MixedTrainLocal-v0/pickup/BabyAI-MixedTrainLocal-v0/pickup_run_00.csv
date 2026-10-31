@@ -1,0 +1,22 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Explore the environment to locate the purple key."", ""subgoal"": ""Find the purple key.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 3 steps left
+a purple key 1 step left and 4 steps forward",0,False
+1,go forward,"{""memory_before"": {""plan"": ""Explore the environment to locate the purple key."", ""subgoal"": ""Find the purple key.""}, ""memory_after"": {""plan"": ""Walk forward, turn left, approach and pick up the purple key."", ""subgoal"": ""Approach the purple key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 3 steps left
+a purple key 1 step left and 3 steps forward",0,False
+2,go forward,"{""memory_before"": {""plan"": ""Walk forward, turn left, approach and pick up the purple key."", ""subgoal"": ""Approach the purple key.""}, ""memory_after"": {""plan"": ""Walk forward, turn left, approach and pick up the purple key."", ""subgoal"": ""Approach the purple key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 3 steps left
+a purple key 1 step left and 2 steps forward",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Walk forward, turn left, approach and pick up the purple key."", ""subgoal"": ""Approach the purple key.""}, ""memory_after"": {""plan"": ""Go forward, turn left, go forward, and pick up the purple key."", ""subgoal"": ""Approach the purple key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 3 steps left
+a purple key 1 step left and 1 step forward",0,False
+4,go forward,"{""memory_before"": {""plan"": ""Go forward, turn left, go forward, and pick up the purple key."", ""subgoal"": ""Approach the purple key.""}, ""memory_after"": {""plan"": ""Go forward, turn left, go forward, pick up purple key"", ""subgoal"": ""Approach the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a purple key 1 step left",0,False
+5,turn left,"{""memory_before"": {""plan"": ""Go forward, turn left, go forward, pick up purple key"", ""subgoal"": ""Approach the purple key""}, ""memory_after"": {""plan"": ""Turn left, go forward, pick up the purple key"", ""subgoal"": ""Face the purple key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step right
+a purple key 1 step forward",0,False
+6,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward, pick up the purple key"", ""subgoal"": ""Face the purple key""}, ""memory_after"": {""plan"": ""Go forward to the purple key and pick it up."", ""subgoal"": ""Go forward to the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step right
+a purple key 1 step forward",0,False
+7,pick up,"{""memory_before"": {""plan"": ""Go forward to the purple key and pick it up."", ""subgoal"": ""Go forward to the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Pick up the purple key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 1 step right",0.8875,True

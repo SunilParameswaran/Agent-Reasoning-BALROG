@@ -1,0 +1,35 @@
+{
+  "repo": "/Users/sunilparameswaran/Library/CloudStorage/OneDrive-UniversiteitLeiden/Agentic_LLM/Assignment 2/BALROG",
+  "model": "qwen2.5:1.5b",
+  "base_url": "http://localhost:11434/v1",
+  "profile": "baseline",
+  "envs": [
+    "babyai"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "max_steps": null,
+  "max_tokens": 128,
+  "temperature": 1.0,
+  "commit": "b7afe79e3e4265811cfa985ed7c95c4d1a11e3f5",
+  "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:37:53) [Clang 19.1.7 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "server_models": {
+    "object": "list",
+    "data": [
+      {
+        "id": "qwen2.5:1.5b",
+        "object": "model",
+        "created": 1790688810,
+        "owned_by": "library"
+      }
+    ]
+  },
+  "status": "complete",
+  "source": "own local experiment"
+}

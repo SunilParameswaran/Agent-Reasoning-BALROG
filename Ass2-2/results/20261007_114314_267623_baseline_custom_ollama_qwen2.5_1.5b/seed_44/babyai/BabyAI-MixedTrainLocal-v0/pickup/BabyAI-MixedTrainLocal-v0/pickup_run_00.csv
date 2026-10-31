@@ -1,0 +1,199 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step left and 3 steps forward",0,False
+1,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps right
+a grey key 1 step left and 2 steps forward",0,False
+2,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps right
+a grey key 1 step left and 1 step forward",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 2 steps right
+a grey key 1 step left",0,False
+4,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+5,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+6,pick up,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn right, go forward, pick up"", ""subgoal"": ""Reach the grey key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+7,pick up,"{""memory_before"": {""plan"": ""Turn right, go forward, pick up"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""turn right, go forward, pick up"", ""subgoal"": ""Reach the grey key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+8,pick up,"{""memory_before"": {""plan"": ""turn right, go forward, pick up"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""go forward, pick up"", ""subgoal"": ""Reach the grey key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+9,pick up,"{""memory_before"": {""plan"": ""go forward, pick up"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+10,,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+11,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+12,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+13,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+14,go forward,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+15,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+16,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+17,turn right,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+18,,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+19,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward 4 steps"", ""subgoal"": ""Reach the grey key 1 step left""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+20,go forward,"{""memory_before"": {""plan"": ""Go forward 4 steps"", ""subgoal"": ""Reach the grey key 1 step left""}, ""memory_after"": {""plan"": ""Go forward 2 steps"", ""subgoal"": ""Reach the grey key 1 step left""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+21,turn right,"{""memory_before"": {""plan"": ""Go forward 2 steps"", ""subgoal"": ""Reach the grey key 1 step left""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left
+a grey key 2 steps right and 1 step forward",0,False
+22,toggle,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left
+a grey key 2 steps right and 1 step forward",0,False
+23,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Move closer to the grey key."", ""subgoal"": ""Reach the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left
+a grey key 2 steps right",0,False
+24,,"{""memory_before"": {""plan"": ""Move closer to the grey key."", ""subgoal"": ""Reach the grey key.""}, ""memory_after"": {""plan"": ""Move closer to the grey key."", ""subgoal"": ""Reach the grey key.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step left",0,False
+25,go forward,"{""memory_before"": {""plan"": ""Move closer to the grey key."", ""subgoal"": ""Reach the grey key.""}, ""memory_after"": {""plan"": ""Go straight until you hit a wall. Turn right."", ""subgoal"": ""Reach the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step left",0,False
+26,go forward,"{""memory_before"": {""plan"": ""Go straight until you hit a wall. Turn right."", ""subgoal"": ""Reach the grey key.""}, ""memory_after"": {""plan"": ""Go straight until reaching the key."", ""subgoal"": ""Reach the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+27,turn right,"{""memory_before"": {""plan"": ""Go straight until reaching the key."", ""subgoal"": ""Reach the grey key.""}, ""memory_after"": {""plan"": ""Go forward and turn right"", ""subgoal"": ""Reach the grey key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps left
+a grey key 3 steps right and 2 steps forward",0,False
+28,toggle,"{""memory_before"": {""plan"": ""Go forward and turn right"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps left
+a grey key 3 steps right and 2 steps forward",0,False
+29,,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 2 steps left
+a grey key 3 steps right and 1 step forward",0,False
+30,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward to reach the grey key."", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left
+a grey key 3 steps right",0,False
+31,go forward,"{""memory_before"": {""plan"": ""Go forward to reach the grey key."", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Go forward to reach the grey key."", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps left",0,False
+32,go forward,"{""memory_before"": {""plan"": ""Go forward to reach the grey key."", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn left to approach the grey key."", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 2 steps left",0,False
+33,go forward,"{""memory_before"": {""plan"": ""Turn left to approach the grey key."", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn left towards the grey key."", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+34,,"{""memory_before"": {""plan"": ""Turn left towards the grey key."", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn left towards the grey key."", ""subgoal"": ""Reach the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+35,,"{""memory_before"": {""plan"": ""Turn left towards the grey key."", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn left towards the grey key."", ""subgoal"": ""Reach the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+36,go forward,"{""memory_before"": {""plan"": ""Turn left towards the grey key."", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn right towards the wall."", ""subgoal"": ""Reach the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+37,toggle,"{""memory_before"": {""plan"": ""Turn right towards the wall."", ""subgoal"": ""Reach the grey key.""}, ""memory_after"": {""plan"": ""Toggle the wall to reveal the grey key"", ""subgoal"": ""Reach the grey key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+38,toggle,"{""memory_before"": {""plan"": ""Toggle the wall to reveal the grey key"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Toggle the wall to reveal the grey key"", ""subgoal"": ""Reach the grey key""}, ""action"": ""toggle"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+39,go forward,"{""memory_before"": {""plan"": ""Toggle the wall to reveal the grey key"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Approach the walls to locate the grey key"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+40,go forward,"{""memory_before"": {""plan"": ""Approach the walls to locate the grey key"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Find the grey key, toggle the wall ahead."", ""subgoal"": ""Reach the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+41,toggle,"{""memory_before"": {""plan"": ""Find the grey key, toggle the wall ahead."", ""subgoal"": ""Reach the grey key.""}, ""memory_after"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the grey key.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+42,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the grey key.""}, ""memory_after"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+43,toggle,"{""memory_before"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the grey key.""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+44,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+45,,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+46,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the grey key""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Turn towards the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+47,,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Turn towards the grey key""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Turn towards the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+48,,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Turn towards the grey key""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Turn towards the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+49,,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Turn towards the grey key""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Turn towards the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+50,turn right,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Turn towards the grey key""}, ""memory_after"": {""plan"": ""Turn towards the wall to the right"", ""subgoal"": ""Find the wall with the key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left
+a grey key 3 steps right and 3 steps forward",0,False
+51,turn right,"{""memory_before"": {""plan"": ""Turn towards the wall to the right"", ""subgoal"": ""Find the wall with the key""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""Find the wall with the key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a grey key 3 steps left and 3 steps forward",0,False
+52,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""Find the wall with the key""}, ""memory_after"": {""plan"": ""Go forward until reaching the wall with the key"", ""subgoal"": ""Find the wall with the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right
+a grey key 3 steps left and 2 steps forward",0,False
+53,go forward,"{""memory_before"": {""plan"": ""Go forward until reaching the wall with the key"", ""subgoal"": ""Find the wall with the grey key""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Find more of the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps right
+a grey key 3 steps left and 1 step forward",0,False
+54,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Find more of the grey key""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Find more of the grey key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 3 steps right",0,False
+55,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Find more of the grey key""}, ""memory_after"": {""plan"": ""turn right, go forward"", ""subgoal"": ""Find more of the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps right",0,False
+56,go forward,"{""memory_before"": {""plan"": ""turn right, go forward"", ""subgoal"": ""Find more of the grey key""}, ""memory_after"": {""plan"": ""turn right, go forward"", ""subgoal"": ""Find more of the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps right",0,False
+57,go forward,"{""memory_before"": {""plan"": ""turn right, go forward"", ""subgoal"": ""Find more of the grey key""}, ""memory_after"": {""plan"": ""go forward, turn left, go forward"", ""subgoal"": ""Find more of the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps right",0,False
+58,turn left,"{""memory_before"": {""plan"": ""go forward, turn left, go forward"", ""subgoal"": ""Find more of the grey key""}, ""memory_after"": {""plan"": ""go forward, turn left, go forward"", ""subgoal"": ""Find more of the grey key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+59,,"{""memory_before"": {""plan"": ""go forward, turn left, go forward"", ""subgoal"": ""Find more of the grey key""}, ""memory_after"": {""plan"": ""go forward, turn left, go forward"", ""subgoal"": ""Find more of the grey key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right",0,False
+60,go forward,"{""memory_before"": {""plan"": ""go forward, turn left, go forward"", ""subgoal"": ""Find more of the grey key""}, ""memory_after"": {""plan"": ""turn right, go forward"", ""subgoal"": ""Find the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+61,go forward,"{""memory_before"": {""plan"": ""turn right, go forward"", ""subgoal"": ""Find the grey key""}, ""memory_after"": {""plan"": ""Keep going forward"", ""subgoal"": ""Find the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+62,go forward,"{""memory_before"": {""plan"": ""Keep going forward"", ""subgoal"": ""Find the grey key""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Find the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+63,go forward,"{""memory_before"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Find the grey key""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Find the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,True

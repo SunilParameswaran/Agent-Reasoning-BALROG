@@ -1,0 +1,59 @@
+{
+  "task": "BabyAI-MixedTrainLocal-v0/goto",
+  "action_frequency": {
+    "turn right": 2,
+    "go forward": 4,
+    "turn left": 1
+  },
+  "input_tokens": 2242,
+  "output_tokens": 14,
+  "done": true,
+  "episode_return": 0.9015625,
+  "num_steps": 7,
+  "failed_candidates": [],
+  "mission": "go to the purple key",
+  "progression": 1.0,
+  "process_num": null,
+  "seed": 46,
+  "agent": {
+    "type": "reflection",
+    "remember_cot": true,
+    "max_text_history": 16,
+    "max_image_history": 0,
+    "max_cot_history": 1,
+    "max_icl_history": 1000,
+    "cache_icl": false
+  },
+  "client": {
+    "client_name": "gemini-openai",
+    "model_id": "gemini-3.5-flash-lite",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "generate_kwargs": {
+      "temperature": 1.0,
+      "max_tokens": 1024,
+      "thinking_budget": null,
+      "reasoning_effort": "minimal"
+    },
+    "timeout": 60,
+    "max_retries": 5,
+    "delay": 2,
+    "alternate_roles": false
+  },
+  "reflection_stats": {
+    "reviews": 0,
+    "accepted_reviews": 0,
+    "usage": {
+      "actor": {
+        "calls": 7,
+        "input_tokens": 2242,
+        "output_tokens": 14
+      },
+      "critic": {
+        "calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0
+      }
+    }
+  },
+  "completed_attempt": "20261012_102458_181067"
+}

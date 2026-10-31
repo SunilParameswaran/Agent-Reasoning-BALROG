@@ -1,0 +1,2 @@
+agent,model,benchmark,profile,progression_percent,standard_error_percent,episodes,expected_episodes,status
+custom,qwen2.5:1.5b,babyai,baseline,8.0,5.4258639865002145,25,25,complete

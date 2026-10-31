@@ -1,0 +1,229 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Go forward, then pick up the right wall object."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps left",0,False
+1,pick up,"{""memory_before"": {""plan"": ""Go forward, then pick up the right wall object."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the right wall object."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps left",0,False
+2,toggle,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the right wall object."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps left",0,False
+3,,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 2 steps left",0,False
+4,,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+5,,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+6,go forward,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+7,,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+8,go forward,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the right wall object"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Go forward, turn right, continue"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+9,turn left,"{""memory_before"": {""plan"": ""Go forward, turn right, continue"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Keep going forward while switching left"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+10,go forward,"{""memory_before"": {""plan"": ""Keep going forward while switching left"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Tumble over the left until a switch is encountered."", ""subgoal"": ""Reach the key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+11,turn right,"{""memory_before"": {""plan"": ""Tumble over the left until a switch is encountered."", ""subgoal"": ""Reach the key""}, ""memory_after"": {""plan"": ""Tumble over the left until a switch is encountered."", ""subgoal"": ""Reach the key""}, ""action"": ""turn right"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+12,,"{""memory_before"": {""plan"": ""Tumble over the left until a switch is encountered."", ""subgoal"": ""Reach the key""}, ""memory_after"": {""plan"": ""Tumble over the left until a switch is encountered."", ""subgoal"": ""Reach the key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+13,go forward,"{""memory_before"": {""plan"": ""Tumble over the left until a switch is encountered."", ""subgoal"": ""Reach the key""}, ""memory_after"": {""plan"": ""Move right to potentially encounter the key."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+14,,"{""memory_before"": {""plan"": ""Move right to potentially encounter the key."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Move right to potentially encounter the key."", ""subgoal"": ""Reach the yellow key.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+15,go forward,"{""memory_before"": {""plan"": ""Move right to potentially encounter the key."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Keep facing the wall and proceed forward."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+16,go forward,"{""memory_before"": {""plan"": ""Keep facing the wall and proceed forward."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+17,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+18,,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+19,,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+20,,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+21,toggle,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+22,go forward,"{""memory_before"": {""plan"": ""Toggle, go forward"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+23,,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+24,toggle,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle the object to reveal the yellow key."", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+25,toggle,"{""memory_before"": {""plan"": ""Toggle the object to reveal the yellow key."", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle the wall to reveal the yellow key."", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+26,toggle,"{""memory_before"": {""plan"": ""Toggle the wall to reveal the yellow key."", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle the wall to reveal the yellow key."", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+27,toggle,"{""memory_before"": {""plan"": ""Toggle the wall to reveal the yellow key."", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle the wall to reveal the yellow key."", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+28,turn left,"{""memory_before"": {""plan"": ""Toggle the wall to reveal the yellow key."", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle the first wall to reveal a path or door."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+29,go forward,"{""memory_before"": {""plan"": ""Toggle the first wall to reveal a path or door."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Toggle the second wall to reveal a path or door."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+30,toggle,"{""memory_before"": {""plan"": ""Toggle the second wall to reveal a path or door."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Toggle the left wall to check for a path or door."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+31,toggle,"{""memory_before"": {""plan"": ""Toggle the left wall to check for a path or door."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Toggle the left wall to check for a path or door."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+32,go forward,"{""memory_before"": {""plan"": ""Toggle the left wall to check for a path or door."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+33,,"{""memory_before"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the yellow key.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+34,,"{""memory_before"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the yellow key.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+35,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the yellow key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+36,toggle,"{""memory_before"": {""plan"": ""Turn right, go forward."", ""subgoal"": ""Reach the yellow key.""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+37,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+38,,"{""memory_before"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+39,,"{""memory_before"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+40,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+41,toggle,"{""memory_before"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+42,,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+43,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+44,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+45,,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+46,pick up,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+47,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+48,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+49,pick up,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+50,,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+51,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+52,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+53,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+54,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+55,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+56,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+57,pick up,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""pick up"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+58,,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+59,toggle,"{""memory_before"": {""plan"": ""Toggle, go forward, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Toggle, pick up"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+60,go forward,"{""memory_before"": {""plan"": ""Toggle, pick up"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+61,,"{""memory_before"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+62,toggle,"{""memory_before"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+63,,"{""memory_before"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""memory_after"": {""plan"": ""Turn left, go forward, toggle"", ""subgoal"": ""Reach the yellow key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,True

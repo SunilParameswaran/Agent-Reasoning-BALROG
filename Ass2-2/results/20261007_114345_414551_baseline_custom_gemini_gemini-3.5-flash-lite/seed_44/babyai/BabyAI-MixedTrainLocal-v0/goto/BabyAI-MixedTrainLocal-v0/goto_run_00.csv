@@ -1,0 +1,149 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn left, go forward four steps, and pick up the grey key."", ""subgoal"": ""Turn left to face the grey key.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left",0,False
+1,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward four steps, and pick up the grey key."", ""subgoal"": ""Turn left to face the grey key.""}, ""memory_after"": {""plan"": ""Go forward four steps and pick up the grey key."", ""subgoal"": ""Go forward toward the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step left",0,False
+2,,"{""memory_before"": {""plan"": ""Go forward four steps and pick up the grey key."", ""subgoal"": ""Go forward toward the grey key.""}, ""memory_after"": {""plan"": ""Go forward four steps and pick up the grey key."", ""subgoal"": ""Go forward toward the grey key.""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step left",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Go forward four steps and pick up the grey key."", ""subgoal"": ""Go forward toward the grey key.""}, ""memory_after"": {""plan"": ""Go forward until reaching the grey key and pick it up."", ""subgoal"": ""Go forward toward the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+4,go forward,"{""memory_before"": {""plan"": ""Go forward until reaching the grey key and pick it up."", ""subgoal"": ""Go forward toward the grey key.""}, ""memory_after"": {""plan"": ""Go forward until reaching the grey key and pick it up."", ""subgoal"": ""Go forward toward the grey key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+5,turn right,"{""memory_before"": {""plan"": ""Go forward until reaching the grey key and pick it up."", ""subgoal"": ""Go forward toward the grey key.""}, ""memory_after"": {""plan"": ""Turn right to face the grey key and move toward it."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left
+a grey key 3 steps right and 4 steps forward",0,False
+6,turn right,"{""memory_before"": {""plan"": ""Turn right to face the grey key and move toward it."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, walk forward, and pick up the grey key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right",0,False
+7,go forward,"{""memory_before"": {""plan"": ""Turn right, walk forward, and pick up the grey key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Go forward three steps towards the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+8,go forward,"{""memory_before"": {""plan"": ""Go forward three steps towards the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward four steps and pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+9,go forward,"{""memory_before"": {""plan"": ""Go forward four steps and pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward three more steps and pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step right",0,False
+10,go forward,"{""memory_before"": {""plan"": ""Go forward three more steps and pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward two more steps and pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+11,go forward,"{""memory_before"": {""plan"": ""Go forward two more steps and pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward one more step and pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+12,go forward,"{""memory_before"": {""plan"": ""Go forward one more step and pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward to reach the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+13,turn left,"{""memory_before"": {""plan"": ""Go forward to reach the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Turn left, go forward, and pick up the grey key."", ""subgoal"": ""Turn left.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+14,turn left,"{""memory_before"": {""plan"": ""Turn left, go forward, and pick up the grey key."", ""subgoal"": ""Turn left.""}, ""memory_after"": {""plan"": ""Turn left, go forward twice, then pick up the grey key."", ""subgoal"": ""Turn left.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+15,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward twice, then pick up the grey key."", ""subgoal"": ""Turn left.""}, ""memory_after"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left",0,False
+16,go forward,"{""memory_before"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step left",0,False
+17,go forward,"{""memory_before"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step left",0,False
+18,go forward,"{""memory_before"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward once more then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+19,go forward,"{""memory_before"": {""plan"": ""Go forward once more then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward once more then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+20,turn right,"{""memory_before"": {""plan"": ""Go forward once more then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Turn right, go forward twice, then pick up the grey key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left
+a grey key 3 steps right and 4 steps forward",0,False
+21,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward twice, then pick up the grey key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go forward twice, then pick up the grey key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right",0,False
+22,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward twice, then pick up the grey key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+23,go forward,"{""memory_before"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+24,go forward,"{""memory_before"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step right",0,False
+25,go forward,"{""memory_before"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+26,go forward,"{""memory_before"": {""plan"": ""Go forward twice then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward once, then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+27,turn left,"{""memory_before"": {""plan"": ""Go forward once, then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Turn left, go forward three steps, then pick up the grey key."", ""subgoal"": ""Turn left.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+28,turn left,"{""memory_before"": {""plan"": ""Turn left, go forward three steps, then pick up the grey key."", ""subgoal"": ""Turn left.""}, ""memory_after"": {""plan"": ""Turn left, go forward three steps, then pick up the grey key."", ""subgoal"": ""Turn left.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+29,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward three steps, then pick up the grey key."", ""subgoal"": ""Turn left.""}, ""memory_after"": {""plan"": ""Go forward three steps, then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left",0,False
+30,go forward,"{""memory_before"": {""plan"": ""Go forward three steps, then pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward four more steps to reach the grey key, then pick it up."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step left",0,False
+31,go forward,"{""memory_before"": {""plan"": ""Go forward four more steps to reach the grey key, then pick it up."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward four steps to reach the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step left",0,False
+32,go forward,"{""memory_before"": {""plan"": ""Go forward four steps to reach the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward three steps to reach the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+33,go forward,"{""memory_before"": {""plan"": ""Go forward three steps to reach the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice to reach the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+34,turn right,"{""memory_before"": {""plan"": ""Go forward twice to reach the grey key and pick it up."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Turn right, go forward twice, and pick up the grey key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left
+a grey key 3 steps right and 4 steps forward",0,False
+35,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward twice, and pick up the grey key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go forward twice, pick up the grey key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right",0,False
+36,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward twice, pick up the grey key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Go forward twice, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+37,go forward,"{""memory_before"": {""plan"": ""Go forward twice, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+38,go forward,"{""memory_before"": {""plan"": ""Go forward twice, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step right",0,False
+39,go forward,"{""memory_before"": {""plan"": ""Go forward twice, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward twice, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+40,go forward,"{""memory_before"": {""plan"": ""Go forward twice, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Go forward once, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+41,turn left,"{""memory_before"": {""plan"": ""Go forward once, pick up the grey key."", ""subgoal"": ""Go forward.""}, ""memory_after"": {""plan"": ""Turn left, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn left to face the grey key.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+42,turn left,"{""memory_before"": {""plan"": ""Turn left, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn left to face the grey key.""}, ""memory_after"": {""plan"": ""Turn left, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn left to face the grey key.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+43,turn left,"{""memory_before"": {""plan"": ""Turn left, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn left to face the grey key.""}, ""memory_after"": {""plan"": ""Turn left to face the grey key, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn left to face the grey key.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+44,turn left,"{""memory_before"": {""plan"": ""Turn left to face the grey key, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn left to face the grey key.""}, ""memory_after"": {""plan"": ""Turn to face the grey key, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn to face the grey key.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+45,,"{""memory_before"": {""plan"": ""Turn to face the grey key, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn to face the grey key.""}, ""memory_after"": {""plan"": ""Turn to face the grey key, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn to face the grey key.""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+46,turn right,"{""memory_before"": {""plan"": ""Turn to face the grey key, go forward three steps, pick up the grey key."", ""subgoal"": ""Turn to face the grey key.""}, ""memory_after"": {""plan"": ""Turn right, go forward two steps, turn left, go forward four steps, pick up the grey key."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+47,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward two steps, turn left, go forward four steps, pick up the grey key."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, go forward two steps, turn left, go forward four steps, pick up the grey key."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+48,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward two steps, turn left, go forward four steps, pick up the grey key."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, go forward two steps, turn left, go forward four steps, pick up the grey key."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+49,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward two steps, turn left, go forward four steps, pick up the grey key."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""turn right, go forward two steps, turn left, go forward four steps, pick up the grey key"", ""subgoal"": ""turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+50,turn right,"{""memory_before"": {""plan"": ""turn right, go forward two steps, turn left, go forward four steps, pick up the grey key"", ""subgoal"": ""turn right""}, ""memory_after"": {""plan"": ""turn right, go forward, turn left, go forward four steps, pick up grey key"", ""subgoal"": ""turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+51,turn left,"{""memory_before"": {""plan"": ""turn right, go forward, turn left, go forward four steps, pick up grey key"", ""subgoal"": ""turn right""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+52,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+53,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+54,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+55,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+56,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+57,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+58,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+59,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+60,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a grey key 2 steps left and 4 steps forward",0,False
+61,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up grey key"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+62,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+63,turn left,"{""memory_before"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up"", ""subgoal"": ""turn left""}, ""memory_after"": {""plan"": ""turn left, go forward four steps, turn left, go forward two steps, pick up"", ""subgoal"": ""turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,True

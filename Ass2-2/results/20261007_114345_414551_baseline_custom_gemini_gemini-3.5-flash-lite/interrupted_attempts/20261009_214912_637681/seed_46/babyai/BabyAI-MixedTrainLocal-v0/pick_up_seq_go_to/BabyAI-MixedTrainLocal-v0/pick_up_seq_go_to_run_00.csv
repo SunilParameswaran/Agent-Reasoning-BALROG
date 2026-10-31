@@ -1,0 +1,3 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key and pick it up."", ""subgoal"": ""Go to the purple ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False

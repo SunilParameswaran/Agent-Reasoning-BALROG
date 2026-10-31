@@ -1,0 +1,61 @@
+{
+  "task": "BabyAI-MixedTrainLocal-v0/putnext",
+  "action_frequency": {
+    "turn left": 31,
+    "turn right": 17,
+    "go forward": 28,
+    "pick up": 13,
+    "drop": 30
+  },
+  "input_tokens": 92521,
+  "output_tokens": 432,
+  "done": true,
+  "episode_return": 0.16328124999999993,
+  "num_steps": 119,
+  "failed_candidates": [],
+  "mission": "put the red box next to the grey key",
+  "progression": 1.0,
+  "process_num": null,
+  "seed": 44,
+  "agent": {
+    "type": "reflection",
+    "remember_cot": true,
+    "max_text_history": 16,
+    "max_image_history": 0,
+    "max_cot_history": 1,
+    "max_icl_history": 1000,
+    "cache_icl": false
+  },
+  "client": {
+    "client_name": "gemini-openai",
+    "model_id": "gemini-3.5-flash-lite",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "generate_kwargs": {
+      "temperature": 1.0,
+      "max_tokens": 1024,
+      "thinking_budget": null,
+      "reasoning_effort": "minimal"
+    },
+    "timeout": 60,
+    "max_retries": 5,
+    "delay": 2,
+    "alternate_roles": false
+  },
+  "reflection_stats": {
+    "reviews": 4,
+    "accepted_reviews": 4,
+    "usage": {
+      "actor": {
+        "calls": 119,
+        "input_tokens": 88496,
+        "output_tokens": 208
+      },
+      "critic": {
+        "calls": 4,
+        "input_tokens": 4025,
+        "output_tokens": 224
+      }
+    }
+  },
+  "completed_attempt": "20261012_102458_181067"
+}

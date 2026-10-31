@@ -1,0 +1,449 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Walk to the purple key, pick it up, then find and open the door."", ""subgoal"": ""Go to the purple key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps right
+a purple key 2 steps left and 1 step forward
+a locked purple door 5 steps forward",0,False
+1,turn left,"{""memory_before"": {""plan"": ""Walk to the purple key, pick it up, then find and open the door."", ""subgoal"": ""Go to the purple key""}, ""memory_after"": {""plan"": ""Walk to the purple key, pick it up, then open the locked purple door."", ""subgoal"": ""Go to the purple key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a purple key 1 step right and 2 steps forward",0,False
+2,turn right,"{""memory_before"": {""plan"": ""Walk to the purple key, pick it up, then open the locked purple door."", ""subgoal"": ""Go to the purple key""}, ""memory_after"": {""plan"": ""Walk to the purple key, pick it up, then open the locked purple door."", ""subgoal"": ""Go to the purple key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps right
+a purple key 2 steps left and 1 step forward
+a locked purple door 5 steps forward",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Walk to the purple key, pick it up, then open the locked purple door."", ""subgoal"": ""Go to the purple key""}, ""memory_after"": {""plan"": ""Walk to the purple key, pick it up, then unlock the door."", ""subgoal"": ""Go to the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps right
+a purple key 2 steps left
+a locked purple door 4 steps forward",0,False
+4,turn left,"{""memory_before"": {""plan"": ""Walk to the purple key, pick it up, then unlock the door."", ""subgoal"": ""Go to the purple key""}, ""memory_after"": {""plan"": ""Turn left, walk to the purple key, pick it up, then unlock the door."", ""subgoal"": ""Turn left toward the purple key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 3 steps left
+a purple key 2 steps forward",0,False
+5,go forward,"{""memory_before"": {""plan"": ""Turn left, walk to the purple key, pick it up, then unlock the door."", ""subgoal"": ""Turn left toward the purple key""}, ""memory_after"": {""plan"": ""Walk to the purple key, pick it up, then unlock the door."", ""subgoal"": ""Walk to the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps left
+a purple key 1 step forward",0,False
+6,go forward,"{""memory_before"": {""plan"": ""Walk to the purple key, pick it up, then unlock the door."", ""subgoal"": ""Walk to the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key, then go to the locked purple door and toggle it."", ""subgoal"": ""Pick up the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps left
+a purple key 1 step forward",0,False
+7,go forward,"{""memory_before"": {""plan"": ""Pick up the purple key, then go to the locked purple door and toggle it."", ""subgoal"": ""Pick up the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key, then go to the locked purple door and toggle it."", ""subgoal"": ""Pick up the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps left
+a purple key 1 step forward",0,False
+8,pick up,"{""memory_before"": {""plan"": ""Pick up the purple key, then go to the locked purple door and toggle it."", ""subgoal"": ""Pick up the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key, then unlock the purple door"", ""subgoal"": ""Pick up the purple key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 3 steps left",0,False
+9,,"{""memory_before"": {""plan"": ""Pick up the purple key, then unlock the purple door"", ""subgoal"": ""Pick up the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key, then unlock the purple door"", ""subgoal"": ""Pick up the purple key""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a purple key
+a wall 3 steps forward
+a wall 3 steps left",0,False
+10,turn right,"{""memory_before"": {""plan"": ""Pick up the purple key, then unlock the purple door"", ""subgoal"": ""Pick up the purple key""}, ""memory_after"": {""plan"": ""Find the locked purple door and open it using the purple key"", ""subgoal"": ""Find the locked purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 3 steps left
+a locked purple door 2 steps right and 4 steps forward",0,False
+11,turn right,"{""memory_before"": {""plan"": ""Find the locked purple door and open it using the purple key"", ""subgoal"": ""Find the locked purple door""}, ""memory_after"": {""plan"": ""Go to the locked purple door and open it with the purple key"", ""subgoal"": ""Go to the locked purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 3 steps right",0,False
+12,turn right,"{""memory_before"": {""plan"": ""Go to the locked purple door and open it with the purple key"", ""subgoal"": ""Go to the locked purple door""}, ""memory_after"": {""plan"": ""Walk to the locked purple door and toggle it to open it."", ""subgoal"": ""Face the locked purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 3 steps right",0,False
+13,turn right,"{""memory_before"": {""plan"": ""Walk to the locked purple door and toggle it to open it."", ""subgoal"": ""Face the locked purple door""}, ""memory_after"": {""plan"": ""Turn around and walk to the locked purple door to open it."", ""subgoal"": ""Turn around to face the door direction""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 3 steps left",0,False
+14,go forward,"{""memory_before"": {""plan"": ""Turn around and walk to the locked purple door to open it."", ""subgoal"": ""Turn around to face the door direction""}, ""memory_after"": {""plan"": ""Walk back to the locked purple door and use the key to open it."", ""subgoal"": ""Walk toward the locked purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+15,turn right,"{""memory_before"": {""plan"": ""Walk back to the locked purple door and use the key to open it."", ""subgoal"": ""Walk toward the locked purple door""}, ""memory_after"": {""plan"": ""Turn around, walk to the locked purple door, and toggle it to open."", ""subgoal"": ""Turn around to face the door direction""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+16,turn right,"{""memory_before"": {""plan"": ""Turn around, walk to the locked purple door, and toggle it to open."", ""subgoal"": ""Turn around to face the door direction""}, ""memory_after"": {""plan"": ""Walk to the locked purple door and toggle it."", ""subgoal"": ""Face the locked door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+17,turn right,"{""memory_before"": {""plan"": ""Walk to the locked purple door and toggle it."", ""subgoal"": ""Face the locked door""}, ""memory_after"": {""plan"": ""Walk to the locked purple door and toggle it."", ""subgoal"": ""Face the locked door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+18,turn right,"{""memory_before"": {""plan"": ""Walk to the locked purple door and toggle it."", ""subgoal"": ""Face the locked door""}, ""memory_after"": {""plan"": ""Turn right, walk to the locked purple door, and toggle it."", ""subgoal"": ""Face the locked door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+19,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the locked purple door, and toggle it."", ""subgoal"": ""Face the locked door""}, ""memory_after"": {""plan"": ""Turn right, walk to the locked purple door, and toggle it."", ""subgoal"": ""Face the locked door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+20,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the locked purple door, and toggle it."", ""subgoal"": ""Face the locked door""}, ""memory_after"": {""plan"": ""Turn right, walk to the locked purple door, and toggle it."", ""subgoal"": ""Face the locked door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+21,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the locked purple door, and toggle it."", ""subgoal"": ""Face the locked door""}, ""memory_after"": {""plan"": ""Turn towards the locked purple door and toggle it."", ""subgoal"": ""Face the locked door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+22,turn right,"{""memory_before"": {""plan"": ""Turn towards the locked purple door and toggle it."", ""subgoal"": ""Face the locked door""}, ""memory_after"": {""plan"": ""Navigate back toward the locked purple door and toggle it to open it."", ""subgoal"": ""Face the locked door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+23,turn right,"{""memory_before"": {""plan"": ""Navigate back toward the locked purple door and toggle it to open it."", ""subgoal"": ""Face the locked door""}, ""memory_after"": {""plan"": ""Turn around, approach the locked purple door, and toggle it to open it."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+24,turn right,"{""memory_before"": {""plan"": ""Turn around, approach the locked purple door, and toggle it to open it."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, go forward, and toggle the door to open it."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+25,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, go forward, and toggle the door to open it."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, move closer to the locked purple door, and toggle it to open."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+26,turn right,"{""memory_before"": {""plan"": ""Turn right, move closer to the locked purple door, and toggle it to open."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, move forward, turn left, move to the purple door, and toggle it."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+27,turn right,"{""memory_before"": {""plan"": ""Turn right, move forward, turn left, move to the purple door, and toggle it."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, move forward, turn left, approach door, and toggle."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+28,turn right,"{""memory_before"": {""plan"": ""Turn right, move forward, turn left, approach door, and toggle."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, move forward, turn left, approach door, and toggle."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+29,turn right,"{""memory_before"": {""plan"": ""Turn right, move forward, turn left, approach door, and toggle."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, move forward, turn left, approach door, and toggle."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+30,turn right,"{""memory_before"": {""plan"": ""Turn right, move forward, turn left, approach door, and toggle."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, move forward, turn left, approach door, and toggle."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+31,turn right,"{""memory_before"": {""plan"": ""Turn right, move forward, turn left, approach door, and toggle."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, move forward to the door, then toggle to open it."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+32,turn right,"{""memory_before"": {""plan"": ""Turn right, move forward to the door, then toggle to open it."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+33,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+34,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+35,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+36,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward 4 steps, then toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+37,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward 4 steps, then toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+38,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+39,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+40,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+41,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+42,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+43,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+44,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward 4 steps, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+45,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward 4 steps, and toggle the purple door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+46,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the door."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 3 steps left",0,False
+47,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the door."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, move toward the door, and toggle it to open."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 2 steps left
+a locked purple door 3 steps right and 4 steps forward",0,False
+48,turn right,"{""memory_before"": {""plan"": ""Turn right, move toward the door, and toggle it to open."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, move toward the door, and toggle it open."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 3 steps right",0,False
+49,turn right,"{""memory_before"": {""plan"": ""Turn right, move toward the door, and toggle it open."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, move toward the purple door, and toggle it open."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 2 steps right",0,False
+50,,"{""memory_before"": {""plan"": ""Turn right, move toward the purple door, and toggle it open."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, move toward the purple door, and toggle it open."", ""subgoal"": ""Turn right toward the door.""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a purple key
+a wall 2 steps forward
+a wall 2 steps right",0,False
+51,,"{""memory_before"": {""plan"": ""Turn right, move toward the purple door, and toggle it open."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, move toward the purple door, and toggle it open."", ""subgoal"": ""Turn right toward the door.""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a purple key
+a wall 1 step forward
+a wall 2 steps right",0,False
+52,turn right,"{""memory_before"": {""plan"": ""Turn right, move toward the purple door, and toggle it open."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Turn right, approach the locked purple door, and toggle it to open it."", ""subgoal"": ""Turn right toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 1 step left",0,False
+53,go forward,"{""memory_before"": {""plan"": ""Turn right, approach the locked purple door, and toggle it to open it."", ""subgoal"": ""Turn right toward the door.""}, ""memory_after"": {""plan"": ""Approach the locked purple door and toggle it to open."", ""subgoal"": ""Approach the locked door.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+54,turn right,"{""memory_before"": {""plan"": ""Approach the locked purple door and toggle it to open."", ""subgoal"": ""Approach the locked door.""}, ""memory_after"": {""plan"": ""Turn right, go forward to reach the door, and toggle it to open."", ""subgoal"": ""Turn toward the door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+55,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward to reach the door, and toggle it to open."", ""subgoal"": ""Turn toward the door.""}, ""memory_after"": {""plan"": ""Go forward until facing the purple door, then toggle it."", ""subgoal"": ""Go forward toward the door.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 1 step left",0,False
+56,go forward,"{""memory_before"": {""plan"": ""Go forward until facing the purple door, then toggle it."", ""subgoal"": ""Go forward toward the door.""}, ""memory_after"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Go forward toward the door.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 1 step left",0,False
+57,,"{""memory_before"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Go forward toward the door.""}, ""memory_after"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Go forward toward the door.""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a purple key
+a wall 3 steps forward
+a wall 1 step left",0,False
+58,,"{""memory_before"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Go forward toward the door.""}, ""memory_after"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Go forward toward the door.""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a purple key
+a wall 2 steps forward
+a wall 1 step left",0,False
+59,go forward,"{""memory_before"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Go forward toward the door.""}, ""memory_after"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Go forward toward the door.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+60,turn right,"{""memory_before"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Go forward toward the door.""}, ""memory_after"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Turn right to face the purple door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+61,turn right,"{""memory_before"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Turn right to face the purple door.""}, ""memory_after"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Turn right to face the purple door.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right",0,False
+62,turn left,"{""memory_before"": {""plan"": ""Go forward to the purple door and toggle it to open."", ""subgoal"": ""Turn right to face the purple door.""}, ""memory_after"": {""plan"": ""Turn left, walk towards the purple door, and toggle it to open."", ""subgoal"": ""Turn left to face the direction of the purple door.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+63,turn left,"{""memory_before"": {""plan"": ""Turn left, walk towards the purple door, and toggle it to open."", ""subgoal"": ""Turn left to face the direction of the purple door.""}, ""memory_after"": {""plan"": ""Turn left, walk to the purple door, and toggle it."", ""subgoal"": ""Turn left towards the purple door.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+64,go forward,"{""memory_before"": {""plan"": ""Turn left, walk to the purple door, and toggle it."", ""subgoal"": ""Turn left towards the purple door.""}, ""memory_after"": {""plan"": ""Walk to the purple door and toggle it to open it."", ""subgoal"": ""Walk forward towards the purple door.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+65,turn right,"{""memory_before"": {""plan"": ""Walk to the purple door and toggle it to open it."", ""subgoal"": ""Walk forward towards the purple door.""}, ""memory_after"": {""plan"": ""Turn right, walk forward, turn left, walk forward to the door, and toggle it."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+66,turn right,"{""memory_before"": {""plan"": ""Turn right, walk forward, turn left, walk forward to the door, and toggle it."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, move forward, turn left, move forward, toggle the door"", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right",0,False
+67,turn left,"{""memory_before"": {""plan"": ""Turn right, move forward, turn left, move forward, toggle the door"", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn left, move forward, turn left, move forward, toggle the door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+68,turn left,"{""memory_before"": {""plan"": ""Turn left, move forward, turn left, move forward, toggle the door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""Turn left, move forward, turn left, move forward, toggle the door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+69,turn left,"{""memory_before"": {""plan"": ""Turn left, move forward, turn left, move forward, toggle the door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right",0,False
+70,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right",0,False
+71,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+72,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, toggle door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+73,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, toggle door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, toggle door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right",0,False
+74,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, toggle door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, toggle door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right",0,False
+75,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, toggle door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, toggle the purple door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+76,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, toggle the purple door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, toggle the purple door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+77,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, toggle the purple door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right",0,False
+78,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right",0,False
+79,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, toggle the door"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward, go forward, go forward, go forward, toggle"", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+80,turn left,"{""memory_before"": {""plan"": ""turn left, go forward, go forward, go forward, go forward, toggle"", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""turn left, go forward 4 steps, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+81,turn left,"{""memory_before"": {""plan"": ""turn left, go forward 4 steps, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""memory_after"": {""plan"": ""turn left, go forward 4 steps, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right",0,False
+82,turn left,"{""memory_before"": {""plan"": ""turn left, go forward 4 steps, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""memory_after"": {""plan"": ""turn left, go forward 4 steps, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right",0,False
+83,turn left,"{""memory_before"": {""plan"": ""turn left, go forward 4 steps, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""memory_after"": {""plan"": ""turn left, go forward 4 steps, turn right, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+84,turn left,"{""memory_before"": {""plan"": ""turn left, go forward 4 steps, turn right, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""memory_after"": {""plan"": ""turn left, go forward 4 steps, turn right, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+85,turn right,"{""memory_before"": {""plan"": ""turn left, go forward 4 steps, turn right, toggle door"", ""subgoal"": ""Turn left to face the door approach""}, ""memory_after"": {""plan"": ""turn right, go forward 4 steps, toggle door"", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward",0,False
+86,go forward,"{""memory_before"": {""plan"": ""turn right, go forward 4 steps, toggle door"", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""go forward 4 steps, toggle door"", ""subgoal"": ""Walk forward to the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 5 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 3 steps forward",0,False
+87,go forward,"{""memory_before"": {""plan"": ""go forward 4 steps, toggle door"", ""subgoal"": ""Walk forward to the door""}, ""memory_after"": {""plan"": ""go forward 3 steps, toggle door"", ""subgoal"": ""Walk forward to the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 4 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 2 steps forward",0,False
+88,go forward,"{""memory_before"": {""plan"": ""go forward 3 steps, toggle door"", ""subgoal"": ""Walk forward to the door""}, ""memory_after"": {""plan"": ""go forward 2 steps, toggle door"", ""subgoal"": ""Walk forward to the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 1 step forward",0,False
+89,go forward,"{""memory_before"": {""plan"": ""go forward 2 steps, toggle door"", ""subgoal"": ""Walk forward to the door""}, ""memory_after"": {""plan"": ""go forward 1 step, toggle door"", ""subgoal"": ""Walk forward to the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 2 steps forward
+a locked purple door 1 step left",0,False
+90,go forward,"{""memory_before"": {""plan"": ""go forward 1 step, toggle door"", ""subgoal"": ""Walk forward to the door""}, ""memory_after"": {""plan"": ""go forward 1 step, then toggle the purple door"", ""subgoal"": ""Walk forward to the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+91,turn left,"{""memory_before"": {""plan"": ""go forward 1 step, then toggle the purple door"", ""subgoal"": ""Walk forward to the door""}, ""memory_after"": {""plan"": ""turn left to face the purple door, then toggle it"", ""subgoal"": ""Turn to face the purple door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+92,turn left,"{""memory_before"": {""plan"": ""turn left to face the purple door, then toggle it"", ""subgoal"": ""Turn to face the purple door""}, ""memory_after"": {""plan"": ""turn left to face the purple door, then toggle it"", ""subgoal"": ""Turn to face the purple door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+93,turn left,"{""memory_before"": {""plan"": ""turn left to face the purple door, then toggle it"", ""subgoal"": ""Turn to face the purple door""}, ""memory_after"": {""plan"": ""Turn left to face the purple door, then toggle it"", ""subgoal"": ""Turn to face the purple door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+94,turn left,"{""memory_before"": {""plan"": ""Turn left to face the purple door, then toggle it"", ""subgoal"": ""Turn to face the purple door""}, ""memory_after"": {""plan"": ""Turn left to face the purple door, then toggle it"", ""subgoal"": ""Turn to face the purple door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+95,turn left,"{""memory_before"": {""plan"": ""Turn left to face the purple door, then toggle it"", ""subgoal"": ""Turn to face the purple door""}, ""memory_after"": {""plan"": ""Turn left, then toggle the purple door"", ""subgoal"": ""Turn to face the purple door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+96,turn left,"{""memory_before"": {""plan"": ""Turn left, then toggle the purple door"", ""subgoal"": ""Turn to face the purple door""}, ""memory_after"": {""plan"": ""Turn left, then toggle the purple door"", ""subgoal"": ""Turn to face the purple door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+97,turn right,"{""memory_before"": {""plan"": ""Turn left, then toggle the purple door"", ""subgoal"": ""Turn to face the purple door""}, ""memory_after"": {""plan"": ""Turn to face the purple door and toggle it."", ""subgoal"": ""Turn to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+98,turn left,"{""memory_before"": {""plan"": ""Turn to face the purple door and toggle it."", ""subgoal"": ""Turn to face the purple door""}, ""memory_after"": {""plan"": ""Turn to face the purple door and toggle it."", ""subgoal"": ""Turn to face the purple door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+99,turn right,"{""memory_before"": {""plan"": ""Turn to face the purple door and toggle it."", ""subgoal"": ""Turn to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it to open."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+100,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it to open."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+101,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+102,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+103,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+104,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+105,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+106,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+107,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+108,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+109,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+110,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+111,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+112,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+113,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+114,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+115,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+116,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+117,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+118,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+119,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+120,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+121,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+122,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+123,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the purple door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door and toggle it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,False
+124,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door and toggle it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step left",0,False
+125,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step left",0,False
+126,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 6 steps forward
+a wall 1 step right
+a locked purple door 1 step right and 1 step forward",0,False
+127,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 1 step forward
+a wall 1 step right
+a locked purple door 1 step left and 1 step forward",0,True

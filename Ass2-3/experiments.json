@@ -1,0 +1,10 @@
+{
+  "runs": [
+    "../Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b",
+    "../Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite",
+    "../Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b",
+    "../Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite",
+    "results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b",
+    "results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite"
+  ]
+}

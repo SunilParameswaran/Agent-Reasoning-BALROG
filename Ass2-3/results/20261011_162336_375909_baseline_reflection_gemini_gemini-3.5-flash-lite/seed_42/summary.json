@@ -1,0 +1,37 @@
+{
+  "average_progress": 80.0,
+  "standard_error": 17.888543819998322,
+  "environments": {
+    "babyai": {
+      "progression_percentage": 80.0,
+      "standard_error": 17.888543819998322,
+      "episodes_played": 5
+    }
+  },
+  "total_input_tokens": 120012,
+  "total_output_tokens": 653,
+  "client": {
+    "client_name": "gemini-openai",
+    "model_id": "gemini-3.5-flash-lite",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "generate_kwargs": {
+      "temperature": 1.0,
+      "max_tokens": 1024,
+      "thinking_budget": null,
+      "reasoning_effort": "minimal"
+    },
+    "timeout": 60,
+    "max_retries": 5,
+    "delay": 2,
+    "alternate_roles": false
+  },
+  "agent": {
+    "type": "reflection",
+    "remember_cot": true,
+    "max_text_history": 16,
+    "max_image_history": 0,
+    "max_cot_history": 1,
+    "max_icl_history": 1000,
+    "cache_icl": false
+  }
+}

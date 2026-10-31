@@ -1,0 +1,4 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Walk to the purple key, pick it up, then find and open the door."", ""subgoal"": ""Walk to the purple key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps right
+a purple key 2 steps left and 1 step forward
+a locked purple door 5 steps forward",0,False

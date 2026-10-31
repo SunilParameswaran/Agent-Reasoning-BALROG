@@ -1,0 +1,410 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn right to face the wall, go forward past one wall."", ""subgoal"": ""Enter the room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 3 steps left",0,False
+1,go forward,"{""memory_before"": {""plan"": ""Turn right to face the wall, go forward past one wall."", ""subgoal"": ""Enter the room.""}, ""memory_after"": {""plan"": ""Turn right to face the wall, go forward to enter the room."", ""subgoal"": ""Enter the room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 3 steps left",0,False
+2,go forward,"{""memory_before"": {""plan"": ""Turn right to face the wall, go forward to enter the room."", ""subgoal"": ""Enter the room.""}, ""memory_after"": {""plan"": ""Turn right to face the wall, go forward to enter the room."", ""subgoal"": ""Enter the room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps left",0,False
+3,turn left,"{""memory_before"": {""plan"": ""Turn right to face the wall, go forward to enter the room."", ""subgoal"": ""Enter the room.""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Enter the room""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step right",0,False
+4,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Enter the room""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Enter the room""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+5,turn right,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Enter the room""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Enter the room""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+6,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Enter the room""}, ""memory_after"": {""plan"": ""Turn right, turn right, go forward"", ""subgoal"": ""Enter the room""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+7,,"{""memory_before"": {""plan"": ""Turn right, turn right, go forward"", ""subgoal"": ""Enter the room""}, ""memory_after"": {""plan"": ""Turn right, turn right, go forward"", ""subgoal"": ""Enter the room""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+8,go forward,"{""memory_before"": {""plan"": ""Turn right, turn right, go forward"", ""subgoal"": ""Enter the room""}, ""memory_after"": {""plan"": ""Turn left, go forward, pick up"", ""subgoal"": ""Enter the room""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+9,,"{""memory_before"": {""plan"": ""Turn left, go forward, pick up"", ""subgoal"": ""Enter the room""}, ""memory_after"": {""plan"": ""Turn left, go forward, pick up"", ""subgoal"": ""Enter the room""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+10,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward, pick up"", ""subgoal"": ""Enter the room""}, ""memory_after"": {""plan"": ""Pick up the wall"", ""subgoal"": ""Move forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+11,go forward,"{""memory_before"": {""plan"": ""Pick up the wall"", ""subgoal"": ""Move forward""}, ""memory_after"": {""plan"": ""Pick up the wall"", ""subgoal"": ""Move forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+12,go forward,"{""memory_before"": {""plan"": ""Pick up the wall"", ""subgoal"": ""Move forward""}, ""memory_after"": {""plan"": ""Toggle the left wall"", ""subgoal"": ""Move forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+13,go forward,"{""memory_before"": {""plan"": ""Toggle the left wall"", ""subgoal"": ""Move forward""}, ""memory_after"": {""plan"": ""Toggle the 1st step wall"", ""subgoal"": ""Move forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+14,,"{""memory_before"": {""plan"": ""Toggle the 1st step wall"", ""subgoal"": ""Move forward""}, ""memory_after"": {""plan"": ""Toggle the 1st step wall"", ""subgoal"": ""Move forward""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+15,go forward,"{""memory_before"": {""plan"": ""Toggle the 1st step wall"", ""subgoal"": ""Move forward""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Move forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+16,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Move forward""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Move forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+17,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Move forward""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Move forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+18,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Move forward""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+19,,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+20,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+21,go forward,"{""memory_before"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+22,,"{""memory_before"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+23,,"{""memory_before"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+24,go forward,"{""memory_before"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+25,,"{""memory_before"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+26,go forward,"{""memory_before"": {""plan"": ""Turn right"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+27,go forward,"{""memory_before"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""memory_after"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+28,go forward,"{""memory_before"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""memory_after"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_plan""], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+29,,"{""memory_before"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""memory_after"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+30,,"{""memory_before"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""memory_after"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+31,toggle,"{""memory_before"": {""plan"": ""Turn right."", ""subgoal"": ""Reach the next wall.""}, ""memory_after"": {""plan"": ""Turn right, go forward, toggle"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+32,toggle,"{""memory_before"": {""plan"": ""Turn right, go forward, toggle"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right, go forward, toggle"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+33,toggle,"{""memory_before"": {""plan"": ""Turn right, go forward, toggle"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle again, go forward, turn right"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+34,,"{""memory_before"": {""plan"": ""Toggle again, go forward, turn right"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle again, go forward, turn right"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+35,toggle,"{""memory_before"": {""plan"": ""Toggle again, go forward, turn right"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+36,toggle,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left",0,False
+37,turn left,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+38,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+39,,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+40,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+41,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+42,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+43,turn right,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+44,,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+45,,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+46,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right, go forward, go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+47,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward, go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+48,,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+49,,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+50,go forward,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+51,go forward,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+52,turn left,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the left wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+53,toggle,"{""memory_before"": {""plan"": ""Toggle the left wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+54,toggle,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+55,,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+56,toggle,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle, go forward"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+57,go forward,"{""memory_before"": {""plan"": ""Toggle, go forward"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the object to the right of the first observation."", ""subgoal"": ""Reach the next wall.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+58,toggle,"{""memory_before"": {""plan"": ""Toggle the object to the right of the first observation."", ""subgoal"": ""Reach the next wall.""}, ""memory_after"": {""plan"": ""Toggle the object to the right while facing forward."", ""subgoal"": ""Reach the next wall.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+59,toggle,"{""memory_before"": {""plan"": ""Toggle the object to the right while facing forward."", ""subgoal"": ""Reach the next wall.""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+60,toggle,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+61,,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+62,toggle,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+63,toggle,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+64,go forward,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+65,go forward,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+66,go forward,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+67,,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+68,,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+69,go forward,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+70,go forward,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+71,go forward,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+72,go forward,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+73,toggle,"{""memory_before"": {""plan"": ""Toggle the right wall"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the wall in front"", ""subgoal"": ""Reach the next wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+74,go forward,"{""memory_before"": {""plan"": ""Toggle the wall in front"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Toggle the wall in front"", ""subgoal"": ""Reach the next wall""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+75,toggle,"{""memory_before"": {""plan"": ""Toggle the wall in front"", ""subgoal"": ""Reach the next wall""}, ""memory_after"": {""plan"": ""Go forward to reach the next wall"", ""subgoal"": ""Toggle the wall in front""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+76,toggle,"{""memory_before"": {""plan"": ""Go forward to reach the next wall"", ""subgoal"": ""Toggle the wall in front""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Toggle the wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+77,toggle,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Toggle the wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+78,toggle,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+79,,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+80,toggle,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+81,toggle,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+82,toggle,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""toggle"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+83,go forward,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+84,toggle,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""toggle"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+85,go forward,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+86,toggle,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+87,go forward,"{""memory_before"": {""plan"": ""Toggle the first wall"", ""subgoal"": ""Toggle the second wall""}, ""memory_after"": {""plan"": ""Toggle the second wall"", ""subgoal"": ""Tap the second door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+88,go forward,"{""memory_before"": {""plan"": ""Toggle the second wall"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the second wall"", ""subgoal"": ""Tap the second door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+89,go forward,"{""memory_before"": {""plan"": ""Toggle the second wall"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the door to the left; go forward; toggle the door; go forward; toggle the left wall;"", ""subgoal"": ""Tap the second door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+90,go forward,"{""memory_before"": {""plan"": ""Toggle the door to the left; go forward; toggle the door; go forward; toggle the left wall;"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+91,toggle,"{""memory_before"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+92,,"{""memory_before"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+93,go forward,"{""memory_before"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+94,,"{""memory_before"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+95,toggle,"{""memory_before"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+96,go forward,"{""memory_before"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the door to the left; go forward; toggle the door to the left;"", ""subgoal"": ""Tap the first door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+97,go forward,"{""memory_before"": {""plan"": ""Toggle the door to the left; go forward; toggle the door to the left;"", ""subgoal"": ""Tap the first door""}, ""memory_after"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+98,go forward,"{""memory_before"": {""plan"": ""Toggle the door to the right; go forward; toggle the door to the right;"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""toggle the door to the right; go forward; toggle the door to the right"", ""subgoal"": ""Tap the second door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+99,go forward,"{""memory_before"": {""plan"": ""toggle the door to the right; go forward; toggle the door to the right"", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the first door to unlock it."", ""subgoal"": ""Tap the second door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+100,go forward,"{""memory_before"": {""plan"": ""Toggle the first door to unlock it."", ""subgoal"": ""Tap the second door""}, ""memory_after"": {""plan"": ""Toggle the second door."", ""subgoal"": ""Unlock the second room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+101,go forward,"{""memory_before"": {""plan"": ""Toggle the second door."", ""subgoal"": ""Unlock the second room.""}, ""memory_after"": {""plan"": ""Navigate around the room and unlock the second door before proceeding to the next room."", ""subgoal"": ""Unlocked second room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+102,toggle,"{""memory_before"": {""plan"": ""Navigate around the room and unlock the second door before proceeding to the next room."", ""subgoal"": ""Unlocked second room.""}, ""memory_after"": {""plan"": ""Toggle the door mechanism to open the door."", ""subgoal"": ""Unlocked second room.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+103,toggle,"{""memory_before"": {""plan"": ""Toggle the door mechanism to open the door."", ""subgoal"": ""Unlocked second room.""}, ""memory_after"": {""plan"": ""Go forward to the door."", ""subgoal"": ""Open the second room.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+104,toggle,"{""memory_before"": {""plan"": ""Go forward to the door."", ""subgoal"": ""Open the second room.""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Open the second room""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+105,,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Open the second room""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Open the second room""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+106,toggle,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Open the second room""}, ""memory_after"": {""plan"": ""Toggle the door, then go forward."", ""subgoal"": ""Open the second room.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+107,,"{""memory_before"": {""plan"": ""Toggle the door, then go forward."", ""subgoal"": ""Open the second room.""}, ""memory_after"": {""plan"": ""Toggle the door, then go forward."", ""subgoal"": ""Open the second room.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+108,toggle,"{""memory_before"": {""plan"": ""Toggle the door, then go forward."", ""subgoal"": ""Open the second room.""}, ""memory_after"": {""plan"": ""Tap the wall twice to create a doorway."", ""subgoal"": ""Enter the second room.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+109,go forward,"{""memory_before"": {""plan"": ""Tap the wall twice to create a doorway."", ""subgoal"": ""Enter the second room.""}, ""memory_after"": {""plan"": ""Create a doorway"", ""subgoal"": ""Enter the second room""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+110,go forward,"{""memory_before"": {""plan"": ""Create a doorway"", ""subgoal"": ""Enter the second room""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+111,,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+112,,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+113,go forward,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+114,go forward,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+115,,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+116,go forward,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+117,go forward,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+118,go forward,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+119,,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+120,,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+121,go forward,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+122,go forward,"{""memory_before"": {""plan"": ""Explore the room"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the walls"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+123,go forward,"{""memory_before"": {""plan"": ""Explore the walls"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the walls to find a path"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+124,turn left,"{""memory_before"": {""plan"": ""Explore the walls to find a path"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the walls to find a path"", ""subgoal"": ""Open the door""}, ""action"": ""turn left"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 6 steps forward
+a green key 1 step left and 5 steps forward",0,False
+125,toggle,"{""memory_before"": {""plan"": ""Explore the walls to find a path"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Explore the left wall to find a key or unlock mechanism"", ""subgoal"": ""Open the green door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 6 steps forward
+a green key 1 step left and 5 steps forward",0,False
+126,go forward,"{""memory_before"": {""plan"": ""Explore the left wall to find a key or unlock mechanism"", ""subgoal"": ""Open the green door""}, ""memory_after"": {""plan"": ""Look closely at the locked door and key"", ""subgoal"": ""Open the green door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 4 steps forward",0,False
+127,toggle,"{""memory_before"": {""plan"": ""Look closely at the locked door and key"", ""subgoal"": ""Open the green door""}, ""memory_after"": {""plan"": ""Pick up the green key"", ""subgoal"": ""Open the green door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right
+a locked green door 3 steps left and 5 steps forward
+a green key 1 step left and 4 steps forward",0,True

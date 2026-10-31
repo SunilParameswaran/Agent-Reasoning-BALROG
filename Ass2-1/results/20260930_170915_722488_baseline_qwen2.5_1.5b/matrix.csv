@@ -1,0 +1,2 @@
+model,benchmark,profile,progression_percent,standard_error_percent,episodes
+qwen2.5:1.5b,babyai,baseline,28.000000000000004,8.979977728257458,25

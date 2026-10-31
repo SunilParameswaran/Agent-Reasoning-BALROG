@@ -1,0 +1,25 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""action_step"": 0, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a wall 3 steps left
+a purple key 1 step left and 4 steps forward",0,False
+1,go forward,"{""action_step"": 1, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 3 steps left
+a purple key 1 step left and 3 steps forward",0,False
+2,go forward,"{""action_step"": 2, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 3 steps left
+a purple key 1 step left and 2 steps forward",0,False
+3,go forward,"{""action_step"": 3, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a wall 3 steps left
+a purple key 1 step left and 1 step forward",0,False
+4,turn left,"{""action_step"": 4, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 2 steps right
+a purple key 1 step right and 1 step forward",0,False
+5,go forward,"{""action_step"": 5, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps forward
+a purple key 1 step right",0,False
+6,turn right,"{""action_step"": 6, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps left
+a purple key 1 step forward",0,False
+7,go forward,"{""action_step"": 7, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps left
+a purple key 1 step forward",0,False
+8,pick up,"{""action_step"": 8, ""candidate_action"": ""pick up"", ""executed_action"": ""pick up"", ""advice"": null, ""reflection"": null}","You carry a purple key
+a wall 2 steps forward
+a wall 2 steps left",0.8734375,True

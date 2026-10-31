@@ -1,0 +1,9 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""action_step"": 0, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 4 steps forward
+a wall 2 steps right
+a red box 1 step left and 1 step forward",0,False
+1,go forward,"{""action_step"": 1, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 3 steps forward
+a wall 2 steps right
+a red box 1 step left",0,False
+2,turn left,"{""action_step"": 2, ""candidate_action"": ""turn left"", ""executed_action"": ""turn left"", ""advice"": null, ""reflection"": null}","a wall 3 steps right
+a red box 1 step forward",0.9578125,True

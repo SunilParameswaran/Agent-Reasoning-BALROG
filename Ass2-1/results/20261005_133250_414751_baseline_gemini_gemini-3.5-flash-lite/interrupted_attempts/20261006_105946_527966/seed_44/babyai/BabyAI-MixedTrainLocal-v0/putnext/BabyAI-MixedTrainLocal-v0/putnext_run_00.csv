@@ -1,0 +1,216 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,,"a wall 5 steps forward
+a wall 1 step left
+a red box 2 steps right and 1 step forward",0,False
+1,turn right,,"a wall 6 steps forward
+a wall 2 steps right
+a grey key 1 step left and 4 steps forward
+a red box 1 step left and 2 steps forward",0,False
+2,go forward,,"a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step left and 3 steps forward
+a red box 1 step left and 1 step forward",0,False
+3,pick up,,"a wall 5 steps forward
+a wall 2 steps right
+a grey key 1 step left and 3 steps forward
+a red box 1 step left and 1 step forward",0,False
+4,turn left,,"a wall 5 steps forward
+a wall 2 steps left
+a red box 1 step right and 1 step forward
+a grey key 3 steps right and 1 step forward",0,False
+5,go forward,,"a wall 4 steps forward
+a wall 2 steps left
+a red box 1 step right
+a grey key 3 steps right",0,False
+6,drop,,"a wall 4 steps forward
+a wall 2 steps left
+a red box 1 step right
+a grey key 3 steps right",0,False
+7,turn right,,"a wall 3 steps right
+a grey key 3 steps forward
+a red box 1 step forward",0,False
+8,go forward,,"a wall 3 steps right
+a grey key 3 steps forward
+a red box 1 step forward",0,False
+9,go forward,,"a wall 3 steps right
+a grey key 3 steps forward
+a red box 1 step forward",0,False
+10,pick up,,"You carry a red box
+a wall 3 steps right
+a grey key 3 steps forward",0,False
+11,go forward,,"You carry a red box
+a wall 3 steps right
+a grey key 2 steps forward",0,False
+12,go forward,,"You carry a red box
+a wall 3 steps right
+a grey key 1 step forward",0,False
+13,drop,,"You carry a red box
+a wall 3 steps right
+a grey key 1 step forward",0,False
+14,drop,,"You carry a red box
+a wall 3 steps right
+a grey key 1 step forward",0,False
+15,drop,,"You carry a red box
+a wall 3 steps right
+a grey key 1 step forward",0,False
+16,turn left,,"You carry a red box
+a wall 4 steps forward
+a grey key 1 step right",0,False
+17,turn right,,"You carry a red box
+a wall 3 steps right
+a grey key 1 step forward",0,False
+18,drop,,"You carry a red box
+a wall 3 steps right
+a grey key 1 step forward",0,False
+19,turn right,,"You carry a red box
+a wall 3 steps forward
+a grey key 1 step left",0,False
+20,drop,,"a grey key 1 step left
+a red box 1 step forward",0,False
+21,go forward,,"a grey key 1 step left
+a red box 1 step forward",0,False
+22,turn left,,"a grey key 1 step forward
+a red box 1 step right",0,False
+23,pick up,,"You carry a grey key
+a wall 3 steps forward
+a red box 1 step right",0,False
+24,turn right,,"You carry a grey key
+a wall 3 steps left
+a red box 1 step forward",0,False
+25,drop,,"You carry a grey key
+a wall 3 steps left
+a red box 1 step forward",0,False
+26,go forward,,"You carry a grey key
+a wall 3 steps left
+a red box 1 step forward",0,False
+27,pick up,,"You carry a grey key
+a wall 3 steps left
+a red box 1 step forward",0,False
+28,turn right,,"You carry a grey key
+a wall 4 steps forward
+a red box 1 step left",0,False
+29,turn left,,"You carry a grey key
+a wall 3 steps left
+a red box 1 step forward",0,False
+30,drop,,"You carry a grey key
+a wall 3 steps left
+a red box 1 step forward",0,False
+31,turn left,,"You carry a grey key
+a wall 3 steps forward
+a red box 1 step right",0,False
+32,go forward,,"You carry a grey key
+a wall 2 steps forward
+a wall 3 steps right",0,False
+33,turn right,,"You carry a grey key
+a wall 3 steps forward
+a wall 2 steps left
+a red box 1 step right and 1 step forward",0,False
+34,go forward,,"You carry a grey key
+a wall 2 steps forward
+a wall 2 steps left
+a red box 1 step right",0,False
+35,turn right,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+36,drop,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+37,turn left,,"You carry a grey key
+a wall 2 steps forward
+a wall 2 steps left
+a red box 1 step right",0,False
+38,turn right,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+39,drop,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+40,turn left,,"You carry a grey key
+a wall 2 steps forward
+a wall 2 steps left
+a red box 1 step right",0,False
+41,turn right,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+42,go forward,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+43,drop,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+44,turn left,,"You carry a grey key
+a wall 2 steps forward
+a wall 2 steps left
+a red box 1 step right",0,False
+45,turn right,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+46,turn left,,"You carry a grey key
+a wall 2 steps forward
+a wall 2 steps left
+a red box 1 step right",0,False
+47,turn right,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+48,drop,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+49,drop,,"You carry a grey key
+a wall 2 steps left
+a red box 1 step forward",0,False
+50,turn left,,"You carry a grey key
+a wall 2 steps forward
+a wall 2 steps left
+a red box 1 step right",0,False
+51,go forward,,"You carry a grey key
+a wall 1 step forward
+a wall 2 steps left",0,False
+52,turn right,,"You carry a grey key
+a wall 5 steps forward
+a wall 1 step left
+a red box 1 step right and 1 step forward",0,False
+53,go forward,,"You carry a grey key
+a wall 4 steps forward
+a wall 1 step left
+a red box 1 step right",0,False
+54,turn right,,"You carry a grey key
+a wall 3 steps right
+a red box 1 step forward",0,False
+55,drop,,"You carry a grey key
+a wall 3 steps right
+a red box 1 step forward",0,False
+56,turn right,,"You carry a grey key
+a wall 3 steps forward
+a wall 1 step right
+a red box 1 step left",0,False
+57,turn left,,"You carry a grey key
+a wall 3 steps right
+a red box 1 step forward",0,False
+58,drop,,"You carry a grey key
+a wall 3 steps right
+a red box 1 step forward",0,False
+59,drop,,"You carry a grey key
+a wall 3 steps right
+a red box 1 step forward",0,False
+60,turn right,,"You carry a grey key
+a wall 3 steps forward
+a wall 1 step right
+a red box 1 step left",0,False
+61,go forward,,"You carry a grey key
+a wall 2 steps forward
+a wall 1 step right",0,False
+62,turn left,,"You carry a grey key
+a wall 6 steps forward
+a wall 2 steps right
+a red box 1 step left and 1 step forward",0,False
+63,turn left,,"You carry a grey key
+a wall 5 steps forward
+a wall 1 step left
+a red box 1 step right and 1 step forward",0,False
+64,go forward,,"You carry a grey key
+a wall 4 steps forward
+a wall 1 step left
+a red box 1 step right",0,False
+65,turn right,,"You carry a grey key
+a wall 3 steps right
+a red box 1 step forward",0,False

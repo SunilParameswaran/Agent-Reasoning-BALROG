@@ -1,0 +1,36 @@
+{
+  "average_progress": 40.0,
+  "standard_error": 21.908902300206645,
+  "environments": {
+    "babyai": {
+      "progression_percentage": 40.0,
+      "standard_error": 21.908902300206645,
+      "episodes_played": 5
+    }
+  },
+  "total_input_tokens": 322767,
+  "total_output_tokens": 1236,
+  "client": {
+    "client_name": "vllm",
+    "model_id": "qwen2.5:1.5b",
+    "base_url": "http://localhost:11434/v1",
+    "generate_kwargs": {
+      "temperature": 1.0,
+      "max_tokens": 128,
+      "thinking_budget": null
+    },
+    "timeout": 60,
+    "max_retries": 2,
+    "delay": 2,
+    "alternate_roles": false
+  },
+  "agent": {
+    "type": "naive",
+    "remember_cot": true,
+    "max_text_history": 16,
+    "max_image_history": 0,
+    "max_cot_history": 1,
+    "max_icl_history": 1000,
+    "cache_icl": false
+  }
+}

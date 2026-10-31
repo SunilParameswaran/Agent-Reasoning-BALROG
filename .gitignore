@@ -1,0 +1,20 @@
+# Local dependencies and credentials
+/BALROG/
+SECRETS
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Regenerated output and private deployment checkout
+/generated/
+/run_viewer/verified_data.json
+/run_viewer/dist/
+/run_viewer/site/
+*.zip

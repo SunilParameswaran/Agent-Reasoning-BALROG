@@ -1,0 +1,58 @@
+{
+  "task": "BabyAI-MixedTrainLocal-v0/goto",
+  "action_frequency": {
+    "turn right": 2,
+    "turn left": 1,
+    "go forward": 1
+  },
+  "input_tokens": 1237,
+  "output_tokens": 12,
+  "done": true,
+  "episode_return": 0.94375,
+  "num_steps": 4,
+  "failed_candidates": [],
+  "mission": "go to the red box",
+  "progression": 1.0,
+  "process_num": null,
+  "seed": 45,
+  "agent": {
+    "type": "reflection",
+    "remember_cot": true,
+    "max_text_history": 16,
+    "max_image_history": 0,
+    "max_cot_history": 1,
+    "max_icl_history": 1000,
+    "cache_icl": false
+  },
+  "client": {
+    "client_name": "vllm",
+    "model_id": "qwen2.5:1.5b",
+    "base_url": "http://localhost:11434/v1",
+    "generate_kwargs": {
+      "temperature": 1.0,
+      "max_tokens": 128,
+      "thinking_budget": null
+    },
+    "timeout": 60,
+    "max_retries": 2,
+    "delay": 2,
+    "alternate_roles": false
+  },
+  "reflection_stats": {
+    "reviews": 0,
+    "accepted_reviews": 0,
+    "usage": {
+      "actor": {
+        "calls": 4,
+        "input_tokens": 1237,
+        "output_tokens": 12
+      },
+      "critic": {
+        "calls": 0,
+        "input_tokens": 0,
+        "output_tokens": 0
+      }
+    }
+  },
+  "completed_attempt": "20261011_162250_259056"
+}

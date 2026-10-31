@@ -1,0 +1,26 @@
+agent,model,benchmark,seed,task,episode,progression,steps,failed_candidates,critic_calls,accepted_reviews,input_tokens,output_tokens
+reflection,qwen2.5:1.5b,babyai,42,BabyAI-MixedTrainLocal-v0/goto,0,0.0,64,[],3,0,45118,482
+reflection,qwen2.5:1.5b,babyai,42,BabyAI-MixedTrainLocal-v0/pickup,0,0.0,64,[],3,0,43969,477
+reflection,qwen2.5:1.5b,babyai,42,BabyAI-MixedTrainLocal-v0/open,0,0.0,128,['open'],4,0,104143,788
+reflection,qwen2.5:1.5b,babyai,42,BabyAI-MixedTrainLocal-v0/putnext,0,0.0,128,[],4,2,107621,592
+reflection,qwen2.5:1.5b,babyai,42,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,0.0,128,[],4,0,100329,848
+reflection,qwen2.5:1.5b,babyai,43,BabyAI-MixedTrainLocal-v0/goto,0,0.0,64,[],4,1,48380,514
+reflection,qwen2.5:1.5b,babyai,43,BabyAI-MixedTrainLocal-v0/pickup,0,0.0,64,[],4,1,50093,579
+reflection,qwen2.5:1.5b,babyai,43,BabyAI-MixedTrainLocal-v0/open,0,0.0,128,"['turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'Turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'Turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around', 'turn around']",4,1,137541,753
+reflection,qwen2.5:1.5b,babyai,43,BabyAI-MixedTrainLocal-v0/putnext,0,0.0,128,[],4,2,119892,706
+reflection,qwen2.5:1.5b,babyai,43,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,0.0,128,[],4,1,107625,724
+reflection,qwen2.5:1.5b,babyai,44,BabyAI-MixedTrainLocal-v0/goto,0,1.0,48,[],3,1,37662,411
+reflection,qwen2.5:1.5b,babyai,44,BabyAI-MixedTrainLocal-v0/pickup,0,0.0,64,"['toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key', 'toggle grey key']",4,2,52945,532
+reflection,qwen2.5:1.5b,babyai,44,BabyAI-MixedTrainLocal-v0/open,0,0.0,128,['turn left  \ngo forward'],4,1,107409,749
+reflection,qwen2.5:1.5b,babyai,44,BabyAI-MixedTrainLocal-v0/putnext,0,0.0,128,[],4,0,106491,843
+reflection,qwen2.5:1.5b,babyai,44,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,0.0,128,['turn  right'],4,3,109823,643
+reflection,qwen2.5:1.5b,babyai,45,BabyAI-MixedTrainLocal-v0/goto,0,1.0,4,[],0,0,1237,12
+reflection,qwen2.5:1.5b,babyai,45,BabyAI-MixedTrainLocal-v0/pickup,0,0.0,64,[],4,0,50906,587
+reflection,qwen2.5:1.5b,babyai,45,BabyAI-MixedTrainLocal-v0/open,0,0.0,128,"['open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door', 'open door']",4,1,121955,665
+reflection,qwen2.5:1.5b,babyai,45,BabyAI-MixedTrainLocal-v0/putnext,0,0.0,128,[],4,3,105009,647
+reflection,qwen2.5:1.5b,babyai,45,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,0.0,128,[],4,2,111065,713
+reflection,qwen2.5:1.5b,babyai,46,BabyAI-MixedTrainLocal-v0/goto,0,0.0,64,[],4,2,50707,537
+reflection,qwen2.5:1.5b,babyai,46,BabyAI-MixedTrainLocal-v0/pickup,0,0.0,64,[],3,1,49708,447
+reflection,qwen2.5:1.5b,babyai,46,BabyAI-MixedTrainLocal-v0/open,0,0.0,128,[],4,1,102752,715
+reflection,qwen2.5:1.5b,babyai,46,BabyAI-MixedTrainLocal-v0/putnext,0,0.0,128,[],4,1,106825,738
+reflection,qwen2.5:1.5b,babyai,46,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,1.0,60,[],3,0,51152,510

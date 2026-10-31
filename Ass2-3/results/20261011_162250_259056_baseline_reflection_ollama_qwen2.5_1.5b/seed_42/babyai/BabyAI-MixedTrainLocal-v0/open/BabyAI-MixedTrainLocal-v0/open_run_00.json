@@ -1,0 +1,62 @@
+{
+  "task": "BabyAI-MixedTrainLocal-v0/open",
+  "action_frequency": {
+    "turn left": 32,
+    "turn right": 43,
+    "toggle": 18,
+    "go forward": 33,
+    "pick up": 2
+  },
+  "input_tokens": 104143,
+  "output_tokens": 788,
+  "done": true,
+  "episode_return": 0.0,
+  "num_steps": 128,
+  "failed_candidates": [
+    "open"
+  ],
+  "mission": "open the door",
+  "progression": 0.0,
+  "process_num": null,
+  "seed": 42,
+  "agent": {
+    "type": "reflection",
+    "remember_cot": true,
+    "max_text_history": 16,
+    "max_image_history": 0,
+    "max_cot_history": 1,
+    "max_icl_history": 1000,
+    "cache_icl": false
+  },
+  "client": {
+    "client_name": "vllm",
+    "model_id": "qwen2.5:1.5b",
+    "base_url": "http://localhost:11434/v1",
+    "generate_kwargs": {
+      "temperature": 1.0,
+      "max_tokens": 128,
+      "thinking_budget": null
+    },
+    "timeout": 60,
+    "max_retries": 2,
+    "delay": 2,
+    "alternate_roles": false
+  },
+  "reflection_stats": {
+    "reviews": 4,
+    "accepted_reviews": 0,
+    "usage": {
+      "actor": {
+        "calls": 128,
+        "input_tokens": 100427,
+        "output_tokens": 365
+      },
+      "critic": {
+        "calls": 4,
+        "input_tokens": 3716,
+        "output_tokens": 423
+      }
+    }
+  },
+  "completed_attempt": "20261011_162250_259056"
+}

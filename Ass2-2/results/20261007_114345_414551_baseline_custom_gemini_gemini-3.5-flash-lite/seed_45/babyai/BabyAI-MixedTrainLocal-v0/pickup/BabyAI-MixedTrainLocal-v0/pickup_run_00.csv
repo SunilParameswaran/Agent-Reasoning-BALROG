@@ -1,0 +1,18 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn right, go forward, and pick up the red box."", ""subgoal"": ""Face the red box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps right
+a red box 1 step left and 1 step forward",0,False
+1,turn left,"{""memory_before"": {""plan"": ""Turn right, go forward, and pick up the red box."", ""subgoal"": ""Face the red box""}, ""memory_after"": {""plan"": ""Turn left and go forward to reach the red box."", ""subgoal"": ""Face the red box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 3 steps left
+a red box 1 step right and 1 step forward",0,False
+2,turn right,"{""memory_before"": {""plan"": ""Turn left and go forward to reach the red box."", ""subgoal"": ""Face the red box""}, ""memory_after"": {""plan"": ""Turn right to face the red box and pick it up."", ""subgoal"": ""Face the red box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps right
+a red box 1 step left and 1 step forward",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Turn right to face the red box and pick it up."", ""subgoal"": ""Face the red box""}, ""memory_after"": {""plan"": ""Go forward to reach the red box and pick it up."", ""subgoal"": ""Go forward to the red box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps right
+a red box 1 step left",0,False
+4,turn left,"{""memory_before"": {""plan"": ""Go forward to reach the red box and pick it up."", ""subgoal"": ""Go forward to the red box""}, ""memory_after"": {""plan"": ""Turn left to face the red box and pick it up."", ""subgoal"": ""Turn left to face the red box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 3 steps right
+a red box 1 step forward",0,False
+5,pick up,"{""memory_before"": {""plan"": ""Turn left to face the red box and pick it up."", ""subgoal"": ""Turn left to face the red box""}, ""memory_after"": {""plan"": ""Pick up the red box."", ""subgoal"": ""Pick up the red box.""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 5 steps forward
+a wall 3 steps right",0.915625,True

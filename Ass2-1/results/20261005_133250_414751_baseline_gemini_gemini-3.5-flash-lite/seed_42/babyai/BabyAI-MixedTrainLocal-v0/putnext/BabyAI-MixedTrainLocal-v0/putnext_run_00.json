@@ -1,0 +1,44 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/putnext",
+    "action_frequency": {
+        "turn left": 20,
+        "go forward": 10,
+        "pick up": 4,
+        "turn right": 23,
+        "drop": 18
+    },
+    "input_tokens": 48491,
+    "output_tokens": 132,
+    "done": true,
+    "episode_return": 0.47265625,
+    "num_steps": 75,
+    "failed_candidates": [],
+    "mission": "put the blue ball next to the yellow key",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 42,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "gemini-openai",
+        "model_id": "gemini-3.5-flash-lite",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 1024,
+            "thinking_budget": null,
+            "reasoning_effort": "minimal"
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

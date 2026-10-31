@@ -1,0 +1,89 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Walk to the blue ball, pick it up, then navigate to the yellow key."", ""subgoal"": ""Reach the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a yellow key 2 steps left
+a blue ball 2 steps right and 1 step forward",0,False
+1,turn right,"{""memory_before"": {""plan"": ""Walk to the blue ball, pick it up, then navigate to the yellow key."", ""subgoal"": ""Reach the blue ball.""}, ""memory_after"": {""plan"": ""Walk to the blue ball, pick it up, then navigate to the yellow key."", ""subgoal"": ""Reach the blue ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 2 steps forward",0,False
+2,turn left,"{""memory_before"": {""plan"": ""Walk to the blue ball, pick it up, then navigate to the yellow key."", ""subgoal"": ""Reach the blue ball.""}, ""memory_after"": {""plan"": ""Walk to the blue ball, pick it up, then find the yellow key."", ""subgoal"": ""Reach the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a yellow key 2 steps left
+a blue ball 2 steps right and 1 step forward",0,False
+3,turn right,"{""memory_before"": {""plan"": ""Walk to the blue ball, pick it up, then find the yellow key."", ""subgoal"": ""Reach the blue ball.""}, ""memory_after"": {""plan"": ""Walk to the blue ball, pick it up, then find the yellow key."", ""subgoal"": ""Reach the blue ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 2 steps forward",0,False
+4,turn left,"{""memory_before"": {""plan"": ""Walk to the blue ball, pick it up, then find the yellow key."", ""subgoal"": ""Reach the blue ball.""}, ""memory_after"": {""plan"": ""Turn left, go forward, pick up the blue ball, then find the yellow key."", ""subgoal"": ""Turn left towards the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a yellow key 2 steps left
+a blue ball 2 steps right and 1 step forward",0,False
+5,turn right,"{""memory_before"": {""plan"": ""Turn left, go forward, pick up the blue ball, then find the yellow key."", ""subgoal"": ""Turn left towards the blue ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward, pick up the blue ball, then go to the yellow key."", ""subgoal"": ""Turn right toward the blue ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 2 steps forward",0,False
+6,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, pick up the blue ball, then go to the yellow key."", ""subgoal"": ""Turn right toward the blue ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward, pick up the blue ball, then go to the yellow key."", ""subgoal"": ""Turn right toward the blue ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a yellow key 2 steps right",0,False
+7,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward, pick up the blue ball, then go to the yellow key."", ""subgoal"": ""Turn right toward the blue ball.""}, ""memory_after"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Go forward toward the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 3 steps right",0,False
+8,turn left,"{""memory_before"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Go forward toward the blue ball.""}, ""memory_after"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Turn left to face the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 3 steps left
+a blue ball 2 steps left and 2 steps forward",0,False
+9,turn left,"{""memory_before"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Turn left to face the blue ball.""}, ""memory_after"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Turn left to face the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 3 steps left
+a yellow key 2 steps left and 1 step forward
+a blue ball 2 steps right and 2 steps forward",0,False
+10,turn right,"{""memory_before"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Turn left to face the blue ball.""}, ""memory_after"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Turn right to face the blue ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 3 steps left
+a blue ball 2 steps left and 2 steps forward",0,False
+11,go forward,"{""memory_before"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Turn right to face the blue ball.""}, ""memory_after"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Go forward toward the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 3 steps left
+a blue ball 2 steps left and 1 step forward",0,False
+12,go forward,"{""memory_before"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Go forward toward the blue ball.""}, ""memory_after"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Go forward toward the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a blue ball 2 steps left",0,False
+13,turn left,"{""memory_before"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Go forward toward the blue ball.""}, ""memory_after"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Turn toward the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps right
+a blue ball 2 steps forward",0,False
+14,go forward,"{""memory_before"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Turn toward the blue ball.""}, ""memory_after"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Go forward to the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps right
+a blue ball 1 step forward",0,False
+15,pick up,"{""memory_before"": {""plan"": ""Go to the blue ball, pick it up, then go to the yellow key."", ""subgoal"": ""Go forward to the blue ball.""}, ""memory_after"": {""plan"": ""Pick up the blue ball, then go to the yellow key."", ""subgoal"": ""Pick up the blue ball.""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 2 steps forward
+a wall 2 steps right",0,False
+16,,"{""memory_before"": {""plan"": ""Pick up the blue ball, then go to the yellow key."", ""subgoal"": ""Pick up the blue ball.""}, ""memory_after"": {""plan"": ""Pick up the blue ball, then go to the yellow key."", ""subgoal"": ""Pick up the blue ball.""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a blue ball
+a wall 1 step forward
+a wall 2 steps right",0,False
+17,turn right,"{""memory_before"": {""plan"": ""Pick up the blue ball, then go to the yellow key."", ""subgoal"": ""Pick up the blue ball.""}, ""memory_after"": {""plan"": ""Go to the yellow key"", ""subgoal"": ""Go to the yellow key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 2 steps forward
+a wall 1 step left",0,False
+18,turn right,"{""memory_before"": {""plan"": ""Go to the yellow key"", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Turn around and locate the yellow key to navigate toward it."", ""subgoal"": ""Go to the yellow key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 6 steps forward
+a wall 2 steps left",0,False
+19,turn right,"{""memory_before"": {""plan"": ""Turn around and locate the yellow key to navigate toward it."", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Turn around and navigate toward the yellow key."", ""subgoal"": ""Go to the yellow key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 5 steps forward
+a wall 1 step right
+a yellow key 1 step left and 4 steps forward",0,False
+20,turn left,"{""memory_before"": {""plan"": ""Turn around and navigate toward the yellow key."", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Navigate toward the yellow key."", ""subgoal"": ""Go to the yellow key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 6 steps forward
+a wall 2 steps left",0,False
+21,turn right,"{""memory_before"": {""plan"": ""Navigate toward the yellow key."", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Go to the yellow key and pick it up."", ""subgoal"": ""Go to the yellow key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 5 steps forward
+a wall 1 step right
+a yellow key 1 step left and 4 steps forward",0,False
+22,go forward,"{""memory_before"": {""plan"": ""Go to the yellow key and pick it up."", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Go forward to reach the yellow key and pick it up."", ""subgoal"": ""Go to the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 4 steps forward
+a wall 1 step right
+a yellow key 1 step left and 3 steps forward",0,False
+23,go forward,"{""memory_before"": {""plan"": ""Go forward to reach the yellow key and pick it up."", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Go forward until reaching the yellow key, then pick it up."", ""subgoal"": ""Go to the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 3 steps forward
+a wall 1 step right
+a yellow key 1 step left and 2 steps forward",0,False
+24,go forward,"{""memory_before"": {""plan"": ""Go forward until reaching the yellow key, then pick it up."", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Go forward twice then pick up the yellow key."", ""subgoal"": ""Go to the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 2 steps forward
+a wall 1 step right
+a yellow key 1 step left and 1 step forward",0,False
+25,go forward,"{""memory_before"": {""plan"": ""Go forward twice then pick up the yellow key."", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Go forward then pick up the yellow key."", ""subgoal"": ""Go to the yellow key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 1 step forward
+a wall 1 step right
+a yellow key 1 step left",0,False
+26,turn left,"{""memory_before"": {""plan"": ""Go forward then pick up the yellow key."", ""subgoal"": ""Go to the yellow key""}, ""memory_after"": {""plan"": ""Turn left, then pick up the yellow key."", ""subgoal"": ""Pick up the yellow key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a blue ball
+a wall 1 step right
+a yellow key 1 step forward",0.81015625,True

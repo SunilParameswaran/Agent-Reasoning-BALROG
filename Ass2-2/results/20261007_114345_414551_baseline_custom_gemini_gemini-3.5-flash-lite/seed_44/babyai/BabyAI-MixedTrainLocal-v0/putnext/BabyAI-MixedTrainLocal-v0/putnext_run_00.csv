@@ -1,0 +1,403 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Walk to the red box, pick it up, then carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left
+a red box 2 steps right and 1 step forward",0,False
+1,turn right,"{""memory_before"": {""plan"": ""Walk to the red box, pick it up, then carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""memory_after"": {""plan"": ""Walk to the red box, pick it up, carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a grey key 1 step left and 4 steps forward
+a red box 1 step left and 2 steps forward",0,False
+2,turn left,"{""memory_before"": {""plan"": ""Walk to the red box, pick it up, carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""memory_after"": {""plan"": ""Walk to the red box, pick it up, carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left
+a red box 2 steps right and 1 step forward",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Walk to the red box, pick it up, carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""memory_after"": {""plan"": ""Walk to the red box, pick it up, carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step left
+a red box 2 steps right",0,False
+4,,"{""memory_before"": {""plan"": ""Walk to the red box, pick it up, carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""memory_after"": {""plan"": ""Walk to the red box, pick it up, carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step left",0,False
+5,turn right,"{""memory_before"": {""plan"": ""Walk to the red box, pick it up, carry it to the grey key."", ""subgoal"": ""Reach the red box""}, ""memory_after"": {""plan"": ""Go to the red box, pick it up, and move it to the grey key."", ""subgoal"": ""Turn right toward the red box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 3 steps left
+a grey key 1 step right and 4 steps forward
+a red box 1 step right and 2 steps forward",0,False
+6,go forward,"{""memory_before"": {""plan"": ""Go to the red box, pick it up, and move it to the grey key."", ""subgoal"": ""Turn right toward the red box""}, ""memory_after"": {""plan"": ""Go to the red box, pick it up, and move it to the grey key."", ""subgoal"": ""Go forward toward the red box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 3 steps left
+a grey key 1 step right and 3 steps forward
+a red box 1 step right and 1 step forward",0,False
+7,go forward,"{""memory_before"": {""plan"": ""Go to the red box, pick it up, and move it to the grey key."", ""subgoal"": ""Go forward toward the red box""}, ""memory_after"": {""plan"": ""Pick up the red box and move it to the grey key."", ""subgoal"": ""Pick up the red box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 3 steps left
+a grey key 1 step right and 2 steps forward
+a red box 1 step right",0,False
+8,turn right,"{""memory_before"": {""plan"": ""Pick up the red box and move it to the grey key."", ""subgoal"": ""Pick up the red box""}, ""memory_after"": {""plan"": ""Pick up the red box and move it to the grey key."", ""subgoal"": ""Pick up the red box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 3 steps right
+a grey key 2 steps left and 1 step forward
+a red box 1 step forward",0,False
+9,pick up,"{""memory_before"": {""plan"": ""Pick up the red box and move it to the grey key."", ""subgoal"": ""Pick up the red box""}, ""memory_after"": {""plan"": ""Pick up the red box and place it next to the grey key."", ""subgoal"": ""Pick up the red box""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 4 steps forward
+a wall 3 steps right
+a grey key 2 steps left and 1 step forward",0,False
+10,turn left,"{""memory_before"": {""plan"": ""Pick up the red box and place it next to the grey key."", ""subgoal"": ""Pick up the red box""}, ""memory_after"": {""plan"": ""Go to the grey key and drop the red box next to it."", ""subgoal"": ""Go to the grey key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 4 steps forward
+a wall 3 steps left
+a grey key 1 step right and 2 steps forward",0,False
+11,go forward,"{""memory_before"": {""plan"": ""Go to the grey key and drop the red box next to it."", ""subgoal"": ""Go to the grey key""}, ""memory_after"": {""plan"": ""Go to the grey key and drop the red box next to it."", ""subgoal"": ""Go to the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 3 steps forward
+a wall 3 steps left
+a grey key 1 step right and 1 step forward",0,False
+12,go forward,"{""memory_before"": {""plan"": ""Go to the grey key and drop the red box next to it."", ""subgoal"": ""Go to the grey key""}, ""memory_after"": {""plan"": ""Go to the grey key and drop the red box next to it."", ""subgoal"": ""Go to the grey key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps forward
+a wall 3 steps left
+a grey key 1 step right",0,False
+13,drop,"{""memory_before"": {""plan"": ""Go to the grey key and drop the red box next to it."", ""subgoal"": ""Go to the grey key""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a wall 3 steps left
+a red box 1 step forward
+a grey key 1 step right",0,False
+14,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a wall 3 steps left
+a red box 1 step forward
+a grey key 1 step right",0,False
+15,pick up,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""memory_after"": {""plan"": ""Pick up the red box and drop it next to the grey key."", ""subgoal"": ""Pick up the red box""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps forward
+a wall 3 steps left
+a grey key 1 step right",0,False
+16,turn right,"{""memory_before"": {""plan"": ""Pick up the red box and drop it next to the grey key."", ""subgoal"": ""Pick up the red box""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+17,,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+18,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+19,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+20,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+21,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+22,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box next to the grey key.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+23,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+24,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+25,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+26,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+27,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+28,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+29,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+30,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+31,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+32,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+33,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+34,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+35,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+36,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+37,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+38,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+39,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+40,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+41,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+42,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+43,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+44,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+45,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+46,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+47,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+48,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+49,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+50,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+51,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+52,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+53,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+54,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+55,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+56,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+57,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+58,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+59,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+60,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+61,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+62,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+63,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+64,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+65,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+66,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+67,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+68,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+69,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+70,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+71,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+72,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+73,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+74,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+75,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+76,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+77,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+78,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+79,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+80,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+81,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+82,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+83,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+84,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+85,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+86,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+87,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+88,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+89,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+90,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+91,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+92,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+93,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+94,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+95,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+96,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+97,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+98,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+99,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+100,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+101,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+102,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+103,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+104,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+105,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+106,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+107,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+108,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+109,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+110,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+111,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+112,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+113,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+114,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+115,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+116,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+117,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+118,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+119,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+120,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+121,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+122,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+123,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+124,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+125,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+126,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,False
+127,drop,"{""memory_before"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""memory_after"": {""plan"": ""Drop the red box next to the grey key."", ""subgoal"": ""Drop the red box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a red box
+a wall 2 steps left
+a grey key 1 step forward",0,True

@@ -1,0 +1,58 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up"", ""subgoal"": ""Reach the next observation point""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 3 steps left
+a purple key 1 step left and 4 steps forward",0,False
+1,toggle,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up"", ""subgoal"": ""Reach the next observation point""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the purple key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 3 steps left
+a purple key 1 step left and 4 steps forward",0,False
+2,go forward,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 3 steps left
+a purple key 1 step left and 3 steps forward",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Approach the purple key"", ""subgoal"": ""Reach the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 3 steps left
+a purple key 1 step left and 2 steps forward",0,False
+4,go forward,"{""memory_before"": {""plan"": ""Approach the purple key"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 3 steps left
+a purple key 1 step left and 1 step forward",0,False
+5,toggle,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 3 steps left
+a purple key 1 step left and 1 step forward",0,False
+6,pick up,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 3 steps left
+a purple key 1 step left and 1 step forward",0,False
+7,,"{""memory_before"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a purple key 1 step left",0,False
+8,pick up,"{""memory_before"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""action"": ""pick up"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a purple key 1 step left",0,False
+9,toggle,"{""memory_before"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""action"": ""toggle"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a purple key 1 step left",0,False
+10,,"{""memory_before"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a purple key 1 step left",0,False
+11,go forward,"{""memory_before"": {""plan"": ""Pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a purple key 1 step left",0,False
+12,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a purple key 1 step left",0,False
+13,pick up,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward, pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a purple key 1 step left",0,False
+14,turn left,"{""memory_before"": {""plan"": ""Go forward, pick up the purple key"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward, toggle, go forward"", ""subgoal"": ""Reach the purple key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step right
+a purple key 1 step forward",0,False
+15,,"{""memory_before"": {""plan"": ""Go forward, toggle, go forward"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward, toggle, go forward"", ""subgoal"": ""Reach the purple key""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a purple key 1 step forward",0,False
+16,pick up,"{""memory_before"": {""plan"": ""Go forward, toggle, go forward"", ""subgoal"": ""Reach the purple key""}, ""memory_after"": {""plan"": ""Go forward, toggle, go forward"", ""subgoal"": ""Reach the purple key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple key
+a wall 3 steps forward
+a wall 1 step right",0.7609375,True

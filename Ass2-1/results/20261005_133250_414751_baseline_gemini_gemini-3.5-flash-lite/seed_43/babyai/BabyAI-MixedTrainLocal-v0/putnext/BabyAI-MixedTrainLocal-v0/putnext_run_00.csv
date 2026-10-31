@@ -1,0 +1,431 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,,"a wall 4 steps forward
+a wall 2 steps left
+a purple box 1 step left and 3 steps forward",0,False
+1,go forward,,"a wall 3 steps forward
+a wall 2 steps left
+a purple box 1 step left and 2 steps forward",0,False
+2,turn left,,"a wall 2 steps forward
+a wall 3 steps right
+a purple box 2 steps right and 1 step forward",0,False
+3,go forward,,"a wall 1 step forward
+a purple box 2 steps right",0,False
+4,turn right,,"a wall 1 step left
+a purple box 2 steps forward",0,False
+5,go forward,,"a wall 1 step left
+a purple box 1 step forward",0,False
+6,pick up,,"You carry a purple box
+a wall 2 steps forward
+a wall 1 step left",0,False
+7,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps left",0,False
+8,go forward,,"You carry a purple box
+a wall 5 steps forward
+a wall 2 steps left",0,False
+9,go forward,,"You carry a purple box
+a wall 4 steps forward
+a wall 2 steps left",0,False
+10,go forward,,"You carry a purple box
+a wall 3 steps forward
+a wall 2 steps left",0,False
+11,go forward,,"You carry a purple box
+a wall 2 steps forward
+a wall 2 steps left",0,False
+12,turn right,,"You carry a purple box
+a wall 5 steps forward
+a wall 2 steps left
+a blue ball 1 step right and 4 steps forward",0,False
+13,go forward,,"You carry a purple box
+a wall 4 steps forward
+a wall 2 steps left
+a blue ball 1 step right and 3 steps forward",0,False
+14,go forward,,"You carry a purple box
+a wall 3 steps forward
+a wall 2 steps left
+a blue ball 1 step right and 2 steps forward",0,False
+15,turn right,,"You carry a purple box
+a wall 5 steps forward
+a wall 3 steps left
+a blue ball 2 steps left and 1 step forward",0,False
+16,turn left,,"You carry a purple box
+a wall 3 steps forward
+a wall 2 steps left
+a blue ball 1 step right and 2 steps forward",0,False
+17,go forward,,"You carry a purple box
+a wall 2 steps forward
+a wall 2 steps left
+a blue ball 1 step right and 1 step forward",0,False
+18,turn right,,"You carry a purple box
+a wall 5 steps forward
+a wall 2 steps left
+a blue ball 1 step left and 1 step forward",0,False
+19,turn left,,"You carry a purple box
+a wall 2 steps forward
+a wall 2 steps left
+a blue ball 1 step right and 1 step forward",0,False
+20,go forward,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+21,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+22,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+23,go forward,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+24,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+25,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+26,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+27,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+28,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+29,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+30,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+31,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+32,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+33,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+34,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+35,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+36,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+37,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+38,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+39,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+40,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+41,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+42,drop,,"a wall 2 steps right
+a blue ball 1 step left
+a purple box 1 step forward",0,False
+43,go forward,,"a wall 2 steps right
+a blue ball 1 step left
+a purple box 1 step forward",0,False
+44,turn left,,"a wall 1 step left
+a blue ball 1 step forward
+a purple box 1 step right",0,False
+45,drop,,"a wall 1 step left
+a blue ball 1 step forward
+a purple box 1 step right",0,False
+46,turn left,,"a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+47,turn right,,"a wall 1 step left
+a blue ball 1 step forward
+a purple box 1 step right",0,False
+48,turn right,,"a wall 2 steps right
+a blue ball 1 step left
+a purple box 1 step forward",0,False
+49,go forward,,"a wall 2 steps right
+a blue ball 1 step left
+a purple box 1 step forward",0,False
+50,pick up,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+51,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+52,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+53,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+54,drop,,"a wall 2 steps right
+a blue ball 1 step left
+a purple box 1 step forward",0,False
+55,go forward,,"a wall 2 steps right
+a blue ball 1 step left
+a purple box 1 step forward",0,False
+56,pick up,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+57,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+58,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+59,drop,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+60,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+61,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+62,drop,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+63,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+64,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+65,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+66,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+67,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+68,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+69,go forward,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+70,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+71,go forward,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+72,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+73,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+74,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+75,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+76,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+77,drop,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+78,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+79,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+80,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+81,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+82,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+83,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+84,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+85,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+86,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+87,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+88,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+89,go forward,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+90,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+91,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+92,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+93,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+94,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+95,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+96,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+97,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+98,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+99,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+100,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+101,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+102,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+103,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+104,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+105,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+106,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+107,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+108,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+109,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+110,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+111,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+112,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+113,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+114,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+115,go forward,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+116,drop,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+117,turn left,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+118,drop,,"You carry a purple box
+a wall 1 step forward
+a wall 2 steps left
+a blue ball 1 step right",0,False
+119,turn right,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+120,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+121,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+122,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+123,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+124,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+125,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,False
+126,turn right,,"You carry a purple box
+a wall 6 steps forward
+a wall 2 steps right
+a blue ball 1 step left",0,False
+127,turn left,,"You carry a purple box
+a wall 1 step left
+a blue ball 1 step forward",0,True

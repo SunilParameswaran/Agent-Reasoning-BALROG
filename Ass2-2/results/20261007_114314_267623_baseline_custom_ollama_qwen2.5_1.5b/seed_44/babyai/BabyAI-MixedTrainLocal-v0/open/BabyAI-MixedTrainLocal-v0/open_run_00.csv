@@ -1,0 +1,402 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""pick up the small key 1 step forward"", ""subgoal"": ""unlock the locked purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps right
+a locked purple door 2 steps right and 1 step forward",0,False
+1,pick up,"{""memory_before"": {""plan"": ""pick up the small key 1 step forward"", ""subgoal"": ""unlock the locked purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""unlock the locked purple door""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps right
+a locked purple door 2 steps right and 1 step forward",0,False
+2,pick up,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""unlock the locked purple door""}, ""memory_after"": {""plan"": ""Pick up the object and unlock the door on the first step."", ""subgoal"": ""Unlock the lock on the purple door.""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps right
+a locked purple door 2 steps right and 1 step forward",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Pick up the object and unlock the door on the first step."", ""subgoal"": ""Unlock the lock on the purple door.""}, ""memory_after"": {""plan"": ""Pick up the lock and go forward"", ""subgoal"": ""Unlock the lock on the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps right
+a locked purple door 2 steps right and 1 step forward",0,False
+4,go forward,"{""memory_before"": {""plan"": ""Pick up the lock and go forward"", ""subgoal"": ""Unlock the lock on the purple door""}, ""memory_after"": {""plan"": ""Toggle the lock"", ""subgoal"": ""Unlock the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 3 steps right
+a locked purple door 2 steps right and 1 step forward",0,False
+5,turn left,"{""memory_before"": {""plan"": ""Toggle the lock"", ""subgoal"": ""Unlock the purple door""}, ""memory_after"": {""plan"": ""Toggle the lock."", ""subgoal"": ""Unlock the purple door.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+6,toggle,"{""memory_before"": {""plan"": ""Toggle the lock."", ""subgoal"": ""Unlock the purple door.""}, ""memory_after"": {""plan"": ""Toggle the lock"", ""subgoal"": ""Remove the lock""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+7,toggle,"{""memory_before"": {""plan"": ""Toggle the lock"", ""subgoal"": ""Remove the lock""}, ""memory_after"": {""plan"": ""Toggle the lock"", ""subgoal"": ""Remove the lock""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+8,pick up,"{""memory_before"": {""plan"": ""Toggle the lock"", ""subgoal"": ""Remove the lock""}, ""memory_after"": {""plan"": ""Toggle the blue key."", ""subgoal"": ""Open the door.""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step right",0,False
+9,go forward,"{""memory_before"": {""plan"": ""Toggle the blue key."", ""subgoal"": ""Open the door.""}, ""memory_after"": {""plan"": ""Toggle the blue key"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step right",0,False
+10,toggle,"{""memory_before"": {""plan"": ""Toggle the blue key"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Toggle the key"", ""subgoal"": ""Open the door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step right",0,False
+11,toggle,"{""memory_before"": {""plan"": ""Toggle the key"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Toggle the key"", ""subgoal"": ""Open the door""}, ""action"": ""toggle"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step right",0,False
+12,,"{""memory_before"": {""plan"": ""Toggle the key"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Toggle the key"", ""subgoal"": ""Open the door""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step right",0,False
+13,go forward,"{""memory_before"": {""plan"": ""Toggle the key"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Toggle the key twice."", ""subgoal"": ""Open the door.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+14,toggle,"{""memory_before"": {""plan"": ""Toggle the key twice."", ""subgoal"": ""Open the door.""}, ""memory_after"": {""plan"": ""Toggle the key once"", ""subgoal"": ""Open the door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+15,go forward,"{""memory_before"": {""plan"": ""Toggle the key once"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Toggle the key once"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+16,go forward,"{""memory_before"": {""plan"": ""Toggle the key once"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Toggle the key once"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+17,go forward,"{""memory_before"": {""plan"": ""Toggle the key once"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Toggle the key once"", ""subgoal"": ""Open the door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+18,go forward,"{""memory_before"": {""plan"": ""Toggle the key once"", ""subgoal"": ""Open the door""}, ""memory_after"": {""plan"": ""Tap the right wall twice"", ""subgoal"": ""Open the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+19,go forward,"{""memory_before"": {""plan"": ""Tap the right wall twice"", ""subgoal"": ""Open the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Hit the locked door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+20,,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Hit the locked door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Hit the locked door""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+21,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Hit the locked door""}, ""memory_after"": {""plan"": ""Turn right, go forward, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+22,,"{""memory_before"": {""plan"": ""Turn right, go forward, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""memory_after"": {""plan"": ""Turn right, go forward, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+23,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""memory_after"": {""plan"": ""Toggle, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+24,go forward,"{""memory_before"": {""plan"": ""Toggle, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""memory_after"": {""plan"": ""Toggle, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+25,,"{""memory_before"": {""plan"": ""Toggle, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""memory_after"": {""plan"": ""Toggle, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+26,go forward,"{""memory_before"": {""plan"": ""Toggle, go forward, go forward"", ""subgoal"": ""Hit the locked door""}, ""memory_after"": {""plan"": ""Toggle"", ""subgoal"": ""Hit the locked door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+27,go forward,"{""memory_before"": {""plan"": ""Toggle"", ""subgoal"": ""Hit the locked door""}, ""memory_after"": {""plan"": ""Go forward twice"", ""subgoal"": ""Reach the key and pick it up""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+28,go forward,"{""memory_before"": {""plan"": ""Go forward twice"", ""subgoal"": ""Reach the key and pick it up""}, ""memory_after"": {""plan"": ""Go forward twice, then turn right."", ""subgoal"": ""Reach the key and pick it up.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+29,,"{""memory_before"": {""plan"": ""Go forward twice, then turn right."", ""subgoal"": ""Reach the key and pick it up.""}, ""memory_after"": {""plan"": ""Go forward twice, then turn right."", ""subgoal"": ""Reach the key and pick it up.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+30,go forward,"{""memory_before"": {""plan"": ""Go forward twice, then turn right."", ""subgoal"": ""Reach the key and pick it up.""}, ""memory_after"": {""plan"": ""Go forward two times, then turn right."", ""subgoal"": ""Reach the key and pick it up.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+31,,"{""memory_before"": {""plan"": ""Go forward two times, then turn right."", ""subgoal"": ""Reach the key and pick it up.""}, ""memory_after"": {""plan"": ""Go forward two times, then turn right."", ""subgoal"": ""Reach the key and pick it up.""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+32,go forward,"{""memory_before"": {""plan"": ""Go forward two times, then turn right."", ""subgoal"": ""Reach the key and pick it up.""}, ""memory_after"": {""plan"": ""Keep going forward until reaching a junction."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+33,go forward,"{""memory_before"": {""plan"": ""Keep going forward until reaching a junction."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Keep going forward until reaching a junction."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+34,toggle,"{""memory_before"": {""plan"": ""Keep going forward until reaching a junction."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Keep going forward until a door opens."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+35,go forward,"{""memory_before"": {""plan"": ""Keep going forward until a door opens."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Keep going forward until the wall is blocked or a door is encountered."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+36,,"{""memory_before"": {""plan"": ""Keep going forward until the wall is blocked or a door is encountered."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Keep going forward until the wall is blocked or a door is encountered."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+37,,"{""memory_before"": {""plan"": ""Keep going forward until the wall is blocked or a door is encountered."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Keep going forward until the wall is blocked or a door is encountered."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+38,go forward,"{""memory_before"": {""plan"": ""Keep going forward until the wall is blocked or a door is encountered."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Keep going forward until the wall is blocked or a door is encountered."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+39,go forward,"{""memory_before"": {""plan"": ""Keep going forward until the wall is blocked or a door is encountered."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Keep going forward."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+40,toggle,"{""memory_before"": {""plan"": ""Keep going forward."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Keep going forward."", ""subgoal"": ""Pick up the key or door handle.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+41,go forward,"{""memory_before"": {""plan"": ""Keep going forward."", ""subgoal"": ""Pick up the key or door handle.""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Pick up the key or door handle""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+42,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Pick up the key or door handle""}, ""memory_after"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Find key or door handle""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+43,drop,"{""memory_before"": {""plan"": ""Turn left, go forward"", ""subgoal"": ""Find key or door handle""}, ""memory_after"": {""plan"": ""Turn left, go forward, drop key"", ""subgoal"": ""Find key or door handle""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+44,pick up,"{""memory_before"": {""plan"": ""Turn left, go forward, drop key"", ""subgoal"": ""Find key or door handle""}, ""memory_after"": {""plan"": ""Turn left, go forward, pick up key"", ""subgoal"": ""Find key or door handle""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+45,turn left,"{""memory_before"": {""plan"": ""Turn left, go forward, pick up key"", ""subgoal"": ""Find key or door handle""}, ""memory_after"": {""plan"": ""Turn left, go forward, pick up key"", ""subgoal"": ""Find key or door handle""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right",0,False
+46,pick up,"{""memory_before"": {""plan"": ""Turn left, go forward, pick up key"", ""subgoal"": ""Find key or door handle""}, ""memory_after"": {""plan"": ""Pick up key"", ""subgoal"": ""Find key or door handle""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step right",0,False
+47,go forward,"{""memory_before"": {""plan"": ""Pick up key"", ""subgoal"": ""Find key or door handle""}, ""memory_after"": {""plan"": ""Go forward until reaching a corridor."", ""subgoal"": ""Reach the next room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+48,,"{""memory_before"": {""plan"": ""Go forward until reaching a corridor."", ""subgoal"": ""Reach the next room.""}, ""memory_after"": {""plan"": ""Go forward until reaching a corridor."", ""subgoal"": ""Reach the next room.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step right",0,False
+49,,"{""memory_before"": {""plan"": ""Go forward until reaching a corridor."", ""subgoal"": ""Reach the next room.""}, ""memory_after"": {""plan"": ""Go forward until reaching a corridor."", ""subgoal"": ""Reach the next room.""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step right",0,False
+50,go forward,"{""memory_before"": {""plan"": ""Go forward until reaching a corridor."", ""subgoal"": ""Reach the next room.""}, ""memory_after"": {""plan"": ""Go forward until reaching a corridor."", ""subgoal"": ""Reach the next room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+51,go forward,"{""memory_before"": {""plan"": ""Go forward until reaching a corridor."", ""subgoal"": ""Reach the next room.""}, ""memory_after"": {""plan"": ""Go forward until reaching a fork in the road."", ""subgoal"": ""Reach the next room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+52,,"{""memory_before"": {""plan"": ""Go forward until reaching a fork in the road."", ""subgoal"": ""Reach the next room.""}, ""memory_after"": {""plan"": ""Go forward until reaching a fork in the road."", ""subgoal"": ""Reach the next room.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+53,go forward,"{""memory_before"": {""plan"": ""Go forward until reaching a fork in the road."", ""subgoal"": ""Reach the next room.""}, ""memory_after"": {""plan"": ""Keep going forward until reaching the next room."", ""subgoal"": ""Reach the next room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+54,go forward,"{""memory_before"": {""plan"": ""Keep going forward until reaching the next room."", ""subgoal"": ""Reach the next room.""}, ""memory_after"": {""plan"": ""Keep walking forward until the next room is reached."", ""subgoal"": ""Reach the next room.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+55,go forward,"{""memory_before"": {""plan"": ""Keep walking forward until the next room is reached."", ""subgoal"": ""Reach the next room.""}, ""memory_after"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next room""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+56,go forward,"{""memory_before"": {""plan"": ""Keep walking forward"", ""subgoal"": ""Reach the next room""}, ""memory_after"": {""plan"": ""Go forward until encountering a door"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+57,,"{""memory_before"": {""plan"": ""Go forward until encountering a door"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward until encountering a door"", ""subgoal"": ""Reach the purple door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+58,,"{""memory_before"": {""plan"": ""Go forward until encountering a door"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward until encountering a door"", ""subgoal"": ""Reach the purple door""}, ""action"": """", ""issues"": [""missing_or_duplicate_plan"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+59,go forward,"{""memory_before"": {""plan"": ""Go forward until encountering a door"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward until encountering a door"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+60,go forward,"{""memory_before"": {""plan"": ""Go forward until encountering a door"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+61,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+62,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+63,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+64,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+65,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+66,toggle,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Find the purple door""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the object."", ""subgoal"": ""Find the purple door.""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+67,,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the object."", ""subgoal"": ""Find the purple door.""}, ""memory_after"": {""plan"": ""Go forward, turn right, pick up the object."", ""subgoal"": ""Find the purple door.""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+68,toggle,"{""memory_before"": {""plan"": ""Go forward, turn right, pick up the object."", ""subgoal"": ""Find the purple door.""}, ""memory_after"": {""plan"": ""Go forward and turn right to find the object"", ""subgoal"": ""Reach the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+69,turn right,"{""memory_before"": {""plan"": ""Go forward and turn right to find the object"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward and turn right to find the object"", ""subgoal"": ""Reach the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+70,turn left,"{""memory_before"": {""plan"": ""Go forward and turn right to find the object"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Proceed straight, then turn left to find the object on the left side."", ""subgoal"": ""Reach the purple door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step right",0,False
+71,turn right,"{""memory_before"": {""plan"": ""Proceed straight, then turn left to find the object on the left side."", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Take a right turn to break through into the next room."", ""subgoal"": ""Reach the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+72,turn right,"{""memory_before"": {""plan"": ""Take a right turn to break through into the next room."", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Turn right to face the purple door."", ""subgoal"": ""Reach the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left",0,False
+73,go forward,"{""memory_before"": {""plan"": ""Turn right to face the purple door."", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Turn left to face the purple door"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left",0,False
+74,go forward,"{""memory_before"": {""plan"": ""Turn left to face the purple door"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step left",0,False
+75,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step left",0,False
+76,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+77,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+78,,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+79,go forward,"{""memory_before"": {""plan"": ""Go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+80,,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+81,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""go forward, turn right, go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+82,,"{""memory_before"": {""plan"": ""go forward, turn right, go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""go forward, turn right, go forward"", ""subgoal"": ""Reach the purple door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+83,go forward,"{""memory_before"": {""plan"": ""go forward, turn right, go forward"", ""subgoal"": ""Reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+84,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+85,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+86,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+87,toggle,"{""memory_before"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""pick up"", ""subgoal"": ""reach the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+88,toggle,"{""memory_before"": {""plan"": ""pick up"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+89,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+90,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+91,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+92,go forward,"{""memory_before"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+93,go forward,"{""memory_before"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+94,go forward,"{""memory_before"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+95,go forward,"{""memory_before"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""turn left, go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+96,go forward,"{""memory_before"": {""plan"": ""turn left, go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+97,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""take the left turn"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 1 step left",0,False
+98,turn right,"{""memory_before"": {""plan"": ""take the left turn"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 5 steps forward
+a purple key 3 steps right and 5 steps forward",0,False
+99,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward, go forward, toggle"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 4 steps forward
+a purple key 3 steps right and 4 steps forward",0,False
+100,go forward,"{""memory_before"": {""plan"": ""go forward, go forward, toggle"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 3 steps forward
+a purple key 3 steps right and 3 steps forward",0,False
+101,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 2 steps forward
+a purple key 3 steps right and 2 steps forward",0,False
+102,go forward,"{""memory_before"": {""plan"": ""turn left"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""turn right"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left
+a locked purple door 1 step left and 1 step forward
+a purple key 3 steps right and 1 step forward",0,False
+103,go forward,"{""memory_before"": {""plan"": ""turn right"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+104,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+105,go forward,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+106,toggle,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""reach the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+107,toggle,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+108,toggle,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+109,toggle,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+110,toggle,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+111,toggle,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+112,toggle,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+113,toggle,"{""memory_before"": {""plan"": ""go forward"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""go forward, pick up key"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+114,toggle,"{""memory_before"": {""plan"": ""go forward, pick up key"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""pick up key"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+115,,"{""memory_before"": {""plan"": ""pick up key"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""pick up key"", ""subgoal"": ""unlock and open the purple door""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+116,toggle,"{""memory_before"": {""plan"": ""pick up key"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""go forward, pick up key"", ""subgoal"": ""unlock and open the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+117,toggle,"{""memory_before"": {""plan"": ""go forward, pick up key"", ""subgoal"": ""unlock and open the purple door""}, ""memory_after"": {""plan"": ""pick up key"", ""subgoal"": ""unlock door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+118,go forward,"{""memory_before"": {""plan"": ""pick up key"", ""subgoal"": ""unlock door""}, ""memory_after"": {""plan"": ""Pick up purple key"", ""subgoal"": ""Open locked purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+119,go forward,"{""memory_before"": {""plan"": ""Pick up purple key"", ""subgoal"": ""Open locked purple door""}, ""memory_after"": {""plan"": ""Pick up purple key"", ""subgoal"": ""Open locked purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+120,toggle,"{""memory_before"": {""plan"": ""Pick up purple key"", ""subgoal"": ""Open locked purple door""}, ""memory_after"": {""plan"": ""Pick up purple key"", ""subgoal"": ""Open locked purple door""}, ""action"": ""toggle"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+121,,"{""memory_before"": {""plan"": ""Pick up purple key"", ""subgoal"": ""Open locked purple door""}, ""memory_after"": {""plan"": ""Pick up purple key"", ""subgoal"": ""Open locked purple door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+122,toggle,"{""memory_before"": {""plan"": ""Pick up purple key"", ""subgoal"": ""Open locked purple door""}, ""memory_after"": {""plan"": ""Open locked purple door"", ""subgoal"": ""Unlock purple door with purple key""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+123,,"{""memory_before"": {""plan"": ""Open locked purple door"", ""subgoal"": ""Unlock purple door with purple key""}, ""memory_after"": {""plan"": ""Open locked purple door"", ""subgoal"": ""Unlock purple door with purple key""}, ""action"": """", ""issues"": [""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+124,toggle,"{""memory_before"": {""plan"": ""Open locked purple door"", ""subgoal"": ""Unlock purple door with purple key""}, ""memory_after"": {""plan"": ""Go forward, open door"", ""subgoal"": ""Reach a lever on the purple door""}, ""action"": ""toggle"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+125,,"{""memory_before"": {""plan"": ""Go forward, open door"", ""subgoal"": ""Reach a lever on the purple door""}, ""memory_after"": {""plan"": ""Go forward, open door"", ""subgoal"": ""Reach a lever on the purple door""}, ""action"": """", ""issues"": [""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+126,go forward,"{""memory_before"": {""plan"": ""Go forward, open door"", ""subgoal"": ""Reach a lever on the purple door""}, ""memory_after"": {""plan"": ""Go forward, open door"", ""subgoal"": ""Reach a lever on the purple door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,False
+127,go forward,"{""memory_before"": {""plan"": ""Go forward, open door"", ""subgoal"": ""Reach a lever on the purple door""}, ""memory_after"": {""plan"": ""Go forward, open door"", ""subgoal"": ""Reach a lever on the purple door""}, ""action"": ""go forward"", ""issues"": [""missing_or_duplicate_subgoal""], ""fallback"": null}","a wall 1 step forward
+a locked purple door 1 step left
+a purple key 3 steps right",0,True

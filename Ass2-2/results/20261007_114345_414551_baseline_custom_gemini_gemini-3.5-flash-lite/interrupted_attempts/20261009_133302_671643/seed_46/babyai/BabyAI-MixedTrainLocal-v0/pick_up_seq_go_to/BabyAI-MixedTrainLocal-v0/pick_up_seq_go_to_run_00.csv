@@ -1,0 +1,60 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Go to the purple ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+1,turn left,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Go to the purple ball""}, ""memory_after"": {""plan"": ""Turn left, go forward towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Go to the purple ball""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps left
+a blue key 1 step left and 4 steps forward
+a purple ball 2 steps right and 5 steps forward",0,False
+2,turn right,"{""memory_before"": {""plan"": ""Turn left, go forward towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Go to the purple ball""}, ""memory_after"": {""plan"": ""Turn right, go towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Go to the purple ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+3,turn left,"{""memory_before"": {""plan"": ""Turn right, go towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Go to the purple ball""}, ""memory_after"": {""plan"": ""Turn left, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn left""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps left
+a blue key 1 step left and 4 steps forward
+a purple ball 2 steps right and 5 steps forward",0,False
+4,go forward,"{""memory_before"": {""plan"": ""Turn left, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn left""}, ""memory_after"": {""plan"": ""Go forward 5 steps, turn right, go forward 2 steps, pick up the purple ball."", ""subgoal"": ""Go forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+5,go forward,"{""memory_before"": {""plan"": ""Go forward 5 steps, turn right, go forward 2 steps, pick up the purple ball."", ""subgoal"": ""Go forward""}, ""memory_after"": {""plan"": ""Go forward 3 steps, turn right, go forward 2 steps, pick up the purple ball."", ""subgoal"": ""Go forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left
+a blue key 1 step left and 2 steps forward
+a purple ball 2 steps right and 3 steps forward",0,False
+6,go forward,"{""memory_before"": {""plan"": ""Go forward 3 steps, turn right, go forward 2 steps, pick up the purple ball."", ""subgoal"": ""Go forward""}, ""memory_after"": {""plan"": ""Go forward 2 steps, turn right, go forward 2 steps, pick up purple ball."", ""subgoal"": ""Go forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps left
+a blue key 1 step left and 1 step forward
+a purple ball 2 steps right and 2 steps forward",0,False
+7,go forward,"{""memory_before"": {""plan"": ""Go forward 2 steps, turn right, go forward 2 steps, pick up purple ball."", ""subgoal"": ""Go forward""}, ""memory_after"": {""plan"": ""Go forward 1 step, turn right, go forward 2 steps, pick up purple ball."", ""subgoal"": ""Go forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a blue key 1 step left
+a purple ball 2 steps right and 1 step forward",0,False
+8,go forward,"{""memory_before"": {""plan"": ""Go forward 1 step, turn right, go forward 2 steps, pick up purple ball."", ""subgoal"": ""Go forward""}, ""memory_after"": {""plan"": ""Go forward 1 step, turn right, go forward 2 steps, pick up purple ball."", ""subgoal"": ""Go forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a purple ball 2 steps right",0,False
+9,turn right,"{""memory_before"": {""plan"": ""Go forward 1 step, turn right, go forward 2 steps, pick up purple ball."", ""subgoal"": ""Go forward""}, ""memory_after"": {""plan"": ""Turn right, go forward 2 steps, pick up purple ball."", ""subgoal"": ""Turn right to face the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a purple ball 2 steps forward",0,False
+10,go forward,"{""memory_before"": {""plan"": ""Turn right, go forward 2 steps, pick up purple ball."", ""subgoal"": ""Turn right to face the purple ball.""}, ""memory_after"": {""plan"": ""Go forward 2 steps, pick up purple ball, turn left, go forward to blue key, pick up blue key."", ""subgoal"": ""Go forward toward the purple ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a purple ball 1 step forward",0,False
+11,go forward,"{""memory_before"": {""plan"": ""Go forward 2 steps, pick up purple ball, turn left, go forward to blue key, pick up blue key."", ""subgoal"": ""Go forward toward the purple ball.""}, ""memory_after"": {""plan"": ""Go forward to purple ball, pick it up, turn left, go to blue key."", ""subgoal"": ""Go forward to purple ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a purple ball 1 step forward",0,False
+12,pick up,"{""memory_before"": {""plan"": ""Go forward to purple ball, pick it up, turn left, go to blue key."", ""subgoal"": ""Go forward to purple ball.""}, ""memory_after"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Pick up the purple ball.""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple ball
+a wall 4 steps forward
+a wall 1 step left",0,False
+13,turn right,"{""memory_before"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Pick up the purple ball.""}, ""memory_after"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple ball
+a wall 6 steps forward
+a wall 3 steps right
+a blue key 2 steps right and 1 step forward",0,False
+14,turn right,"{""memory_before"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""memory_after"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple ball
+a wall 3 steps forward
+a wall 1 step right
+a blue key 1 step left and 2 steps forward",0,False
+15,turn left,"{""memory_before"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""memory_after"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple ball
+a wall 6 steps forward
+a wall 3 steps right
+a blue key 2 steps right and 1 step forward",0,False
+16,turn right,"{""memory_before"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""memory_after"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple ball
+a wall 3 steps forward
+a wall 1 step right
+a blue key 1 step left and 2 steps forward",0,False
+17,turn left,"{""memory_before"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""memory_after"": {""plan"": ""Go to the blue key and pick it up."", ""subgoal"": ""Go to the blue key.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple ball
+a wall 6 steps forward
+a wall 3 steps right
+a blue key 2 steps right and 1 step forward",0,False

@@ -1,0 +1,7 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""action_step"": 0, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 5 steps forward
+a yellow key 2 steps right",0,False
+1,turn right,"{""action_step"": 1, ""candidate_action"": ""turn right"", ""executed_action"": ""turn right"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a yellow key 2 steps forward",0,False
+2,go forward,"{""action_step"": 2, ""candidate_action"": ""go forward"", ""executed_action"": ""go forward"", ""advice"": null, ""reflection"": null}","a wall 2 steps right
+a yellow key 1 step forward",0.9578125,True

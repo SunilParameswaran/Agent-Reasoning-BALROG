@@ -1,0 +1,452 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn left,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn left, go forward to the blue key, pick it up, then find and open the door."", ""subgoal"": ""Turn left to face the blue key""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+1,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward to the blue key, pick it up, then find and open the door."", ""subgoal"": ""Turn left to face the blue key""}, ""memory_after"": {""plan"": ""Pick up the blue key, then go to the locked blue door and toggle it."", ""subgoal"": ""Go forward to the blue key""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a locked blue door 1 step left and 3 steps forward
+a blue key 1 step forward",0,False
+2,pick up,"{""memory_before"": {""plan"": ""Pick up the blue key, then go to the locked blue door and toggle it."", ""subgoal"": ""Go forward to the blue key""}, ""memory_after"": {""plan"": ""Pick up the blue key, then go to the locked blue door and toggle it."", ""subgoal"": ""Pick up the blue key""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 5 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 3 steps forward",0,False
+3,turn left,"{""memory_before"": {""plan"": ""Pick up the blue key, then go to the locked blue door and toggle it."", ""subgoal"": ""Pick up the blue key""}, ""memory_after"": {""plan"": ""Go to the locked blue door and toggle it."", ""subgoal"": ""Go to the locked blue door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 2 steps left
+a locked blue door 3 steps right and 1 step forward",0,False
+4,turn right,"{""memory_before"": {""plan"": ""Go to the locked blue door and toggle it."", ""subgoal"": ""Go to the locked blue door""}, ""memory_after"": {""plan"": ""Walk to the locked blue door and toggle it to open it."", ""subgoal"": ""Go to the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 5 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 3 steps forward",0,False
+5,go forward,"{""memory_before"": {""plan"": ""Walk to the locked blue door and toggle it to open it."", ""subgoal"": ""Go to the locked blue door""}, ""memory_after"": {""plan"": ""Walk to the locked blue door and toggle it."", ""subgoal"": ""Go to the locked blue door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 2 steps forward",0,False
+6,go forward,"{""memory_before"": {""plan"": ""Walk to the locked blue door and toggle it."", ""subgoal"": ""Go to the locked blue door""}, ""memory_after"": {""plan"": ""Walk to the locked blue door and toggle it to open it."", ""subgoal"": ""Go to the locked blue door""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+7,turn left,"{""memory_before"": {""plan"": ""Walk to the locked blue door and toggle it to open it."", ""subgoal"": ""Go to the locked blue door""}, ""memory_after"": {""plan"": ""Walk to the locked blue door and toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+8,turn right,"{""memory_before"": {""plan"": ""Walk to the locked blue door and toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+9,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+10,turn left,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn left, go forward, turn left, and toggle the locked blue door."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+11,turn left,"{""memory_before"": {""plan"": ""Turn left, go forward, turn left, and toggle the locked blue door."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn left, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+12,turn right,"{""memory_before"": {""plan"": ""Turn left, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+13,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+14,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+15,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+16,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, and toggle the locked blue door"", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+17,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+18,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, face the locked blue door, and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+19,turn right,"{""memory_before"": {""plan"": ""Turn right, face the locked blue door, and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+20,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+21,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+22,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+23,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+24,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+25,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+26,turn right,"{""memory_before"": {""plan"": ""Face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+27,turn right,"{""memory_before"": {""plan"": ""Face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+28,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to align towards the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+29,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to align towards the door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to align towards the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+30,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to align towards the door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to align towards the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+31,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to align towards the door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to align towards the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+32,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to align towards the door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+33,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the locked blue door to open it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+34,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+35,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, go forward, turn left, and toggle the blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+36,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, turn left, and toggle the blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, go forward, and toggle the blue door."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+37,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, go forward, and toggle the blue door."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, go forward, and toggle the blue door."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+38,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, go forward, and toggle the blue door."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, go forward, and toggle the blue door."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+39,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, go forward, and toggle the blue door."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, go forward, and toggle the blue door."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+40,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, go forward, and toggle the blue door."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+41,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+42,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+43,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+44,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+45,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open with the blue key."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+46,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open with the blue key."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+47,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+48,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+49,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open with the blue key."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+50,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open with the blue key."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+51,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+52,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+53,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle it open with the blue key."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+54,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle it open with the blue key."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+55,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+56,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+57,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+58,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, face the locked blue door, and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+59,turn right,"{""memory_before"": {""plan"": ""Turn right, face the locked blue door, and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, face the locked blue door, and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+60,turn right,"{""memory_before"": {""plan"": ""Turn right, face the locked blue door, and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, face the locked blue door, and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+61,turn right,"{""memory_before"": {""plan"": ""Turn right, face the locked blue door, and toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+62,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+63,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+64,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+65,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+66,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+67,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+68,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Face the locked blue door, then toggle it to open the door."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+69,turn right,"{""memory_before"": {""plan"": ""Face the locked blue door, then toggle it to open the door."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+70,turn right,"{""memory_before"": {""plan"": ""Face the locked blue door, then toggle it to open."", ""subgoal"": ""Face the locked blue door""}, ""memory_after"": {""plan"": ""Turn to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+71,turn right,"{""memory_before"": {""plan"": ""Turn to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open the door."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+72,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open the door."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open the door."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+73,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open the door."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open the door."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+74,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open the door."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+75,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+76,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+77,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+78,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+79,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+80,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+81,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+82,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+83,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+84,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+85,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+86,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door and toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, face the locked blue door, and toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+87,turn right,"{""memory_before"": {""plan"": ""Turn right, face the locked blue door, and toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+88,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+89,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+90,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+91,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+92,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+93,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn toward the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+94,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+95,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+96,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the locked blue door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+97,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the locked blue door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+98,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+99,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+100,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+101,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+102,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+103,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+104,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+105,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+106,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+107,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+108,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+109,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+110,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+111,turn right,"{""memory_before"": {""plan"": ""Turn right to face the locked blue door, then toggle it to open."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+112,turn right,"{""memory_before"": {""plan"": ""Turn right, then toggle the locked blue door to open it."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+113,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+114,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+115,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+116,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+117,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+118,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+119,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+120,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+121,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+122,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+123,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,False
+124,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 3 steps forward
+a wall 1 step left
+a locked blue door 1 step left and 1 step forward",0,False
+125,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 6 steps forward
+a wall 3 steps left",0,False
+126,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 4 steps forward
+a wall 1 step right",0,False
+127,turn right,"{""memory_before"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""memory_after"": {""plan"": ""Turn right to face the door, then toggle the locked blue door."", ""subgoal"": ""Turn right to face the door""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a blue key
+a wall 1 step forward
+a wall 3 steps right
+a locked blue door 1 step right and 1 step forward",0,True

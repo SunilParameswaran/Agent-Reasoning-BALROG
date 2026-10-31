@@ -1,0 +1,2 @@
+model,benchmark,profile,progression_percent,standard_error_percent,episodes,expected_episodes,status
+gemini-3.5-flash-lite,babyai,baseline,84.0,7.332121111929343,25,25,complete

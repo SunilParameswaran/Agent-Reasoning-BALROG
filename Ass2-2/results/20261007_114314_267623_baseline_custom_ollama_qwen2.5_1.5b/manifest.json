@@ -1,0 +1,103 @@
+{
+  "agent": "custom",
+  "tasks": null,
+  "repo": "/Users/sunilparameswaran/Library/CloudStorage/OneDrive-UniversiteitLeiden/Agentic_LLM/Assignment 2/BALROG",
+  "provider": "ollama",
+  "model": "qwen2.5:1.5b",
+  "base_url": "http://localhost:11434/v1",
+  "list_models": false,
+  "profile": "baseline",
+  "envs": [
+    "babyai"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "max_steps": null,
+  "max_tokens": 128,
+  "temperature": 1.0,
+  "request_delay": 0.0,
+  "reasoning_effort": null,
+  "commit": "b7afe79e3e4265811cfa985ed7c95c4d1a11e3f5",
+  "source_hashes": {
+    "runner.py": "431b0632a5fd91b7071ac82b1171de7b57995cd10b300e3d159549e629eef094",
+    "gemini_client.py": "0a881ec49142d4f5172e2832e367898e77a47683af87651023fee57bf8953640",
+    "result_tables.py": "a8f75c66623a1ae45cf32d9f13f8d359c077a194053c77f6e4cca7eee6d55b7f",
+    "BALROG/balrog/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "BALROG/balrog/agents/__init__.py": "36dd0de55e279a8d3ba6a23e2a1caf84411368483cb35a2089e81c17cd41f8c7",
+    "BALROG/balrog/agents/base.py": "23a4641ac846b6aaa34e5ed145f8abe7e134ccbcc0be60468a79ac4aa8f27443",
+    "BALROG/balrog/agents/chain_of_thought.py": "026729ec36a33d1fa6abf928d4a9aca4d3f663200889b352ec8c1f0ad037657d",
+    "BALROG/balrog/agents/custom.py": "ba8bda72482c0b9b71bebb1d3622b20cca84fd8e25a1dc0c6b0848f902e70f11",
+    "BALROG/balrog/agents/dummy.py": "95ef06f538ca7cb2ad8096f01aa0001dd68a7ee1cd0b5339f937e464956e1670",
+    "BALROG/balrog/agents/few_shot.py": "79f4e8598087a4a1f5e8f46b90c3404f55c56302a0e4de66e53419cc11c7803a",
+    "BALROG/balrog/agents/naive.py": "2c654418ddda445f1fde810523b37024d05d1a3a22b0b5830db92ee8fd8355ef",
+    "BALROG/balrog/agents/robust_cot.py": "da86466b340e2971fd9ae9269d88eee5b3e638b2d085d2d00af8388e7f6462f6",
+    "BALROG/balrog/agents/robust_naive.py": "e71196670d6616fec09ed9b6d36b76fde66cb2ea79d9d4fbeed3fbff296c3a6a",
+    "BALROG/balrog/client.py": "3a5157a92b93d03581d415356815219a004dfa46a07b85310c62105c38c52796",
+    "BALROG/balrog/config/config.yaml": "f6af7a94e782a3d9ef88cec2f5b5f2b6ff8ca9e3e1ca5701161f43611a11705d",
+    "BALROG/balrog/dataset.py": "dd2e8d8b5e97aec0ef3f7538236f01b801b0ea176a063cb29412f76ced7a5c65",
+    "BALROG/balrog/environments/__init__.py": "42a6cfcf4eef11d1cb5711cb4fbddf9b4f1e484799242c94f30088c191ab56fc",
+    "BALROG/balrog/environments/babaisai/__init__.py": "efbfcbc35e37c220d116a1d935c4e73aab51a23f3e57a4ec036c967aa4b81714",
+    "BALROG/balrog/environments/babaisai/babaisai_env.py": "813713073064a1b86386e21807b5372299f84a8663c0498a458da7be2ad04509",
+    "BALROG/balrog/environments/babaisai/base.py": "2aa14bd7bb1f8eb8b7b9449ddf4960eccc22e90a82660f267130b094fca263e2",
+    "BALROG/balrog/environments/babyai_text/__init__.py": "f969414fff56063f8badd06fa395c3cfab94744aabd25f9da3a8dc7ca5a4b5bd",
+    "BALROG/balrog/environments/babyai_text/babyai_env.py": "dbc0d534a20922acbb74711d7033eb3c3fbfa5a7f158e6dad5eea075cc24071a",
+    "BALROG/balrog/environments/babyai_text/clean_lang_wrapper.py": "d2ab26a6e1f03c25f09d61624066f9b0db166e345a9e0e1bc47c366a6c95bca8",
+    "BALROG/balrog/environments/crafter/__init__.py": "82b545b80394a8564b4d0455886157c9f3d48d37067ee9d4a402ba6336a171eb",
+    "BALROG/balrog/environments/crafter/crafter_env.py": "2d125c5ecc45a7327feb3e7f08626d4dea1ad9d9fc4c3c889d3ad69053b36e38",
+    "BALROG/balrog/environments/crafter/env.py": "99d9da1b4858322ca5a821c14964c4290acff55c9b046e4901f9f266575e5d9e",
+    "BALROG/balrog/environments/env_wrapper.py": "a2bb22fc891f4908a5f2a5336cb57b7e1c300e0b9ca06b0c75728c419bf269af",
+    "BALROG/balrog/environments/minihack/__init__.py": "7336788939e8f1ca45888c7149643b0b1884dba45062b98241ff5767bc00e81d",
+    "BALROG/balrog/environments/minihack/minihack_env.py": "61f9e89a9ef0c982f0c78fdd889ec3411d07c55b38e3e00d8f797a23f7ac7b8b",
+    "BALROG/balrog/environments/nle/__init__.py": "af92aae435043129439904c387359c7eba10f9f27e8b43f1225595aad4bbf42a",
+    "BALROG/balrog/environments/nle/auto_more.py": "a2bfc7ba43d34e0ffec7473081041deb4f452ca78b9e6b398cb5aef359eac432",
+    "BALROG/balrog/environments/nle/base.py": "14b98151ee05695f4e7fe3f021bb95a9a487f52931a80ca9cb36696c1832e82b",
+    "BALROG/balrog/environments/nle/nle_env.py": "707b00850bb370152cd10424ab955b46bf4c6c69030ea7d7a616ef581336385b",
+    "BALROG/balrog/environments/nle/progress.py": "7c267bd24c9a78a15176b53738849cb9ce480849c031c6a77021869e0f5aa8f2",
+    "BALROG/balrog/environments/nle/render.py": "ca951cbd6c963b903be6a4536681263645c9b86d6ed89f079f5112f5c42468e2",
+    "BALROG/balrog/environments/nle/render_rgb.py": "e57f629b4b7c509a66a6b28418138e0ad96b1d4b944284579767b28e89dca510",
+    "BALROG/balrog/environments/textworld/__init__.py": "5175ca9a00c04fe3e82ab18d80842573c5a34116c0e8941c869cac00ddb2096f",
+    "BALROG/balrog/environments/textworld/base.py": "b75cd958ea4f123c415edbb4bd5027f5454fef57b95f32e51c45a9d75998a6f1",
+    "BALROG/balrog/environments/textworld/textworld_env.py": "debbb8cfbfb887d0a7d3c9c34235e8a38c54e137ede76d1a0f0bd6b4e4743bad",
+    "BALROG/balrog/environments/wrappers/__init__.py": "70961d9c4cf9f651fe37bd9f9f0c10f68d2727b3f4c67612ce5e4ced05b303bc",
+    "BALROG/balrog/environments/wrappers/gym_compatibility.py": "957ac20cae50180d4d23bbdd58a5c1c92ba8715eb06f82ee3a16f3be88a38e49",
+    "BALROG/balrog/environments/wrappers/nle_timelimit.py": "2c34e3ab0d99659253ac9a3f614b77b7cc5051b0bd27ae648a442156bad802d5",
+    "BALROG/balrog/evaluator.py": "5abe638a10e9dfa73076430fef2fd288de1f401d978bc60ebd149ad8ed6005d2",
+    "BALROG/balrog/prompt_builder/__init__.py": "6bee5892a22f02dc86ecd2ca6153f4f99a6b40165ab6a6f976935d41ff8588ab",
+    "BALROG/balrog/prompt_builder/history.py": "ff5fde15d16d351abee51dfcde92bce9ff309021d2144de6f9050eaeba78fb00",
+    "BALROG/balrog/scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "BALROG/balrog/scripts/post_install.py": "788bcc60bf0186a5ea83169d207735e7ade0b564da1d4b8e252da50208aa1535",
+    "BALROG/balrog/tests/test_evaluation.py": "cbe2625bd51281d17414db251641b597c10c966b965ef4283820803eaffd0d6b",
+    "BALROG/balrog/utils.py": "982e9ef10e56c56fc22d3462c38bf0253e09ab0c4a36d9ec19208c8ca5da8155"
+  },
+  "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:37:53) [Clang 19.1.7 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "server_models": {
+    "object": "list",
+    "data": [
+      {
+        "id": "qwen2.5:1.5b",
+        "object": "model",
+        "created": 1790688810,
+        "owned_by": "library"
+      }
+    ]
+  },
+  "status": "complete",
+  "source": "own local experiment",
+  "attempts": [
+    {
+      "id": "20261007_114314_267623",
+      "resumed": false,
+      "request_delay": 0.0,
+      "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:37:53) [Clang 19.1.7 ]",
+      "status": "complete"
+    }
+  ],
+  "completed_episodes": 25,
+  "expected_episodes": 25
+}

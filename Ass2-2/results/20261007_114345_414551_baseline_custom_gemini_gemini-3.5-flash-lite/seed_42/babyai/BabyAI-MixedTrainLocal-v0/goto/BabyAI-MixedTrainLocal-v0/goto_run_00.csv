@@ -1,0 +1,7 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Explore the area to find the yellow key."", ""subgoal"": ""Search for the yellow key.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a yellow key 2 steps right",0,False
+1,turn right,"{""memory_before"": {""plan"": ""Explore the area to find the yellow key."", ""subgoal"": ""Search for the yellow key.""}, ""memory_after"": {""plan"": ""Turn towards the yellow key and walk up to it."", ""subgoal"": ""Approach the yellow key.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps right
+a yellow key 2 steps forward",0,False
+2,go forward,"{""memory_before"": {""plan"": ""Turn towards the yellow key and walk up to it."", ""subgoal"": ""Approach the yellow key.""}, ""memory_after"": {""plan"": ""Walk forward to reach the yellow key and pick it up."", ""subgoal"": ""Go forward to the yellow key.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps right
+a yellow key 1 step forward",0.9578125,True

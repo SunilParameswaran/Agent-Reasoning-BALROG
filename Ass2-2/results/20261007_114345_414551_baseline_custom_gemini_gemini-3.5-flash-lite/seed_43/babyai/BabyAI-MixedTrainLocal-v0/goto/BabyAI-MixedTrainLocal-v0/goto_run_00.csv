@@ -1,0 +1,15 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Search for the blue ball by turning around the room."", ""subgoal"": ""Locate the blue ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left",0,False
+1,turn right,"{""memory_before"": {""plan"": ""Search for the blue ball by turning around the room."", ""subgoal"": ""Locate the blue ball""}, ""memory_after"": {""plan"": ""Search for the blue ball by turning around the room."", ""subgoal"": ""Locate the blue ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 3 steps right
+a blue ball 2 steps right and 2 steps forward",0,False
+2,go forward,"{""memory_before"": {""plan"": ""Search for the blue ball by turning around the room."", ""subgoal"": ""Locate the blue ball""}, ""memory_after"": {""plan"": ""Move towards the blue ball located ahead and to the right."", ""subgoal"": ""Approach the blue ball""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 3 steps right
+a blue ball 2 steps right and 1 step forward",0,False
+3,go forward,"{""memory_before"": {""plan"": ""Move towards the blue ball located ahead and to the right."", ""subgoal"": ""Approach the blue ball""}, ""memory_after"": {""plan"": ""Move forward towards the blue ball to get closer."", ""subgoal"": ""Approach the blue ball""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a blue ball 2 steps right",0,False
+4,turn right,"{""memory_before"": {""plan"": ""Move forward towards the blue ball to get closer."", ""subgoal"": ""Approach the blue ball""}, ""memory_after"": {""plan"": ""Turn right to face the blue ball, then move forward to reach it."", ""subgoal"": ""Face the blue ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 3 steps left
+a blue ball 2 steps forward",0,False
+5,go forward,"{""memory_before"": {""plan"": ""Turn right to face the blue ball, then move forward to reach it."", ""subgoal"": ""Face the blue ball""}, ""memory_after"": {""plan"": ""Move forward to reach the blue ball."", ""subgoal"": ""Reach the blue ball""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps left
+a blue ball 1 step forward",0.915625,True

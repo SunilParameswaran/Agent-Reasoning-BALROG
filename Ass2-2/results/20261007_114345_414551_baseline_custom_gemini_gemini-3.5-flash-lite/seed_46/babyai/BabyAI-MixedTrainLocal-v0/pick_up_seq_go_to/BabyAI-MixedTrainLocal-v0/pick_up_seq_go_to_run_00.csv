@@ -1,0 +1,366 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Go to the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+1,turn left,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Go to the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Go to the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps left
+a blue key 1 step left and 4 steps forward
+a purple ball 2 steps right and 5 steps forward",0,False
+2,turn right,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Go to the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Go to the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+3,turn left,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Go to the purple ball.""}, ""memory_after"": {""plan"": ""Turn left, go forward towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps left
+a blue key 1 step left and 4 steps forward
+a purple ball 2 steps right and 5 steps forward",0,False
+4,turn right,"{""memory_before"": {""plan"": ""Turn left, go forward towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+5,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+6,turn right,"{""memory_before"": {""plan"": ""Turn right, go towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+7,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps left
+a blue key 1 step left and 4 steps forward
+a purple ball 2 steps right and 5 steps forward",0,False
+8,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 1 step right",0,False
+9,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps right",0,False
+10,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step left",0,False
+11,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps left
+a blue key 1 step left and 4 steps forward
+a purple ball 2 steps right and 5 steps forward",0,False
+12,,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+13,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Walk towards the purple ball, pick it up, then find and pick up the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+14,turn left,"{""memory_before"": {""plan"": ""Walk towards the purple ball, pick it up, then find and pick up the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Walk to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left towards the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+15,turn right,"{""memory_before"": {""plan"": ""Walk to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left towards the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to face the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+16,turn left,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to face the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+17,turn right,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to face the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+18,turn left,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to face the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left to align with the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+19,turn right,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left to align with the purple ball.""}, ""memory_after"": {""plan"": ""Approach and pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+20,turn left,"{""memory_before"": {""plan"": ""Approach and pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Approach and pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+21,turn right,"{""memory_before"": {""plan"": ""Approach and pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""memory_after"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right to face the purple ball's column.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+22,turn left,"{""memory_before"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right to face the purple ball's column.""}, ""memory_after"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn left to face toward the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+23,turn right,"{""memory_before"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn left to face toward the purple ball.""}, ""memory_after"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+24,turn left,"{""memory_before"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn left toward the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+25,turn right,"{""memory_before"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn left toward the purple ball.""}, ""memory_after"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+26,turn left,"{""memory_before"": {""plan"": ""Pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move toward the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn left toward the purple ball area.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+27,turn right,"{""memory_before"": {""plan"": ""Turn right, move toward the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn left toward the purple ball area.""}, ""memory_after"": {""plan"": ""Move toward the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+28,turn left,"{""memory_before"": {""plan"": ""Move toward the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+29,turn right,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to align with the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+30,turn left,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to align with the purple ball.""}, ""memory_after"": {""plan"": ""Go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn left toward purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+31,turn right,"{""memory_before"": {""plan"": ""Go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn left toward purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to align with the purple ball column.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+32,turn left,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to align with the purple ball column.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left towards the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+33,turn right,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left towards the purple ball.""}, ""memory_after"": {""plan"": ""Go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+34,turn left,"{""memory_before"": {""plan"": ""Go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left towards the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+35,turn right,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn left towards the purple ball.""}, ""memory_after"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to face the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+36,turn left,"{""memory_before"": {""plan"": ""Go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right to face the purple ball.""}, ""memory_after"": {""plan"": ""Go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+37,turn right,"{""memory_before"": {""plan"": ""Go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward, and pick up the purple ball."", ""subgoal"": ""Turn right to face the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps right",0,False
+38,turn left,"{""memory_before"": {""plan"": ""Turn right, go forward, and pick up the purple ball."", ""subgoal"": ""Turn right to face the purple ball.""}, ""memory_after"": {""plan"": ""Turn left, go forward, turn right, go forward, and pick up the purple ball."", ""subgoal"": ""Turn left to adjust heading.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 2 steps left
+a blue key 1 step left and 3 steps forward
+a purple ball 2 steps right and 4 steps forward",0,False
+39,turn left,"{""memory_before"": {""plan"": ""Turn left, go forward, turn right, go forward, and pick up the purple ball."", ""subgoal"": ""Turn left to adjust heading.""}, ""memory_after"": {""plan"": ""Turn left, go forward, turn right, go forward, pick up purple ball, find blue key."", ""subgoal"": ""Turn left to align toward the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 2 steps left
+a blue key 3 steps right and 1 step forward",0,False
+40,go forward,"{""memory_before"": {""plan"": ""Turn left, go forward, turn right, go forward, pick up purple ball, find blue key."", ""subgoal"": ""Turn left to align toward the purple ball.""}, ""memory_after"": {""plan"": ""Go forward twice, turn right, go forward twice, pick up purple ball."", ""subgoal"": ""Go forward toward the purple ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+41,turn right,"{""memory_before"": {""plan"": ""Go forward twice, turn right, go forward twice, pick up purple ball."", ""subgoal"": ""Go forward toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward three steps, turn left, go forward one step, pick up purple ball."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+42,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward three steps, turn left, go forward one step, pick up purple ball."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward three steps, turn left, go forward one step, pick up purple ball."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+43,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward three steps, turn left, go forward one step, pick up purple ball."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+44,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward, pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+45,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward, pick up the purple ball, then go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn to face the purple ball, go forward to it, pick it up, then find the blue key."", ""subgoal"": ""Turn toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+46,turn right,"{""memory_before"": {""plan"": ""Turn to face the purple ball, go forward to it, pick it up, then find the blue key."", ""subgoal"": ""Turn toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn toward the purple ball, go forward to it, pick it up, then find the blue key."", ""subgoal"": ""Turn toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+47,turn left,"{""memory_before"": {""plan"": ""Turn toward the purple ball, go forward to it, pick it up, then find the blue key."", ""subgoal"": ""Turn toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn left to face the purple ball, go forward to it, pick it up, then find the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+48,turn right,"{""memory_before"": {""plan"": ""Turn left to face the purple ball, go forward to it, pick it up, then find the blue key."", ""subgoal"": ""Turn left to face the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+49,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+50,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+51,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+52,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+53,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+54,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+55,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+56,turn right,"{""memory_before"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to purple ball, pick it up, then find and go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+57,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to purple ball, pick it up, then find and go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+58,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+59,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+60,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+61,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+62,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+63,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+64,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick up purple ball, go to blue key, pick up blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+65,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick up purple ball, go to blue key, pick up blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick up purple ball, go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+66,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick up purple ball, go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick up purple ball, go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+67,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick up purple ball, go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, go forward to it, pick it up, then go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+68,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, go forward to it, pick it up, then go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, go to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+69,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, go to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+70,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+71,turn right,"{""memory_before"": {""plan"": ""Turn to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+72,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+73,turn right,"{""memory_before"": {""plan"": ""Turn right, approach purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, go forward to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+74,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, go forward to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+75,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, navigate to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+76,turn right,"{""memory_before"": {""plan"": ""Turn right, navigate to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, navigate to the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+77,turn right,"{""memory_before"": {""plan"": ""Turn right, navigate to the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, navigate to the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+78,turn right,"{""memory_before"": {""plan"": ""Turn right, navigate to the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, go to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+79,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, go to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, go to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+80,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, go to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+81,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+82,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+83,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+84,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+85,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+86,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+87,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+88,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn right, move towards the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+89,turn right,"{""memory_before"": {""plan"": ""Turn right, move towards the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Turn towards the purple ball, pick it up, then locate and go to the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+90,turn right,"{""memory_before"": {""plan"": ""Turn towards the purple ball, pick it up, then locate and go to the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move towards the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+91,turn right,"{""memory_before"": {""plan"": ""Turn right, move towards the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+92,turn right,"{""memory_before"": {""plan"": ""Turn right, move towards the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+93,turn right,"{""memory_before"": {""plan"": ""Turn right, move to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+94,turn right,"{""memory_before"": {""plan"": ""Turn right, move to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+95,turn right,"{""memory_before"": {""plan"": ""Turn right, move to purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+96,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+97,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+98,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+99,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+100,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+101,turn right,"{""memory_before"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+102,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+103,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+104,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+105,turn right,"{""memory_before"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+106,turn right,"{""memory_before"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+107,turn right,"{""memory_before"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward toward the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+108,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward toward the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right towards purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+109,turn right,"{""memory_before"": {""plan"": ""Turn right, approach purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, go to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+110,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, go to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+111,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+112,turn right,"{""memory_before"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk toward the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+113,turn right,"{""memory_before"": {""plan"": ""Turn right, walk toward the purple ball, pick it up, then navigate to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move toward purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+114,turn right,"{""memory_before"": {""plan"": ""Turn right, move toward purple ball, pick it up, then go to blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+115,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+116,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+117,turn right,"{""memory_before"": {""plan"": ""Turn right, approach purple ball, pick it up, then go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, go forward, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+118,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, go forward, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go forward to the purple ball, pick it up, then locate and go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+119,turn right,"{""memory_before"": {""plan"": ""Turn right, go forward to the purple ball, pick it up, then locate and go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, go to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+120,turn right,"{""memory_before"": {""plan"": ""Turn right, go to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+121,turn right,"{""memory_before"": {""plan"": ""Turn right, approach the purple ball, pick it up, then find and go to the blue key."", ""subgoal"": ""Turn right toward purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move toward the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+122,turn right,"{""memory_before"": {""plan"": ""Turn right, move toward the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move toward the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+123,turn right,"{""memory_before"": {""plan"": ""Turn right, move toward the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,False
+124,turn right,"{""memory_before"": {""plan"": ""Turn right, move to purple ball, pick it up, then find blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, move forward, pick up purple ball, then go to blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 6 steps forward
+a wall 2 steps right
+a blue key 3 steps left",0,False
+125,turn right,"{""memory_before"": {""plan"": ""Turn right, move forward, pick up purple ball, then go to blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 1 step right",0,False
+126,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a wall 2 steps left
+a blue key 3 steps right",0,False
+127,turn right,"{""memory_before"": {""plan"": ""Turn right to face the purple ball, walk to it, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""memory_after"": {""plan"": ""Turn right, walk to the purple ball, pick it up, then find the blue key."", ""subgoal"": ""Turn right toward the purple ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a blue key 3 steps forward
+a purple ball 3 steps right and 4 steps forward",0,True

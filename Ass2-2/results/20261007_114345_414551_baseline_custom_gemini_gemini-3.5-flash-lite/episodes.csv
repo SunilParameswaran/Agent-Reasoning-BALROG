@@ -1,0 +1,26 @@
+agent,model,benchmark,seed,task,episode,progression,steps,failed_candidates
+custom,gemini-3.5-flash-lite,babyai,42,BabyAI-MixedTrainLocal-v0/goto,0,1.0,3,[]
+custom,gemini-3.5-flash-lite,babyai,42,BabyAI-MixedTrainLocal-v0/pickup,0,1.0,5,[]
+custom,gemini-3.5-flash-lite,babyai,42,BabyAI-MixedTrainLocal-v0/open,0,0.0,128,[]
+custom,gemini-3.5-flash-lite,babyai,42,BabyAI-MixedTrainLocal-v0/putnext,0,1.0,31,"['', '', '', '', '', '', '', '', '']"
+custom,gemini-3.5-flash-lite,babyai,42,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,1.0,27,['']
+custom,gemini-3.5-flash-lite,babyai,43,BabyAI-MixedTrainLocal-v0/goto,0,1.0,6,[]
+custom,gemini-3.5-flash-lite,babyai,43,BabyAI-MixedTrainLocal-v0/pickup,0,0.0,64,"['', '', '']"
+custom,gemini-3.5-flash-lite,babyai,43,BabyAI-MixedTrainLocal-v0/open,0,0.0,128,"['', '', '', '', '', '', '']"
+custom,gemini-3.5-flash-lite,babyai,43,BabyAI-MixedTrainLocal-v0/putnext,0,0.0,128,"['', '']"
+custom,gemini-3.5-flash-lite,babyai,43,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,1.0,23,['']
+custom,gemini-3.5-flash-lite,babyai,44,BabyAI-MixedTrainLocal-v0/goto,0,0.0,64,"['', '']"
+custom,gemini-3.5-flash-lite,babyai,44,BabyAI-MixedTrainLocal-v0/pickup,0,1.0,25,"['', '']"
+custom,gemini-3.5-flash-lite,babyai,44,BabyAI-MixedTrainLocal-v0/open,0,1.0,14,['']
+custom,gemini-3.5-flash-lite,babyai,44,BabyAI-MixedTrainLocal-v0/putnext,0,0.0,128,"['', '']"
+custom,gemini-3.5-flash-lite,babyai,44,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,1.0,15,"['', '']"
+custom,gemini-3.5-flash-lite,babyai,45,BabyAI-MixedTrainLocal-v0/goto,0,1.0,3,[]
+custom,gemini-3.5-flash-lite,babyai,45,BabyAI-MixedTrainLocal-v0/pickup,0,1.0,6,[]
+custom,gemini-3.5-flash-lite,babyai,45,BabyAI-MixedTrainLocal-v0/open,0,0.0,128,"['', '', '', '', '']"
+custom,gemini-3.5-flash-lite,babyai,45,BabyAI-MixedTrainLocal-v0/putnext,0,0.0,128,"['', '', '', '', '', '', '', '', '', '']"
+custom,gemini-3.5-flash-lite,babyai,45,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,0.0,128,"['', '', '', '', '']"
+custom,gemini-3.5-flash-lite,babyai,46,BabyAI-MixedTrainLocal-v0/goto,0,1.0,9,[]
+custom,gemini-3.5-flash-lite,babyai,46,BabyAI-MixedTrainLocal-v0/pickup,0,1.0,8,[]
+custom,gemini-3.5-flash-lite,babyai,46,BabyAI-MixedTrainLocal-v0/open,0,1.0,53,"['', '', '', '', '', '', '', '', '']"
+custom,gemini-3.5-flash-lite,babyai,46,BabyAI-MixedTrainLocal-v0/putnext,0,1.0,29,"['', '']"
+custom,gemini-3.5-flash-lite,babyai,46,BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to,0,0.0,128,['']

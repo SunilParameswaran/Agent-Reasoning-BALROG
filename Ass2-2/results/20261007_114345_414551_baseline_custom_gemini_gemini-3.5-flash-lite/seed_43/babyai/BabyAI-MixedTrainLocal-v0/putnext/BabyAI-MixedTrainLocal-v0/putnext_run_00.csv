@@ -1,0 +1,385 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn right, go to the purple box, pick it up, find the blue ball, and drop the box next to it."", ""subgoal"": ""Turn right toward the purple box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left
+a purple box 1 step left and 3 steps forward",0,False
+1,turn right,"{""memory_before"": {""plan"": ""Turn right, go to the purple box, pick it up, find the blue ball, and drop the box next to it."", ""subgoal"": ""Turn right toward the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, find the blue ball, and drop the box next to it."", ""subgoal"": ""Turn toward the purple box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 5 steps forward
+a wall 3 steps right
+a blue ball 2 steps right and 2 steps forward",0,False
+2,turn left,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, find the blue ball, and drop the box next to it."", ""subgoal"": ""Turn toward the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, find the blue ball, and drop the box next to it."", ""subgoal"": ""Find the purple box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left
+a purple box 1 step left and 3 steps forward",0,False
+3,turn left,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, find the blue ball, and drop the box next to it."", ""subgoal"": ""Find the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, find the blue ball, and drop the box next to it."", ""subgoal"": ""Go to the purple box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 3 steps left
+a purple box 3 steps right and 1 step forward",0,False
+4,turn right,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, find the blue ball, and drop the box next to it."", ""subgoal"": ""Go to the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps left
+a purple box 1 step left and 3 steps forward",0,False
+5,go forward,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps left
+a purple box 1 step left and 2 steps forward",0,False
+6,turn left,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 3 steps right
+a purple box 2 steps right and 1 step forward",0,False
+7,turn right,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps left
+a purple box 1 step left and 2 steps forward",0,False
+8,go forward,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 2 steps left
+a purple box 1 step left and 1 step forward",0,False
+9,turn left,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Go to the purple box""}, ""memory_after"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 2 steps forward
+a wall 2 steps right
+a purple box 1 step right and 1 step forward",0,False
+10,go forward,"{""memory_before"": {""plan"": ""Go to the purple box, pick it up, and place it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Pick up the purple box and place it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step forward
+a purple box 1 step right",0,False
+11,turn right,"{""memory_before"": {""plan"": ""Pick up the purple box and place it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Pick up the purple box and place it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a purple box 1 step forward",0,False
+12,go forward,"{""memory_before"": {""plan"": ""Pick up the purple box and place it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Pick up the purple box, navigate to the blue ball, and drop the purple box next to it."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 1 step left
+a purple box 1 step forward",0,False
+13,pick up,"{""memory_before"": {""plan"": ""Pick up the purple box, navigate to the blue ball, and drop the purple box next to it."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Pick up the purple box, navigate to the blue ball, and drop the purple box next to it."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 2 steps forward
+a wall 1 step left",0,False
+14,,"{""memory_before"": {""plan"": ""Pick up the purple box, navigate to the blue ball, and drop the purple box next to it."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Pick up the purple box, navigate to the blue ball, and drop the purple box next to it."", ""subgoal"": ""Pick up the purple box""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a purple box
+a wall 1 step forward
+a wall 1 step left",0,False
+15,turn right,"{""memory_before"": {""plan"": ""Pick up the purple box, navigate to the blue ball, and drop the purple box next to it."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Navigate to the blue ball and drop the purple box next to it."", ""subgoal"": ""Navigate to the blue ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 6 steps forward
+a wall 1 step left",0,False
+16,turn right,"{""memory_before"": {""plan"": ""Navigate to the blue ball and drop the purple box next to it."", ""subgoal"": ""Navigate to the blue ball""}, ""memory_after"": {""plan"": ""Navigate to the blue ball and drop the purple box next to it."", ""subgoal"": ""Navigate to the blue ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 6 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 5 steps forward",0,False
+17,,"{""memory_before"": {""plan"": ""Navigate to the blue ball and drop the purple box next to it."", ""subgoal"": ""Navigate to the blue ball""}, ""memory_after"": {""plan"": ""Navigate to the blue ball and drop the purple box next to it."", ""subgoal"": ""Navigate to the blue ball""}, ""action"": """", ""issues"": [""unexpected_text"", ""missing_or_duplicate_action"", ""invalid_action""], ""fallback"": ""BALROG default: go forward""}","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+You carry a purple box
+a wall 5 steps forward
+a wall 1 step right
+a blue ball 3 steps left and 4 steps forward",0,False
+18,turn left,"{""memory_before"": {""plan"": ""Navigate to the blue ball and drop the purple box next to it."", ""subgoal"": ""Navigate to the blue ball""}, ""memory_after"": {""plan"": ""Walk towards the blue ball and drop the purple box next to it."", ""subgoal"": ""Move closer to the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 6 steps forward
+a wall 2 steps left",0,False
+19,go forward,"{""memory_before"": {""plan"": ""Walk towards the blue ball and drop the purple box next to it."", ""subgoal"": ""Move closer to the blue ball.""}, ""memory_after"": {""plan"": ""Navigate towards the blue ball and drop the purple box next to it."", ""subgoal"": ""Move forward towards the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 5 steps forward
+a wall 2 steps left",0,False
+20,go forward,"{""memory_before"": {""plan"": ""Navigate towards the blue ball and drop the purple box next to it."", ""subgoal"": ""Move forward towards the blue ball.""}, ""memory_after"": {""plan"": ""Move towards the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 4 steps forward
+a wall 2 steps left",0,False
+21,go forward,"{""memory_before"": {""plan"": ""Move towards the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""memory_after"": {""plan"": ""Navigate towards the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps forward
+a wall 2 steps left",0,False
+22,turn right,"{""memory_before"": {""plan"": ""Navigate towards the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right toward the blue ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 4 steps forward",0,False
+23,go forward,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right toward the blue ball.""}, ""memory_after"": {""plan"": ""Approach the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 3 steps forward",0,False
+24,go forward,"{""memory_before"": {""plan"": ""Approach the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""memory_after"": {""plan"": ""Approach the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 2 steps forward",0,False
+25,go forward,"{""memory_before"": {""plan"": ""Approach the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""memory_after"": {""plan"": ""Approach the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+26,drop,"{""memory_before"": {""plan"": ""Approach the blue ball and drop the purple box next to it."", ""subgoal"": ""Go forward toward the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+27,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+28,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+29,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+30,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+31,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+32,turn right,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 4 steps forward
+a blue ball 1 step left",0,False
+33,turn left,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+34,turn right,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face away or adjust position.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 4 steps forward
+a blue ball 1 step left",0,False
+35,turn left,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face away or adjust position.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn left to face the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+36,turn left,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn left to face the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn left to face the blue ball.""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps forward
+a blue ball 1 step right",0,False
+37,turn right,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn left to face the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face the blue ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+38,turn right,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face away from the ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 4 steps forward
+a blue ball 1 step left",0,False
+39,turn right,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face away from the ball.""}, ""memory_after"": {""plan"": ""Turn away from the blue ball, drop the purple box, and step back so the box is next to the ball."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 5 steps forward
+a wall 3 steps right",0,False
+40,turn right,"{""memory_before"": {""plan"": ""Turn away from the blue ball, drop the purple box, and step back so the box is next to the ball."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, drop the purple box, then step back to place it next to the blue ball."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps forward
+a blue ball 1 step right",0,False
+41,turn right,"{""memory_before"": {""plan"": ""Turn right, drop the purple box, then step back to place it next to the blue ball."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Turn right, then drop the purple box."", ""subgoal"": ""Turn right""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+42,turn right,"{""memory_before"": {""plan"": ""Turn right, then drop the purple box."", ""subgoal"": ""Turn right""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face away from the blue ball.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 4 steps forward
+a blue ball 1 step left",0,False
+43,turn right,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face away from the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face the wall.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 5 steps forward
+a wall 3 steps right",0,False
+44,turn right,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right to face the wall.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right.""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps forward
+a blue ball 1 step right",0,False
+45,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Turn right.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+46,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+47,go forward,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Go forward, pick up the purple box, go forward, turn right, and drop it."", ""subgoal"": ""Go forward""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+48,pick up,"{""memory_before"": {""plan"": ""Go forward, pick up the purple box, go forward, turn right, and drop it."", ""subgoal"": ""Go forward""}, ""memory_after"": {""plan"": ""Pick up the purple box, go forward, turn right, and drop it."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps forward
+a blue ball 1 step right",0,False
+49,drop,"{""memory_before"": {""plan"": ""Pick up the purple box, go forward, turn right, and drop it."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+50,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+51,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+52,pick up,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""memory_after"": {""plan"": ""Pick up the purple box and drop it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps forward
+a blue ball 1 step right",0,False
+53,drop,"{""memory_before"": {""plan"": ""Pick up the purple box and drop it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+54,pick up,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""memory_after"": {""plan"": ""Pick up the purple box and place it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps forward
+a blue ball 1 step right",0,False
+55,drop,"{""memory_before"": {""plan"": ""Pick up the purple box and place it next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+56,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","a purple box 1 step forward
+a blue ball 1 step right",0,False
+57,pick up,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box""}, ""memory_after"": {""plan"": ""Pick up the purple box, turn towards the blue ball, and drop the purple box next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""action"": ""pick up"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps forward
+a blue ball 1 step right",0,False
+58,turn right,"{""memory_before"": {""plan"": ""Pick up the purple box, turn towards the blue ball, and drop the purple box next to the blue ball."", ""subgoal"": ""Pick up the purple box""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+59,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+60,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+61,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+62,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+63,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+64,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+65,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+66,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box next to the blue ball.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+67,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+68,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the purple box.""}, ""memory_after"": {""plan"": ""Drop the purple box."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+69,drop,"{""memory_before"": {""plan"": ""Drop the purple box."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+70,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+71,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+72,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+73,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+74,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+75,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+76,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+77,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+78,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+79,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+80,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+81,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+82,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+83,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+84,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+85,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+86,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+87,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+88,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+89,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+90,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+91,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+92,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+93,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+94,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+95,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+96,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+97,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+98,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+99,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+100,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+101,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+102,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+103,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+104,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+105,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+106,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+107,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+108,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+109,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+110,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+111,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+112,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+113,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+114,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+115,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+116,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+117,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+118,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+119,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+120,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+121,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+122,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box in front of you."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+123,drop,"{""memory_before"": {""plan"": ""Drop the purple box in front of you."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box in front of you."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+124,drop,"{""memory_before"": {""plan"": ""Drop the purple box in front of you."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box in front of you."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+125,drop,"{""memory_before"": {""plan"": ""Drop the purple box in front of you."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box in front of you."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+126,drop,"{""memory_before"": {""plan"": ""Drop the purple box in front of you."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,False
+127,drop,"{""memory_before"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""memory_after"": {""plan"": ""Drop the purple box next to the blue ball."", ""subgoal"": ""Drop the box.""}, ""action"": ""drop"", ""issues"": [], ""fallback"": null}","You carry a purple box
+a wall 3 steps left
+a blue ball 1 step forward",0,True

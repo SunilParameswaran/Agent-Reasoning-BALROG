@@ -1,0 +1,43 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+    "action_frequency": {
+        "turn right": 28,
+        "turn left": 26,
+        "pick up": 12,
+        "go forward": 24,
+        "toggle": 8
+    },
+    "input_tokens": 76923,
+    "output_tokens": 286,
+    "done": true,
+    "episode_return": 0.3109375,
+    "num_steps": 98,
+    "failed_candidates": [],
+    "mission": "pick up the purple ball, then go to the blue key",
+    "progression": 1.0,
+    "process_num": null,
+    "seed": 46,
+    "agent": {
+        "type": "naive",
+        "remember_cot": true,
+        "max_text_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "vllm",
+        "model_id": "qwen2.5:1.5b",
+        "base_url": "http://localhost:11434/v1",
+        "generate_kwargs": {
+            "temperature": 1.0,
+            "max_tokens": 128,
+            "thinking_budget": null
+        },
+        "timeout": 60,
+        "max_retries": 2,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

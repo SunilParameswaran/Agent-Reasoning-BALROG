@@ -1,0 +1,54 @@
+{
+  "episodes_checked": 150,
+  "totals": [
+    {
+      "exercise": 1,
+      "model": "qwen2.5:1.5b",
+      "n": 25,
+      "w": 7
+    },
+    {
+      "exercise": 1,
+      "model": "gemini-3.5-flash-lite",
+      "n": 25,
+      "w": 21
+    },
+    {
+      "exercise": 2,
+      "model": "qwen2.5:1.5b",
+      "n": 25,
+      "w": 2
+    },
+    {
+      "exercise": 2,
+      "model": "gemini-3.5-flash-lite",
+      "n": 25,
+      "w": 15
+    },
+    {
+      "exercise": 3,
+      "model": "qwen2.5:1.5b",
+      "n": 25,
+      "w": 3
+    },
+    {
+      "exercise": 3,
+      "model": "gemini-3.5-flash-lite",
+      "n": 25,
+      "w": 22
+    }
+  ],
+  "checks": [
+    "All episode selectors",
+    "All evidence tabs in five demos",
+    "Next critic review",
+    "Before and after boards",
+    "Agent field of view",
+    "Playback and pause",
+    "Timeline range and first action",
+    "Matrix navigation",
+    "Desktop and mobile layout"
+  ],
+  "runtime_errors": [],
+  "model_calls_made": 0
+}

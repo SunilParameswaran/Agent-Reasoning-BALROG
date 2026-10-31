@@ -1,0 +1,1215 @@
+{
+  "episodes": [
+    {
+      "id": "e1-qwen-goto-42",
+      "steps": 31,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pickup-42",
+      "steps": 7,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-open-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-putnext-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pick_up_seq_go_to-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-goto-43",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pickup-43",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-open-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-putnext-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pick_up_seq_go_to-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-goto-44",
+      "steps": 14,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pickup-44",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-open-44",
+      "steps": 54,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-putnext-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pick_up_seq_go_to-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-goto-45",
+      "steps": 4,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pickup-45",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-open-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-putnext-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pick_up_seq_go_to-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-goto-46",
+      "steps": 11,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pickup-46",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-open-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-putnext-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-qwen-pick_up_seq_go_to-46",
+      "steps": 98,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-goto-42",
+      "steps": 3,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-pickup-42",
+      "steps": 6,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-open-42",
+      "steps": 10,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-putnext-42",
+      "steps": 75,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-pick_up_seq_go_to-42",
+      "steps": 18,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-goto-43",
+      "steps": 6,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-pickup-43",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-open-43",
+      "steps": 16,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-putnext-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-pick_up_seq_go_to-43",
+      "steps": 25,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-goto-44",
+      "steps": 9,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-pickup-44",
+      "steps": 38,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-open-44",
+      "steps": 32,
+      "verified": true,
+      "completed_attempt": "original"
+    },
+    {
+      "id": "e1-gemini-putnext-44",
+      "steps": 20,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-pick_up_seq_go_to-44",
+      "steps": 21,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-goto-45",
+      "steps": 3,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-pickup-45",
+      "steps": 7,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-open-45",
+      "steps": 21,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-putnext-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-pick_up_seq_go_to-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-goto-46",
+      "steps": 7,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-pickup-46",
+      "steps": 12,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-open-46",
+      "steps": 40,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-putnext-46",
+      "steps": 83,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e1-gemini-pick_up_seq_go_to-46",
+      "steps": 21,
+      "verified": true,
+      "completed_attempt": "20261006_105946_527966"
+    },
+    {
+      "id": "e2-qwen-goto-42",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pickup-42",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-open-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-putnext-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pick_up_seq_go_to-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-goto-43",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pickup-43",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-open-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-putnext-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pick_up_seq_go_to-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-goto-44",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pickup-44",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-open-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-putnext-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pick_up_seq_go_to-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-goto-45",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pickup-45",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-open-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-putnext-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pick_up_seq_go_to-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-goto-46",
+      "steps": 34,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pickup-46",
+      "steps": 17,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-open-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-putnext-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-qwen-pick_up_seq_go_to-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114314_267623"
+    },
+    {
+      "id": "e2-gemini-goto-42",
+      "steps": 3,
+      "verified": true,
+      "completed_attempt": "20261007_114345_414551"
+    },
+    {
+      "id": "e2-gemini-pickup-42",
+      "steps": 5,
+      "verified": true,
+      "completed_attempt": "20261007_114345_414551"
+    },
+    {
+      "id": "e2-gemini-open-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114345_414551"
+    },
+    {
+      "id": "e2-gemini-putnext-42",
+      "steps": 31,
+      "verified": true,
+      "completed_attempt": "20261007_114345_414551"
+    },
+    {
+      "id": "e2-gemini-pick_up_seq_go_to-42",
+      "steps": 27,
+      "verified": true,
+      "completed_attempt": "20261007_114345_414551"
+    },
+    {
+      "id": "e2-gemini-goto-43",
+      "steps": 6,
+      "verified": true,
+      "completed_attempt": "20261007_114345_414551"
+    },
+    {
+      "id": "e2-gemini-pickup-43",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261007_114345_414551"
+    },
+    {
+      "id": "e2-gemini-open-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261007_114345_414551"
+    },
+    {
+      "id": "e2-gemini-putnext-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-pick_up_seq_go_to-43",
+      "steps": 23,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-goto-44",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-pickup-44",
+      "steps": 25,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-open-44",
+      "steps": 14,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-putnext-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-pick_up_seq_go_to-44",
+      "steps": 15,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-goto-45",
+      "steps": 3,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-pickup-45",
+      "steps": 6,
+      "verified": true,
+      "completed_attempt": "20261008_114640_586747"
+    },
+    {
+      "id": "e2-gemini-open-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261009_112725_671808"
+    },
+    {
+      "id": "e2-gemini-putnext-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261009_112725_671808"
+    },
+    {
+      "id": "e2-gemini-pick_up_seq_go_to-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261009_112725_671808"
+    },
+    {
+      "id": "e2-gemini-goto-46",
+      "steps": 9,
+      "verified": true,
+      "completed_attempt": "20261009_112725_671808"
+    },
+    {
+      "id": "e2-gemini-pickup-46",
+      "steps": 8,
+      "verified": true,
+      "completed_attempt": "20261009_112725_671808"
+    },
+    {
+      "id": "e2-gemini-open-46",
+      "steps": 53,
+      "verified": true,
+      "completed_attempt": "20261009_112725_671808"
+    },
+    {
+      "id": "e2-gemini-putnext-46",
+      "steps": 29,
+      "verified": true,
+      "completed_attempt": "20261009_112725_671808"
+    },
+    {
+      "id": "e2-gemini-pick_up_seq_go_to-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261010_094218_055413"
+    },
+    {
+      "id": "e3-qwen-goto-42",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pickup-42",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-open-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-putnext-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pick_up_seq_go_to-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-goto-43",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pickup-43",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-open-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-putnext-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pick_up_seq_go_to-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-goto-44",
+      "steps": 48,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pickup-44",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-open-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-putnext-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pick_up_seq_go_to-44",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-goto-45",
+      "steps": 4,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pickup-45",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-open-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-putnext-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pick_up_seq_go_to-45",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-goto-46",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pickup-46",
+      "steps": 64,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-open-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-putnext-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-qwen-pick_up_seq_go_to-46",
+      "steps": 60,
+      "verified": true,
+      "completed_attempt": "20261011_162250_259056"
+    },
+    {
+      "id": "e3-gemini-goto-42",
+      "steps": 3,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-pickup-42",
+      "steps": 9,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-open-42",
+      "steps": 28,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-putnext-42",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-pick_up_seq_go_to-42",
+      "steps": 13,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-goto-43",
+      "steps": 6,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-pickup-43",
+      "steps": 23,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-open-43",
+      "steps": 29,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-putnext-43",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-pick_up_seq_go_to-43",
+      "steps": 25,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-goto-44",
+      "steps": 14,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-pickup-44",
+      "steps": 11,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-open-44",
+      "steps": 34,
+      "verified": true,
+      "completed_attempt": "20261011_162336_375909"
+    },
+    {
+      "id": "e3-gemini-putnext-44",
+      "steps": 119,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-pick_up_seq_go_to-44",
+      "steps": 10,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-goto-45",
+      "steps": 3,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-pickup-45",
+      "steps": 5,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-open-45",
+      "steps": 16,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-putnext-45",
+      "steps": 17,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-pick_up_seq_go_to-45",
+      "steps": 33,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-goto-46",
+      "steps": 7,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-pickup-46",
+      "steps": 9,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-open-46",
+      "steps": 21,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-putnext-46",
+      "steps": 128,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    },
+    {
+      "id": "e3-gemini-pick_up_seq_go_to-46",
+      "steps": 28,
+      "verified": true,
+      "completed_attempt": "20261012_102458_181067"
+    }
+  ],
+  "source_hashes": {
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "3c6e565ffe280ececb3c876d920dc3cd76a89d6631b98cbd863f93c0ff36140d",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "0269a3ca654cf4d2c633bcfdbba9a29c396972d1461b70a54026178bdc41e5be",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "feb046758f395c0ec83918d5a7ea466944a3df0d2bef4ecb83ec032a7010ba00",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "edb758ef4352e9f5bfd945a4678882f716279504562bef93ce078873d4b3c60c",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "87281ee3ae6b6efebe13768fdb221f42e1f7c11907e6fa605c98d987884c86ed",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "5c6ba8a1ca88b649ee0e0c2f6f55e4dfdf72a902ca11517f8951fa4439c7162a",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "fdbfc715e1adaf72156829ea265b94e615d05442be54b775317fd42da66a7f89",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "84dd07e46137e06ce834c30f5cb9d5a0692c5258a4d34c32172c7df1fac64479",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "fe57e24e88eb967b12d5f5cbc0c2ce01631c04885c1bc85b2b372d52ad854350",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "fb0f7f06e992fe008127c1d7c80f59a932629d910cbab49b7377871a11d30080",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "582efbf2c8eeba86403cfea7ae0fae251b9ffcfc844dd46bee06618c3355428a",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "f00c4ca1f718efbd86355be329913bdc31dc4d08e75d8e0b289de4645177d69a",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "66d817be5f1777168a13c14fb3bebab1d3306539242dcf6d51018d653f892b71",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "253cd5e86de480928a5088f57812b72bcdb2cdb3df41ae8fc6b0da8fde19b694",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "57b9a5c0b7e1d54ca95bcde1bb7c2a3af5abb7f353190313ff5ef8023f7b1369",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "8115808f11085db2b0f0a2b978ede90643f39786bbfe15f62909a2577ee53497",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "f0600bcf391d0253c29a4d353d12dc141a36de9f968a44b45f017799ed27704f",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "1d3bca8f3535f3d5bd4f02cf49c12852aae8289dd89efcb259e35a5225daf2c7",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "0fe05205c0451b2da754b956e4bc36619405119ce72192f73496f3537e0c5821",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "be48d0dcc05e3eecc37d68bf4f6a6762bef6781b5655015ac8203dbfefd39099",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "e5946d60bb85114815ecb7329782d8c38f198c01480d18ce03c4fd16095fa0d0",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "b91e4a58d9cc1c48b149d01bde82fd1785a3eb375d74df203879e0bba3acf3b0",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "eb6d6619762bf39035aed49dcec6b31aaee9482df5a405e484022f08236b1aac",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "cb77a09c70033cf2497a59049994200d1a884406105de23630a0d073b62df8bf",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "a2cb4e49dcaddc79f82c34ddbbeb3b1533f35579c4f92eb3b819561d0c32e985",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "d65121d622e326b06ec0f5f4ffbb8b08a7f9ef6ecddb32c750a5ddc80809550c",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "6d4f31e006db5ea28fe21d603642f2ade7864f124c604793b051fb3a09cbbc1e",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "7fae5336c706c5bc8dca0a1d717b7dbf2c76286e83a180f734e6deac4b8c5a02",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "6d7a6ae8285cd1a59112b2f4377ee3631648868f33e083abdb8b175735bd5551",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "4ff3e11006e517ed099e23e8627f6d56ab1462ffed81db977212fa4e7c5dbb15",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "11aa95cb74b6cf6a2352404f463d0c346669ab1ac98072c71d3cf3aed174013c",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "dd474d73e9ea67727d2d60f4ad5f17ac777006a0120916de8fa273fd563566d4",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "367df5b045fc572f3fa0692d73a2b42d88f200b600f2564d785729ee86eb6ae6",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "c6cf15377227bd3765b3b35c695b92cfd91e09ed65305698d39c171cb72f4ef9",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "df316f532154ed144407d03523168bacdb5e949c08bd130d8f7a5fefbdbfdfef",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "79453d015982356970f6dbef2c19afd2011edea107c63bf299d0d4d6e0f86103",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "c58f809f6760961202a54338c1c8aed007443b23448e9b60e4487d28d64c102e",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "b974a71f9fcff7d9ce2b9203cc819bdd3eddbbb964720203a52670c9204ad10e",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "70fb2e40f0a28172cdaa14c30c0f987dc24469e9f6178ae7fe4e2e44fc46bac0",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "2a8728343f6006491a02fd804d9c838923014839dfec422f1518211aa1247184",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "5951479ed884fdebdfbe779f0f0fc00b82e9a832d5dfccbdff2d43cb019e5765",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "cc54c2a4cc8c71dd96890a37ed665040cb8c15a5ab35342170b28756cbd0449c",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "daa92ea224e0fed1ceeffd6aaabd50b7cc6923e95e1b9056eaaec571a2837b38",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "1a154011816def1b6e45e931737aaa26622b283587f652bb8c75c6c4860c67a2",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "ac5cfc6504bbc973e623a75503353b02cb804a2c6e649988a82cb587787c9c9c",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "14f21fafe475f159c6485f7941b252cc168c0996670981909764c72566d14669",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "715a8fe29bfe7c752ba85965e3eb1199bd8e3a40ba95337e227a72c9edf9ad15",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "0145af1db2d5225d45ba2eb158b8fd82dc3a13afa77c4e8b9bb573d51fe45918",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "576eaf902580c24a7112b7d2fc1a2610495718575f9c4ec84ac5be0133eaa990",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "6708f65bffac09e7d643cbab37300bc9afd0d2e71bd8a818024b1028898dcacb",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "6c653da37336c5b5680b4be550ff83edbf69b84b47a0c26dfb8c369ac0785d28",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "10eecff878171717f980f4bf0a11d52fb08bc3bd9a635f18ae44515074522422",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "fb174f45d5e50a4c9383ea0e5654f04fe6c06526720971d6548f0cff74f7de06",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "c2c19a5d88e2bdd9f2c01b1245276c5861033947a50486d784c362b8de00875c",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "0f327c015bbf30941144830f18343bd0f800f5a7b729da2005a3a6839ea0b01f",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "47af06995185c0823d81e0dedb98a9ddb2315fc92a163cb22940a1c9b48017a3",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "eb5d4ce81eed94b802bd6c436cd0aa21aedbfff1d358358d0c908aa47185df65",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "19ead13db61e16f6f41b67d0098405a437ca87d98779146b156eb0019c8fe80d",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "c697dae8fecd130939ac89e4eb4a2d4ba9562add7551d2b4be9c95b19e947d00",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "8944f7c1706bcdd772a18ed8fb540ae4802bdec6649bbde3dd1f62b1cb04d821",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "54bc3ce18e25bccc7599e61a5b15ba79dce064892eb2d7686ffe78b022505c41",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "f68a592c56cfe0b6066307f924c0dcd9a359d3ac54ce1b6660be9de9efc7152b",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "e4ebaff6bd62ce12a5676b64bfa89245c0a8b3645745aa7bc64643d7c52e9d9e",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "b5fd80cd1c1b2a6257fb079c29663be34f76c85163032d0bfb09c6285826d822",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "c0952b61624620abcbf9321196b29e24feaf83171866d3782a08838081831201",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "faf42bef547401ae07a439e02999022a5c3cd87bca87f919983223750e755407",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "c47097eb148855864ab089a1634de505efb86b2ff0d3bb2eb3d3f9e398b89e6b",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "97b9d8b1199a93b297f3134066005330c096e7620932b8c07b2ff7d6c0b19efb",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "f59c639a50615ba49f355962835b1796c3339d03b7dd15410ae4213de889e30f",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "6af9240268a754ad94ab0d12926c5613c1917412b1bd77a2010114b238c0af4a",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "1efc52a61451fde13be478af2f4e258fd2b8af26fba56974ea2f8e736011a4e5",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "a200e6b26d60bc7c4759c807cb99150d31e40d60dfb5d507bbfcab72fa9060d1",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "c3002d76fa25516969d6c29153e646f18181828ff0f96e70c850b73080e21636",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "d6f091a99a77bface306081a60d401d5ab8590308c7ff18d4793267aa29b6725",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "421ac0cf6c53d5bfdf9ef91c237730fa1120b6815d61b0cc15b8030d66137ff7",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "3ca9165778f8e58f4bad10fcab2b905ac057ae7b5298cfc04b019b3b83d40ceb",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "b43b98a744601eb17d482758fd6b790fb23402a63f56b714bfd883bf45ee761e",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "621eb3c093f53328a90f5b134bf87d8a40c8307c346802e7b3103bcb864a68fa",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "ab7dbb074158d68747061ddd6d7e62dd5f998cad117270f544d37cd12cb788b0",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "c4789fc2789f6bc9efa5e3543468ca6cf8263161c7e0fdefb3175b1994394b91",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "a200c51b477c0c24b27d6a7f1f421bb1c343723a2ce9decdd113513cf1ab019b",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "1ce104c51a58c1b1d4e838d2e6bd7adbe876847d761fd1105cb4552d3bf115ed",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "5cd1d4765a9311721a727846efe19c029d30e91076dfcc3c6d6ea0938765d696",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "cfec92f76c9d0e3c61bdf7fe77c751379c6b60d2d63650d4d281d3b355853b87",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "77bd87e14a82244fa6c02e04606485e8482430501948b6fc6d6d1020387a18de",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "566a17b6ea644735cbe57ad047e8ff9650e3451a53df01a0e3d301490c3da8e1",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "770ad088a0be1e42d8ce8a73dec250372a95dc41b66efcc223c5a3bce314d908",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "aab2e82235b071b4f4dbb3d0a43a4123a151061636e7171f8e2f443403981b9c",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "a9da0e2521c7936b66660816a45664ad1f6188b69378bc44230b66288a3073fa",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "7d5fb93a68790e349c7944531102b1315fdd3bf6eaf3103c6869bad37fcc49e1",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "be6cd26a27202d7cf0553edd1632ca42af407324943838f8444ab5fe98e93630",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "3459ac4437cb416894d4d65bce63bd02048814a540600a2de12eb9cd8f359767",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "d8e5f7d31f8a8a5b566e9f99962b56d01933e1205aec613338724afa494f49af",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "eab97653bf97e8354386a41766cb2f62ee2082f652d6db796b10985f7831ebba",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "8bc0a14cd50ced1b2fb0d1fda4e76859bafe90127ffc07666304cf23dc6e737b",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "710efbedcb635834f3c37250e2ccb67632e2ff944979748f535c2192dc3ab014",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "774a0ba6633f3fde649b59070314ff98ddf99c74e8a399ad023cbd1edf6458e5",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "f1e4c7ae411be7bf82b28ba136f0d37e451b70e896e600122179831d8c69c944",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "5c329db9ceaaae4feb864f932bcc9c8cd0726c21bb055c06443d61e54584bc88",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "872f3783981fc70ba63ea17365b933fee74b07ed611dc67d88728d54ee9865d4",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "a66b3a5aa9c78a193bd0cef9e81bd997ab28a4c88e7368a0cf1dea6cd842428b",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "dfb2a1885d4ccda17821ed644da8d0d9964f90124af27b6a9226132dc6a8a6cf",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "c75490895cca76182a95d832bea2911845d4915731eab3432dbb2173c950cce0",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "24a114458145c5f556108e7f1ce146a7fb18be397f142e662079062cc9eae63f",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "3d3b07da3c4d546fa7988f765279386dcd463f99211a458147b84ed46c6e340e",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "4efacfe48a3ce8a0dd204c8dbf0769f007ab2f10aae2559647b93536d34e82d9",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "e18babf377cdc23511bab745f57acef3c42bc6d437335aa601bbff7ffd30303a",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "cdf7bd19b6c33d489da76c55518db03e54073d59b0e098a8c4740ffdd26c3cea",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "04fb5a53616606c7d8344449a59131c96503dc9682af09dce87f92b2ab588c55",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "e0d3df80e8136022de17d64d0c7a0b5a476066f0c78fd34df0f7c65257681afe",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "5e339cee7fc0e0a5c712c9d3d583008c29a3f678ad6a03490e14ea99383c9740",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "8004ac8cc1466fa1c15d8faac487ed32ba1be1fc36941f294f909550406c5726",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "2b537a5c338f25e6e8873e4eb008dd543bb9176d37e634ab2143653307b1e4c3",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "a61b708996246a278677f9a675d88f873e7893e6f63072e910e6aef78b0d47be",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "83e5a4ae8a4db7be020db95dc3e4fb433329d058514262afdf84b39f4a94d54a",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "d940cefbd2e1c9dcc603aa5b2403109bf2a34cb3ea52d4a495959f90c916428d",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "e66e921a03a73f695080817adc2647c4604045da6594c89cd6774fbd2400b2cb",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "94cd02aa501ea557a66cf45d89b380f395acca65e6ef16ba00f2a2afaf27012a",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "4bd5fb816cb614c7e7eb45f70da62efe8044254561e9b5782a0b2d50c66cb6f9",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "9dfd07be9bde1c0396ef0d9d650b156207fc78733ec8641c7ba37a76887e03cc",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "111e23e03656ffae79c854a8ce2f448a9a6ede7cc781ade0a5e3541fa234ca88",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "5fec10157145164addb38c8c625d0aaa1dd5cfe49d015b346876189722dff6d3",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "2becfa1c382035786c1d64b8f08a9d62697650a3385d9bee2079ad8a76069f4c",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "36915053538d41613d72546cc519d008bc9347fd5586f48604ed83676edb26c1",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "fa8c02a446eefe1ded3ee343a1361cfda6812889fce3c8df97aa4cb571ddbcc3",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "b50eaeb62e6f151c5805e169f2e8f54c4bff94f579ff86e11814ad390c8185ee",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "984a5463e0b58c2b933149c279d7077214a1f570c23d537d1aac86dcfe7d966a",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "bd56994ef5bed2395b54b5fd4f22f45c07ee1e7650c190eeef76571c1097f0f3",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "34add162e7a2af971b2b0d27d9e936fdf3f8aea239ed3d971a1ff971b66fc35b",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "a2c9a81cc35b919710a32cd1a5de6faea88942595dcefe02e4b19d7eb61ce71f",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "7a6b7d5914bbcedf68ae09fb5a555240095dd91c0a957d07ef87000ce51ece04",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "e1717326cb131abfb60c2e32b2553c7adc5ec5c6b5f585a60e1f8c8f37b14aff",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "1265ea84d7708428061e1610fb5cc096f9486b52208182c9671fa4164c1ff8ef",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "2da8be39bd7a4d5ed272083ee4f4703f5fcd8a0041978e75ec9174ef6207d853",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "819213e042cbfa284632d40000b6a15d09e4bd6eabaa257fcd98f544382474fb",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "0fdf2adaac0205075939caa85e6f89aa6da049218f0774ed865cca54d0738a55",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "c0af05b763294423728e631029954410489730875d01ac82001e6b3c7d5ab310",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "f329ad802be1c82f7184474909967b78cd3ddf78bae3299aa5ceaa9bb620b7f9",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "71eaf7b0f423fe899d8c01a9e133523badf8c9ff24543204e24fe0c7121fca44",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "6c6561bce368f9d077e2652194bab06e8670be15699c7783c9564ac42e0f1d3f",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "02ee9320d28dd9bc62ee6184c9d6a5c8538c7f41f14527927bdfe61364362401",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "07065b3fd84188c1205dd96543261080bf18fdd69b7479ca6dc0f230227e6949",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "5042fb9fe683b24cd161196a64aae542d018fb24930375fd6049a1a2aa35ddd8",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "f193eb1dc8421fa99eff921deff0a7b3b483e29b6879dd7f0cd9f5ca644e181b",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "d56ecf237f96778321b8e708e773e1071659fd434b7e2683793a37d48fb0f96c",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "72ee299dcf7ecce53c1abc573d7fd0a5fb40321b9ef07481e5638f072ebc0f9d",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "170562cc2328bf8365928794de94e76641ac7404d391bc0b84fac6b25acfdaf5",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "046ef5fc58f98a690642b8555a48fd8da4c94f565595c07e061c2e1f5f19dd98",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "d01b70e73fa77e10fc2b49ecd51c923110f74d0c0fce757655c3e8334c31d82f",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "d8518bba682326f3f74225b6f4372a91abce404c8edbd2c104ddbc31e6d48a0b",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "a0ea0a10eaacecf5191cbbfeab6e60b28146d4503151821b72c3f348f66a5c08",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "7f281277d75f84621c8872f50239a07d31c408541482c84c28c2087d9a84a5df",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "b571650288a756d2ee06988ad7713ce7e9ea8c81e9c57fd40efbcd86ec95f89e",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "8815da446b6e88b2c7d0e59be6d74eade2f36b2c6376c5a46376edc13cb1b3f1",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "b57e9a2ce360bbe1964ddf6c946c1457e0933d91cb47cabc14ffe6a3b54cffa0",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "229fc98ce2b9f1fe57126a352b922bb90f49642dbf637f245ce28d2aac9138f1",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "13197fedd400d8fc5203178c957f9b37203740a7155773007358ab71024592ce",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "b96dcce67a41fba53da7dc6550d425913e35cd98c72dbc1db602bc0aa57be450",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "1f1409ee8244542391ddbd18a83a60e5a2282233f5964058967c2933e86d722c",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "f7547fdd4224c6aaf4ef253afd5a232961f3d62f0f252b47e8c3dc5a8399d7fa",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "e0d55cd320cafd6106490c8a1894ece32bbcb05e9775a6380eba9fc519d046d4",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "fa2598e7c025c0c9c832de81f7cde45a01cc02621c685046135c5f006aae38fa",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "57a8079809a206cc9d5afad3f9244f495c01c58db5df3dd22506fd865941f164",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "9690b879b82c73282a22ad5e4b376a1e00b1ca9749d87870de54c5bddabaff56",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "4ef3052e3f00eb9be4e551037b432c1b88a18c58513d6e484312997f7a3f4053",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "d89a5b2c2a87a5553d80decc9adc9994c5679828cb1903a56f5a9d935e35295a",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "1bf5b4245de14fa9e98e4151f321ab778a739684b7cd0999a6a060a7895734be",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "c8dc9ebcc1eeb9f7f985dc487c1bd8a8d53c313ef5d37fa42bbe73bb563ee67c",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "5ce221f864847f1de8dc719ad02636012dc9643735179e57a37a5be2916c7277",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "c29ceb899575677c069839d27464e188baefb55c4ae7c32759156987b46e32da",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "3fc8fbdee19df80e7a90f64ce80aaca1ed7941daa7f26e30b4397250f57135bd",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "61a7cc4612525c89d4f51b36311b4b13252199108f82d24e779ec8e53a56d5c2",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "404ca7c0b17aef1662d82302fa55af2397cd753a260da42d90308878ff75dd8e",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "c568e02f449a899d148338955f158df44d395bf708bb0b85914366dbb67b5a4d",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "27209eb4f2516b7ec8585344a01749bc5d3ccd996cffac60cf66f99ed6e26cee",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "529059e9ec1e9e3817bdeef984597bed205b0b36624ec093d3a5d547e6426173",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "f7f80a64c49fe3c15892e7d8d9145602e349f5a93ca7cc5d6781448a99ed8544",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "831cf14dc6831fb6c087f08748ea76b0e3165a05c3606ba94bb995bd4a5dd6b4",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "660f941101066b54741b944bf56fd36ab735d0a1efb7f71ca0c06bebd3f45e38",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "3dc4d0225c4cfa7833958940860d2584002e296a5b15b7a2f9a778fbd0ab5a57",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "459bbfc24e3a35d9431d11f6ccb3ddaa0090e7fbe822214d8aa637cd6db0a78f",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "d7c6aa53cf47dee176e767ff075b309a558950423b12a5409e6922905e88919a",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "84e3a8d79a9fb7d24fe29ba02ce14710ba70b3618415150f5d0909ece33f0cc7",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "d2838aa57c27ae759f559121d699a8aead330f57fdc10cd1d77322a39054ea5f",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "6e90a04bb1fa70b5b28dd5516850c6944597446a0bfc07c8085fd48198d37bd1",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "d77005f3de877f3c16bedf6052d1fa4cd72ba770f9cb1f6a9e22ab2de7fa6de7",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "4354134112febb36f9c4c953f95a63d1f56aa04c9f849ffa3dab2dc2901d18c6",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "8c9a45839873325a43d075a22c768352cd7a2069fd6414de693f4f823e140b7a",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "25d5cc26fc9972a42703fe0ba38e94af6d7a5ab6caac2008865d75dc6fe07553",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "96ab09c363646b28a3e3f18b17ca59ef4d60d3be5e0a4dcc16ca8d5d8df2196d",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "12dc3a8731fc863be0822bc2042cc97909547eab9088b1486e1fb6df8317da58",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "dc2d89ca9d6f9d11175c2b9f84c60b7a5a24cf347b2d5ab149ae3164e8cf0ef7",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "f864d826b72c1d46ce39b9c2f56700517ec4f027fe8e5a7154499d40d44dcee5",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "8a09060e9ca51428ef8af9b276ee2f98db2ee1e83d55a216ccb9b5800f7bccc3",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "bfd9a4b3b79ccf8a6a7d422649af5eb9386cf3d8ad462625293eeb624e59af8e",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "0cc6c91ece8a4feebc9f04baa7fc612d11daa74e5af5217fe587cd9866df067f",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "81d42526535b6478451403bb626e3222904c44b8eecc089971ad9e7823b55262",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "f9abafca6ea67f9eebec888ed5bde3de3dea6b875fdf55229b16f311da97aa58",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "102a514ca96b63035167295ad6b435cd7822ee292e8e80b50f6d744b1dec28c0",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "7bd586f9d8a08273d6c76cf8d0b35bbdc3aef81d7584d238988d8f440f5b816b",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "36081d54c866db981895593dfc1a308a5b0693e517ba5e8587f4680adee9dcf2",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "e1d632994dd48d4d93f66c29e6a2155503aea1efccdf6abc196324575bfe3f5a",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "4ca0f95203cd9edc4d87b4ae5ee6220ff82b917b31d7134925f922d31cc79f8f",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "9f5e14e2b32995f5f6130f7774a5434ee6d44024f9a1011eaa9700fc2fb166f7",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "1dc0bf2f28189c4a2013359e337d6da50dd60c3d636af84219a990ec31bc6797",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "30244a366e7e457a7ba9770d61bd87a39a57100216ca99d04b00447549cb000d",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "c253a16a8a0474820ab2e47fcd944df2cb4e8df735c708501c5703897227caa3",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "665e9df6864d9f6eada1fb85c34fe208b77122bf657e4e357a3d50faf6c6c1be",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "8ad26a98046f1db1c1163e093b1ba5a5799960c948bd00498829d7832a637cda",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "078202e3ddc7050951e0467fb69d965e5c0ba7a3186f1239eaa24c6a4cd0c70f",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "f532ca14ee12067cdac3e0d9926b3d6c8f75bfafd84efe076765c34f72d13996",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "721c69a1e977a72d5d175db2c631dc771d7ea077b7fd2d6d055891e356fd2caf",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "e8a93bdfdd6df5746ada50e84b96b8da33f7681eccd874cf0eb06afeea4586a0",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "72d9b063515d0c1529cf0f0df034c7973192b87af9a5ba5279bba310800f49b7",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "b987028a6d698a452cb4228fbd05dee0679289aa52f791853df075c020ecbfc5",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "40310773cdf85c21c0bb30317c0c440a3a063c9787724be273b1b7cdb4dfd309",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "fdf3ebca4896a0b1e0e2d5c604b3ba3b72b44e60d4e2aa1aff397dd7e994ce67",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "ddcf8b75e2f72915676fa03f2dea8c6157b71a1f697c7c08e9e67a22eab2e223",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "e55a8fb9f16ae93e814db2fac58e9507f8ce53a519e063e87c4362d4a23087c7",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "cf660f64dc058da28cf341caaae89432dce9ad43873d117b6fdebdf7d7efeb29",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "a791aff8a15c945f8e10e96061c870066bd51d4ca91cfa751bf407128413a839",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "19d82ea6412251861e77e48aa67b55a70c86e8c2a250ff9f082ca0bee613ea77",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "32d36f33ccbaacb535a8d4fcafd51c66edcdacfe7464a02cc8adce5e42bd5ebe",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "8537562ceef41c71166a52d48eb3eae1057b1bf02fd19ae645fceceb264e27af",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "fab91e701379267d5104d69c6fec1347b15ec19692f36d488364c5b6d3e2b787",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "622806937b1bd59d57b9b8bb456525514827888ef82c68a5e773adb9faf2c9a4",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "5d3254316b961bf4d06af60e3795eac259e590103440ab8085639c6f8a07e2ea",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "70e5da3d7bc54528bf7143e79e8d699363d9c9abc3179a32b169f1bf9bbe49ea",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "0f53ad086b58da6cbb1991cca05e484f15e15b4d4c250866044deb460922f5bc",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "9280022bf977552c6c89b097e4e7e7a0ee15374e4b145589e8b559cbf70ce007",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "23857bbd49156207335ef6909ccce4fb17d1c8c72c8d90de753a7224737fb731",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "cb705711d5e79ffbd15aa09bed31e83cd5ad264ac6c7536c659d74bd0bd84af3",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "326229d4dccce274921c9b17a538904ecd0610c28c71f691a0b45723619e685a",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "bbd62e1c3e2e73bbc7ab5a3120a2f5c5be77add0322ff0675e7866fae9f107a3",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "595a62923b76e401b5b2ec12b2a87585c00211f1f5eafc6520fc13addf5c133a",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "9944d156b8b2bc8a79edb12abca01536ed505242acc7ee818e994e579d660f0e",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "7576d8ebb36a28c12fdf55c3ed7bea33fb5bb34d0d615e858059d57846b594ed",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "2e03f8f37fdfbe02186f586a11904f2f9270941644ce3c73f6a9494475c8a404",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "e62ca203befff6233c784a4950458b95352d0deee2ccc9e22f8cc17ced5b324d",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "d8a4e61f0ebcf8e18765bfe0884a834bdd870688b685a0901e38a65b70c0a346",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "7eaffa766c10f03cf457b3e7058b3a27e5080926df17c9a70b8baf01743c6230",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "6633df8ef012387cecf51c95f08311a240eab7ce7b7e1c798a95963575818cae",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "ccd23cfaf5a04dd15aba97ad984be364db9ab76d3eabb372150b781b62e4be6b",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "fca6fcc21a2fceead7e7ed5a1b1f5d4fcd10967980e8f114e621814e8b610876",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "df609655fabfd3c8e5b7ab359fb6b043c47e887c49fd0ef016aed14bf7029193",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "5b77e4956932386d33f3ccd100658a454cccba08a28ae0d1ca0931f1e3771cc2",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "24ea746298a8209b3b1e0638247fdaa6112ed12cb95941b8135310a044f747cf",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "64ba680baabe2307dfd7d6cc18c2d70849b24e504f75f5fef759fb7d8d8c995f",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "c752a60dff58d18f5dfe7fdedcde7b21c636de0b6ceb824dd530cb81d8da2dae",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "b246dc6b0cba25d17a218a8aef36e74b3c43433844e6ce89612b918d1b92a32c",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "1a5f2d717cae0312e3431a6ca17b915d3f8c82c73755c3e11317205c71aa761c",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "70e9219a327eb6e02a7d1e8a42a69029b39ad39ceb3b655434cbd9677779a4df",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "7e8bfc724b5b52b722f3ce92a31a0e80ad32ad6e68242c6db4b140e1eb7a961a",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "d29a43558e309b3a3dfe1c4528e417ec36ac0621da59f951b3c9473b042184af",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "5c2b0a5dd0127cbd71f4eee299448e5391ba49e626c77fd2de44f4349ac7049b",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "78fed01008963a05983e71d85dc1b8574c7e632fad5576c16b4841f9908bce5d",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "2ba1379e1ccb8b7727f219dad138b92e2ca81df27cbef6db826d933cf667761b",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "bb184c0eeba6572eb1a84cad270b839780352c7331a6e0d71499400b693d1806",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "bf1eb61382d30a09e5db5fc6cf89a3610f2d9853803ceed42c34549ed7d60b2e",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_42/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "18754dda421141cf81e2ccf039f6fa0c554645a10646423ae9f9f250ce47524b",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "00c1682a6689ee7eaf12ef5c2e8eabcf2d9cfd850f52ec67c93196cf59fb948c",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "4cd21961001628ebaeb68f7d2c5f0b9612d87871bcd80d7effc9a0d33014ebf3",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "ca3a0e2a40d8b6585321309545a056032ad96409622cf3aa7dc12bc498f5518e",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "c5b05026011e0a2ca94f1ccb82b66a560f66587db8c2cc9b1d96ac05f25c1c48",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "bebdd71953bb676d7a9a7ddcc521449907dc479a8bc21bb47b02e76253786696",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "3bda4cb46710796fcb6e53d0ea0d2ed1f44e699bc6b10a525f674928a2c63c2e",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "458103d6c51912be487613841c7f3a687595295ea9edc2f1b553dd5278a77b82",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "5506f621a4db5b6b544b3273cc71e81ce35dce7e0566799c2a3caa3045212542",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "5b1007aec711b0dc7b57af38682e51352c1b54743cb0338e824a7760045345af",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_43/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "023c517fe027569d09405d70305be28ee999e8bb7ca619cb5c68d57650e46395",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "cc419c3475687f2ea755833f30a4e21b6831235ca053b5ef4ac7d864b541f676",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "67e18a07dcc575b42fc9379e68c1523a0ef9a1eade426867d7e08e66b81f3d47",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "ea36bb61be2ae1a60bf8a43ebbbabda88aeab043988f04918ae4096297b2dee5",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "37dd95ebb07ba52c3ad6df517f04d7bb1fb50e440914905616296609fc045d86",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "ee6b7a2821fcf00bef0304584666a4c2ba8d3d9265f0f72d7112432799b83bd6",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "281cc591b249020d1bdb90f9a81bace610411c02d40c9b23256072037804dd8c",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "186a2d9b6b9f9cf760b4dfac78e0188e20fe200cf2343fa39cd29e6147ccbbab",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "67ae99de6d4b109bfc14e9e5af1efd29ca36f7ee3ae44af729480af97757c1d5",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "b702b08ed4fff31855c3923f930b8cec326845097c9a56424666abf2341559c2",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_44/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "77ac8474fb6b1890f1fb687f79a78a1abc3750a2e9abfb28f3a60c8e2d67a9be",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "a2982d57fbd0a9af8eafd9d8485d0661c1151b8f73726529d504871fd3eab7be",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "1c816c89e49ce82a274e325d3274bd01d8d92ce13503837cfa758e0ba436902d",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "2a3bdaa158809960ce8e3949e0c160e2848674a905412e6e775b8523b65ff5f1",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "ba6661e5f5826fa7a6485d1efe1d89bf7a7e4e47c9ea47802d3db6a5bcf4f923",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "49cc8c64da67aa2ffbed9cf4759c400b1e0e8a4f63ee12958d792d6916741b68",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "656a1c1d5a8209bf35979c6b24e71e8aec3060fb3a8b3b87627906215fec0539",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "80ad6ff3abb527b634e1f72a9d2cf09a241c08f820bfe07c317255f0fd532c10",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "f40779da166f625cfbfc708fed25f2a5f34a51af3d96723e539f2e3920be2955",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "1e4d210131d2f04f0adba6f85bd5bec82a80ede1d061a789c8ae2f5acf42bf84",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_45/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "418528dd68eb5bced879460c51bf5d45cd6c592144e828a8d9b2e02c0e48e683",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.json": "bc8abb87222abbf7a6973cf001204fc15ed2cd6ac7887f0fbf70fe57e3673552",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/goto/BabyAI-MixedTrainLocal-v0/goto_run_00.csv": "f000df607ac807266d7da1db6ee117a0c07ce12472ec14894e8a8dee67ab94fb",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.json": "fbccd9196c74f8e0060e530be08b104560df0b679526adf44be54c885a2fe704",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pickup/BabyAI-MixedTrainLocal-v0/pickup_run_00.csv": "6c367f46ae045ab055665acbca92771a92ec0a06a66ea3ea34626a636f43c34d",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.json": "e79ee24061a7de5a237c86893806aa5c790d73a800906db4b29f630e32452b6d",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/open/BabyAI-MixedTrainLocal-v0/open_run_00.csv": "453182ff42b7d833790049976a24e4e360eb8d3fc3117714cb68e548f860ef1c",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.json": "a8c77e5522ce072fddc44fa3b4eb7707c04310cea06f4c60a0b5e8b8c26c3b7c",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/putnext/BabyAI-MixedTrainLocal-v0/putnext_run_00.csv": "ff5feb7a3cbc322112ec0b3b972b9bdaeec1742fbcd6b311939cd826271d2785",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.json": "0d04f9c926c0144d37146d0fc3c03a9bbdf7a974b0988a338b6d5d26ec265980",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/seed_46/babyai/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to/BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to_run_00.csv": "f7c465e7859bef9199b4413241dc3d7940e70ef6347e0895c1bb2687fe0c3249",
+    "Ass2-1/results/20260930_170915_722488_baseline_qwen2.5_1.5b/prompts.jsonl": "42a4cee80bc1b607b964c314b0613b8e83df9b041933ec9940c23db6b8b41085",
+    "Ass2-1/results/20261005_133250_414751_baseline_gemini_gemini-3.5-flash-lite/prompts.jsonl": "f92939d44762c96ec78334a1f1fb3317ce67b67a2f6256d385f2e8318c670084",
+    "Ass2-2/results/20261007_114314_267623_baseline_custom_ollama_qwen2.5_1.5b/prompts.jsonl": "085bec3ac090a52200d74d15c17c5d93582f4e6aae216d3a702f27826b678b1e",
+    "Ass2-2/results/20261007_114345_414551_baseline_custom_gemini_gemini-3.5-flash-lite/prompts.jsonl": "a47147eba66acb29bd2356ec4427a74ebb54f4526eb486805c651b84a66225ae",
+    "Ass2-3/results/20261011_162250_259056_baseline_reflection_ollama_qwen2.5_1.5b/prompts.jsonl": "2b8e2d24ec2fbb0b29468e06b96312978ad894a9e44af0b4c5c741ca396efd62",
+    "Ass2-3/results/20261011_162336_375909_baseline_reflection_gemini_gemini-3.5-flash-lite/prompts.jsonl": "05006f468290f81753a307d8bf4e711f5c555e9b9e890c3b71793c52b9dfc78e"
+  },
+  "model_calls_made": 0,
+  "total_steps": 10279,
+  "total_episodes": 150
+}

@@ -1,0 +1,9 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,"{""memory_before"": {""plan"": null, ""subgoal"": null}, ""memory_after"": {""plan"": ""Turn right to face the red box and then move forward to reach it."", ""subgoal"": ""Face the red box""}, ""action"": ""turn right"", ""issues"": [], ""fallback"": null}","a wall 4 steps forward
+a wall 2 steps right
+a red box 1 step left and 1 step forward",0,False
+1,go forward,"{""memory_before"": {""plan"": ""Turn right to face the red box and then move forward to reach it."", ""subgoal"": ""Face the red box""}, ""memory_after"": {""plan"": ""Move forward to reach the red box"", ""subgoal"": ""Reach the red box""}, ""action"": ""go forward"", ""issues"": [], ""fallback"": null}","a wall 3 steps forward
+a wall 2 steps right
+a red box 1 step left",0,False
+2,turn left,"{""memory_before"": {""plan"": ""Move forward to reach the red box"", ""subgoal"": ""Reach the red box""}, ""memory_after"": {""plan"": ""Turn left to face the red box and then move forward."", ""subgoal"": ""Turn toward the red box""}, ""action"": ""turn left"", ""issues"": [], ""fallback"": null}","a wall 3 steps right
+a red box 1 step forward",0.9578125,True
